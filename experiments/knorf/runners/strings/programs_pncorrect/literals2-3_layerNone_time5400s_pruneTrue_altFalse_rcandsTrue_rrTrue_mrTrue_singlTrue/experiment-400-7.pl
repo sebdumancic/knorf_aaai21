@@ -1,0 +1,534 @@
+
+:-['../playgol'].
+:-['string-bk'].
+:-['../metagol'].
+
+:-['./programs_pncorrect/literals2-3_layerNone_time5400s_pruneTrue_altFalse_rcandsTrue_rrTrue_mrTrue_singlTrue/refactored_primitives-400-7.pl'].
+
+
+
+:- use_module(library(time)).
+
+play_time_interval(2).
+max_build_time(60).
+max_play_depth(4).
+max_build_depth(5).
+cpus(4).
+
+metagol:functional.
+%% metagol:max_clauses(10).
+
+func_test([P,s(In,Out1),s(_,[])],PS,G):-
+  \+ (metagol :prove_deduce([[P,s(In,Out2),s(_,[])]],PS,G),Out1\= Out2).
+
+
+
+%% tell metagol to use the BK
+prim(is_empty/1).
+prim(not_empty/1). % maybe?
+
+prim(is_space/1).
+prim(not_space/1). % maybe?
+
+prim(is_uppercase/1).
+prim(is_lowercase/1).
+
+prim(is_letter/1).
+prim(not_letter/1).
+
+prim(is_number/1).
+prim(not_number/1).
+
+prim(copy1/2).
+prim(skip1/2).
+prim(mk_uppercase/2).
+prim(mk_lowercase/2).
+%% prim(write1/3).
+
+prim(latent16_3/2).
+prim(latent144_2/2).
+prim(latent20_3/2).
+prim(latent227_2/2).
+prim(latent1082_3/2).
+prim(latent45_3/2).
+prim(latent525_3/2).
+prim(latent65_3/2).
+prim(latent1156_3/2).
+prim(latent1026_3/2).
+prim(latent845_2/2).
+prim(latent165_2/2).
+prim(latent313_2/2).
+prim(latent112_2/2).
+prim(latent1115_3/2).
+prim(latent211_2/2).
+prim(latent653_2/2).
+prim(latent3_2/2).
+prim(latent342_2/2).
+prim(latent202_2/2).
+prim(latent259_2/2).
+prim(latent1284_2/2).
+prim(latent104_2/2).
+prim(latent19_2/2).
+prim(latent297_2/2).
+prim(latent341_3/2).
+prim(latent30_3/2).
+prim(latent123_3/2).
+prim(latent22_3/2).
+prim(latent11_2/2).
+prim(latent26_2/2).
+prim(latent1073_3/2).
+prim(latent23_3/2).
+prim(latent255_2/2).
+prim(latent28_3/2).
+prim(latent504_2/2).
+prim(latent47_3/2).
+prim(latent18_3/2).
+prim(latent640_2/2).
+prim(latent592_2/2).
+prim(latent156_2/2).
+prim(latent876_2/2).
+prim(latent119_2/2).
+prim(latent666_2/2).
+prim(latent49_3/2).
+prim(latent264_2/2).
+prim(latent25_3/2).
+prim(latent6_2/2).
+prim(latent187_2/2).
+prim(latent827_3/2).
+prim(latent811_2/2).
+prim(latent292_2/2).
+prim(latent24_3/2).
+prim(latent1145_3/2).
+prim(latent867_3/2).
+prim(latent1098_3/2).
+prim(latent711_2/2).
+prim(latent75/2).
+prim(latent56_3/2).
+prim(latent174_2/2).
+prim(latent169_2/2).
+prim(latent86_3/2).
+prim(latent360_2/2).
+prim(latent31_3/2).
+prim(latent2/2).
+prim(latent257_2/2).
+prim(latent251_2/2).
+prim(latent1171_3/2).
+prim(latent108_2/2).
+prim(latent101_2/2).
+prim(latent33_3/2).
+prim(latent105_2/2).
+prim(latent68_3/2).
+prim(latent1084_3/2).
+prim(latent96_2/2).
+prim(latent503_2/2).
+prim(latent102_2/2).
+prim(latent697_2/2).
+prim(latent958_3/2).
+prim(latent27_3/2).
+prim(latent4/2).
+prim(latent1105_3/2).
+prim(latent1212_2/2).
+prim(latent7_2/2).
+prim(latent271_2/2).
+prim(latent74_3/2).
+prim(latent888_2/2).
+prim(latent912_2/2).
+prim(latent50_2/2).
+prim(latent253_2/2).
+prim(latent10/2).
+prim(latent1035_3/2).
+prim(latent12_2/2).
+prim(latent17_2/2).
+prim(latent393_2/2).
+prim(latent14_2/2).
+prim(latent66_3/2).
+prim(latent70_3/2).
+prim(latent109_2/2).
+prim(latent39_3/2).
+prim(latent9_2/2).
+prim(latent40_3/2).
+prim(latent53_3/2).
+prim(latent335_3/2).
+prim(latent29_3/2).
+prim(latent1063_3/2).
+prim(latent1187_3/2).
+prim(latent307_2/2).
+prim(latent192_2/2).
+prim(latent95_2/2).
+prim(latent1262_2/2).
+prim(latent34_3/2).
+prim(latent1301_2/2).
+prim(latent229_2/2).
+prim(latent784_3/2).
+prim(latent60_3/2).
+prim(latent1/2).
+prim(latent21_3/2).
+prim(latent859_2/2).
+prim(latent1108_3/2).
+prim(latent1329_2/2).
+prim(latent1118_3/2).
+prim(latent1188_3/2).
+prim(latent5_2/2).
+prim(latent116_2/2).
+prim(latent350_3/2).
+prim(latent1198_3/2).
+prim(latent1357_2/2).
+prim(latent8_2/2).
+prim(latent32_3/2).
+prim(latent15_2/2).
+prim(latent167_2/2).
+prim(latent13_2/2).
+prim(latent94_2/2).
+prim(latent80_2/2).
+prim(latent148_2/2).
+prim(latent1133_3/2).
+prim(latent725_3/2).
+prim(latent98_2/2).
+prim(latent262_2/2).
+prim(p2/2).
+prim(p3/2).
+prim(p9/2).
+prim(p16/2).
+prim(p22/2).
+prim(p25/2).
+prim(p35/2).
+prim(p80/2).
+prim(p115/2).
+prim(p132/2).
+prim(p158/2).
+prim(p210/2).
+prim(p257/2).
+prim(p339/2).
+prim(p395/2).
+prim(p6/2).
+prim(p7/2).
+prim(p24/2).
+prim(p44/2).
+prim(p48/2).
+prim(p56/2).
+prim(p57/2).
+prim(p69/2).
+prim(p71/2).
+prim(p119/2).
+prim(p139/2).
+prim(p163/2).
+prim(p235/2).
+prim(p246/2).
+prim(p269/2).
+prim(p293/2).
+prim(p298/2).
+prim(p302/2).
+prim(p304/2).
+prim(p307/2).
+prim(p336/2).
+prim(p337/2).
+prim(p10/2).
+prim(p13/2).
+prim(p41/2).
+prim(p107/2).
+prim(p116/2).
+prim(p120/2).
+prim(p169/2).
+prim(p361/2).
+prim(p4/2).
+prim(p8/2).
+prim(p42/2).
+prim(p52/2).
+prim(p62/2).
+prim(p64/2).
+prim(p130/2).
+prim(p130/2).
+prim(p134/2).
+prim(p194/2).
+prim(p202/2).
+prim(p204/2).
+prim(p207/2).
+prim(p291/2).
+prim(p306/2).
+prim(p315/2).
+prim(p349/2).
+prim(p385/2).
+prim(p385/2).
+prim(p390/2).
+prim(p14/2).
+prim(p15/2).
+prim(p15/2).
+prim(p19/2).
+prim(p36/2).
+prim(p37/2).
+prim(p50/2).
+prim(p51/2).
+prim(p60/2).
+prim(p75/2).
+prim(p76/2).
+prim(p76/2).
+prim(p82/2).
+prim(p82/2).
+prim(p95/2).
+prim(p102/2).
+prim(p106/2).
+prim(p106/2).
+prim(p125/2).
+prim(p138/2).
+prim(p143/2).
+prim(p145/2).
+prim(p153/2).
+prim(p183/2).
+prim(p233/2).
+prim(p272/2).
+prim(p363/2).
+prim(p388/2).
+prim(p396/2).
+prim(p40/2).
+prim(p104/2).
+prim(p122/2).
+prim(p152/2).
+prim(p321/2).
+prim(p21/2).
+prim(p31/2).
+prim(p53/2).
+prim(p78/2).
+prim(p85/2).
+prim(p86/2).
+prim(p87/2).
+prim(p101/2).
+prim(p103/2).
+prim(p135/2).
+prim(p136/2).
+prim(p140/2).
+prim(p141/2).
+prim(p146/2).
+prim(p156/2).
+prim(p162/2).
+prim(p166/2).
+prim(p189/2).
+prim(p239/2).
+prim(p247/2).
+prim(p251/2).
+prim(p262/2).
+prim(p268/2).
+prim(p273/2).
+prim(p278/2).
+prim(p305/2).
+prim(p309/2).
+prim(p342/2).
+prim(p350/2).
+prim(p353/2).
+prim(p366/2).
+prim(p384/2).
+prim(p323/2).
+prim(p205/2).
+prim(p5/2).
+prim(p5/2).
+prim(p68/2).
+prim(p97/2).
+prim(p99/2).
+prim(p111/2).
+prim(p121/2).
+prim(p127/2).
+prim(p155/2).
+prim(p170/2).
+prim(p174/2).
+prim(p178/2).
+prim(p181/2).
+prim(p200/2).
+prim(p211/2).
+prim(p220/2).
+prim(p221/2).
+prim(p230/2).
+prim(p244/2).
+prim(p249/2).
+prim(p277/2).
+prim(p303/2).
+prim(p308/2).
+prim(p311/2).
+prim(p316/2).
+prim(p317/2).
+prim(p322/2).
+prim(p329/2).
+prim(p344/2).
+prim(p357/2).
+prim(p358/2).
+prim(p377/2).
+prim(p397/2).
+prim(p98/2).
+prim(p206/2).
+prim(p11/2).
+prim(p18/2).
+prim(p20/2).
+prim(p27/2).
+prim(p32/2).
+prim(p47/2).
+prim(p73/2).
+prim(p92/2).
+prim(p108/2).
+prim(p117/2).
+prim(p129/2).
+prim(p175/2).
+prim(p177/2).
+prim(p177/2).
+prim(p187/2).
+prim(p212/2).
+prim(p238/2).
+prim(p245/2).
+prim(p265/2).
+prim(p281/2).
+prim(p282/2).
+prim(p287/2).
+prim(p289/2).
+prim(p297/2).
+prim(p328/2).
+prim(p348/2).
+prim(p362/2).
+prim(p389/2).
+prim(p326/2).
+prim(p12/2).
+prim(p29/2).
+prim(p46/2).
+prim(p61/2).
+prim(p61/2).
+prim(p70/2).
+prim(p74/2).
+prim(p81/2).
+prim(p90/2).
+prim(p105/2).
+prim(p112/2).
+prim(p114/2).
+prim(p124/2).
+prim(p164/2).
+prim(p179/2).
+prim(p198/2).
+prim(p199/2).
+prim(p203/2).
+prim(p216/2).
+prim(p217/2).
+prim(p222/2).
+prim(p228/2).
+prim(p250/2).
+prim(p261/2).
+prim(p270/2).
+prim(p285/2).
+prim(p285/2).
+prim(p301/2).
+prim(p312/2).
+prim(p334/2).
+prim(p335/2).
+prim(p354/2).
+prim(p360/2).
+prim(p365/2).
+prim(p367/2).
+prim(p371/2).
+prim(p392/2).
+prim(p392/2).
+prim(p399/2).
+prim(p137/2).
+prim(p28/2).
+prim(p65/2).
+prim(p110/2).
+prim(p150/2).
+prim(p286/2).
+prim(p319/2).
+prim(p364/2).
+prim(p370/2).
+prim(p381/2).
+prim(p72/2).
+prim(p72/2).
+prim(p218/2).
+prim(p89/2).
+prim(p89/2).
+prim(p378/2).
+prim(p378/2).
+
+metarule(precon,[P/2,Q/1,R/2],([P,A,B]:-[[Q,A],[R,A,B]])).
+metarule(postcon,[P/2,Q/2,R/1],([P,A,B]:-[[Q,A,B],[R,B]])).
+metarule(chain,[P/2,Q/2,R/2],([P,A,B]:-[[Q,A,C],[R,C,B]])).
+metarule(tailrec,[P/2,Q/2],([P,A,B]:-[[Q,A,C],[P,C,B]])).
+%% metarule(curry3,[P/2,Q/3,C/0],([P,A,B]:-[[Q,A,B,C]])).
+
+  
+a:-
+    cpus(CPU_COUNT),
+    set_prolog_flag(cpu_count,CPU_COUNT),
+    games(Games),
+    playgol(Games),
+    b,
+    halt.
+
+b:-
+    cpus(CPU_COUNT),
+    set_prolog_flag(cpu_count,CPU_COUNT),
+    %get_time(T),
+    %stamp_date_time(T, date(DY,DM,DD,TH,TM,TS,_,_,_), 'UTC'),
+    %format('% started solving build tasks at ~w ~w ~w ~w:~w:~w\n', [DD, DM, DY, TH, TM, TS]),
+    max_build_depth(BuildDepth),
+    playgol:update_depth(BuildDepth),
+    max_build_time(BuildTime),
+    retractall(max_time(_)),
+    assert(max_time(BuildTime)),
+    tasks(Tasks),
+    learn_tasks(Tasks,Progs),
+    length(Progs,N),
+    format('% num solved ~w\n',[N]),
+    %get_time(T2),
+    %stamp_date_time(T2, date(DY2,DM2,DD2,TH2,TM2,TS2,_,_,_), 'UTC'),
+    %format('% finished solving build tasks at ~w ~w ~w ~w:~w:~w\n', [DD2, DM2, DY2, TH2, TM2, TS2]),
+    halt.
+
+learn_tasks(Tasks,Progs):-
+    concurrent_maplist(learn_aux,Tasks,Xs),
+    findall(true,member(true,Xs),Progs).
+
+learn_aux(T,true):-
+    train_examples(T,Pos,Neg),
+    max_time(MaxTime),
+    get_time(TTT),
+    stamp_date_time(TTT, date(DY,DM,DD,TH,TM,TS,_,_,_), 'UTC'),
+    format('% started solving build task at ~w ~w ~w ~w:~w:~w\n', [DD, DM, DY, TH, TM, TS]),
+    catch(call_with_time_limit(MaxTime,learn(Pos,Neg,Prog)),time_limit_exceeded,(writeln('%timeout'),false)),!,
+    get_time(TTT2),
+    stamp_date_time(TTT2, date(DY2,DM2,DD2,TH2,TM2,TS2,_,_,_), 'UTC'),
+    format('% finished solving build tasks at ~w ~w ~w ~w:~w:~w\n', [DD2, DM2, DY2, TH2, TM2, TS2]),
+    pprint(Prog).
+learn_aux(_,false).
+
+do_test:-
+    tasks(Tasks),
+    maplist(do_test,Tasks),
+    halt.
+
+do_test(Task):-
+    test_examples(Task,Pos),
+    (current_predicate(Task/2) ->
+        (
+            format('%solved,~w,~w\n',[Task,1]),
+            forall(member(X,Pos),(call(X) -> format('~w,~w\n',[1,1]); format('~w,~w\n',[1,0])))
+        );
+        (
+            format('%solved,~w,~w\n',[Task,0]),
+            forall(member(_,Pos),format('~w,~w\n',[0,0]))
+        )).
+
+gen_e(Task,Input,Output,Out):-
+    Out=..[Task,s(Input,Output),s(_,[])].
+
+play_examples(Task,Pos,[]):-
+    findall(X,(play_pos(Task,A,B),gen_e(Task,A,B,X)),Pos1),
+    sort_examples(Pos1,Pos).
+
+train_examples(Task,Pos,[]):-
+    findall(X,(build_pos(Task,A,B),gen_e(Task,A,B,X)),Pos1),
+    sort_examples(Pos1,Pos).
+
+test_examples(Task,Pos):-
+    findall(X,(test_pos(Task,A,B),gen_e(Task,A,B,X)),Pos).
+
+add_len(Atom,Len-Atom):-
+    Atom=..[_Task,s(Input,_Output),s(_,[])],
+    length(Input,Len).
+remove_len(_-Atom,Atom).
+
+sort_examples(L1,L2):-
+  maplist(add_len,L1,L3),
+  keysort(L3,L4),
+  maplist(remove_len,L4,L2).
+

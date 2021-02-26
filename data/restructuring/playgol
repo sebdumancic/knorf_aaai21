@@ -1,0 +1,8 @@
+Robots: https://www.dropbox.com/s/8odgzi4bva5pfgc/e1-robo-6x6.zip?dl=0
+Strings: https://www.dropbox.com/s/dncmk0ez5b0ogkt/e2-strings.zip?dl=0
+
+the programs are in the programs sub-folder
+
+each filename is of the form NumPlayTasks-Trial.pl
+
+ijcai examples: https://github.com/andrewcropper/ijcai19-playgol/tree/master/e2-strings/programs/playgol

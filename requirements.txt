@@ -1,0 +1,10 @@
+pyswip
+problog
+ortools
+pytest
+networkx
+black
+matplotlib
+pygraphviz
+z3-solver
+miniKanren

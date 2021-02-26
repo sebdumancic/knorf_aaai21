@@ -1,0 +1,8380 @@
+
+true.
+
+% depth 1
+p17(A,B):-place1(A,B).
+p24(A,B):-right(A,B).
+p28(A,B):-right(A,B).
+p33(A,B):-place1(A,C),place1(C,B).
+p34(A,B):-place1(A,C),place1(C,B).
+p36(A,B):-place1(A,B).
+p48(A,B):-right(A,B).
+p49(A,B):-place1(A,B).
+p50(A,B):-place1(A,C),place1(C,B).
+p53(A,B):-place1(A,C),place1(C,B).
+p78(A,B):-right(A,B).
+p79(A,B):-right(A,B).
+p84(A,B):-right(A,C),place1(C,B).
+p92(A,B):-right(A,B).
+p97(A,B):-place1(A,C),place1(C,B).
+p100(A,B):-place1(A,B).
+p101(A,B):-right(A,C),place1(C,B).
+p106(A,B):-place1(A,B).
+p115(A,B):-place1(A,B).
+p116(A,B):-place1(A,C),place1(C,B).
+p117(A,B):-right(A,B).
+p118(A,B):-right(A,C),place1(C,B).
+p121(A,B):-place1(A,B).
+p124(A,B):-right(A,B).
+p144(A,B):-place1(A,C),place1(C,B).
+p150(A,B):-place1(A,C),place1(C,B).
+p154(A,B):-place1(A,B).
+p158(A,B):-right(A,C),place1(C,B).
+p168(A,B):-place1(A,C),place1(C,B).
+p173(A,B):-place1(A,B).
+p174(A,B):-right(A,C),place1(C,B).
+p176(A,B):-right(A,C),place1(C,B).
+p177(A,B):-place1(A,B).
+p190(A,B):-right(A,B).
+p197(A,B):-place1(A,C),place1(C,B).
+p200(A,B):-right(A,B).
+p216(A,B):-place1(A,B).
+p217(A,B):-place1(A,C),place1(C,B).
+p218(A,B):-place1(A,B).
+p219(A,B):-place1(A,C),place1(C,B).
+p224(A,B):-place1(A,B).
+p248(A,B):-place1(A,B).
+p250(A,B):-place1(A,B).
+p253(A,B):-place1(A,B).
+p258(A,B):-place1(A,B).
+p271(A,B):-place1(A,B).
+p278(A,B):-right(A,C),place1(C,B).
+p285(A,B):-right(A,B).
+p294(A,B):-place1(A,C),place1(C,B).
+p298(A,B):-place1(A,B).
+p299(A,B):-place1(A,C),place1(C,B).
+p308(A,B):-place1(A,B).
+p310(A,B):-right(A,B).
+p311(A,B):-place1(A,B).
+p314(A,B):-right(A,C),place1(C,B).
+p321(A,B):-right(A,B).
+p322(A,B):-right(A,C),place1(C,B).
+p329(A,B):-right(A,C),place1(C,B).
+p336(A,B):-place1(A,B).
+p338(A,B):-right(A,C),place1(C,B).
+p341(A,B):-right(A,C),place1(C,B).
+p342(A,B):-place1(A,C),place1(C,B).
+p347(A,B):-right(A,C),place1(C,B).
+p348(A,B):-place1(A,C),place1(C,B).
+p350(A,B):-right(A,B).
+p352(A,B):-right(A,B).
+p376(A,B):-place1(A,C),place1(C,B).
+p377(A,B):-right(A,B).
+p412(A,B):-right(A,C),place1(C,B).
+p415(A,B):-place1(A,B).
+p417(A,B):-place1(A,B).
+p418(A,B):-right(A,C),place1(C,B).
+p426(A,B):-place1(A,C),place1(C,B).
+p427(A,B):-right(A,C),place1(C,B).
+p431(A,B):-right(A,C),place1(C,B).
+p444(A,B):-right(A,C),place1(C,B).
+p452(A,B):-right(A,B).
+p460(A,B):-right(A,C),place1(C,B).
+p480(A,B):-place1(A,B).
+p482(A,B):-place1(A,C),place1(C,B).
+p492(A,B):-right(A,B).
+p503(A,B):-right(A,B).
+p509(A,B):-right(A,C),place1(C,B).
+p512(A,B):-right(A,C),place1(C,B).
+p517(A,B):-right(A,C),place1(C,B).
+p523(A,B):-place1(A,C),place1(C,B).
+p533(A,B):-place1(A,B).
+p536(A,B):-place1(A,B).
+p544(A,B):-right(A,C),place1(C,B).
+p550(A,B):-place1(A,C),place1(C,B).
+p551(A,B):-right(A,C),place1(C,B).
+p553(A,B):-place1(A,C),place1(C,B).
+p554(A,B):-place1(A,B).
+p556(A,B):-right(A,C),place1(C,B).
+p561(A,B):-right(A,C),place1(C,B).
+p565(A,B):-right(A,B).
+p569(A,B):-place1(A,C),place1(C,B).
+p570(A,B):-right(A,C),place1(C,B).
+p575(A,B):-place1(A,B).
+p578(A,B):-place1(A,C),place1(C,B).
+p586(A,B):-place1(A,C),place1(C,B).
+p599(A,B):-right(A,C),place1(C,B).
+p604(A,B):-place1(A,B).
+p607(A,B):-right(A,C),place1(C,B).
+p608(A,B):-place1(A,C),place1(C,B).
+p614(A,B):-right(A,C),place1(C,B).
+p619(A,B):-place1(A,C),place1(C,B).
+p634(A,B):-right(A,B).
+p675(A,B):-right(A,B).
+p681(A,B):-place1(A,C),place1(C,B).
+p682(A,B):-place1(A,B).
+p688(A,B):-place1(A,B).
+p691(A,B):-right(A,C),place1(C,B).
+p694(A,B):-right(A,B).
+p708(A,B):-right(A,B).
+p715(A,B):-right(A,B).
+p718(A,B):-right(A,B).
+p720(A,B):-place1(A,B).
+p721(A,B):-right(A,C),place1(C,B).
+p755(A,B):-place1(A,C),place1(C,B).
+p757(A,B):-place1(A,B).
+p765(A,B):-place1(A,C),place1(C,B).
+p766(A,B):-place1(A,B).
+p773(A,B):-place1(A,B).
+p779(A,B):-right(A,B).
+p791(A,B):-right(A,C),place1(C,B).
+p801(A,B):-right(A,C),place1(C,B).
+p805(A,B):-right(A,B).
+p806(A,B):-right(A,C),place1(C,B).
+p809(A,B):-right(A,B).
+p811(A,B):-place1(A,B).
+p817(A,B):-place1(A,C),place1(C,B).
+p818(A,B):-right(A,C),place1(C,B).
+p819(A,B):-place1(A,C),place1(C,B).
+p824(A,B):-right(A,B).
+p827(A,B):-place1(A,B).
+p840(A,B):-right(A,C),place1(C,B).
+p841(A,B):-place1(A,B).
+p845(A,B):-right(A,B).
+p850(A,B):-place1(A,B).
+p864(A,B):-place1(A,C),place1(C,B).
+p865(A,B):-place1(A,B).
+p866(A,B):-right(A,C),place1(C,B).
+p868(A,B):-place1(A,C),place1(C,B).
+p882(A,B):-right(A,C),place1(C,B).
+p891(A,B):-right(A,B).
+p896(A,B):-right(A,C),place1(C,B).
+p898(A,B):-place1(A,B).
+p900(A,B):-right(A,C),place1(C,B).
+p925(A,B):-place1(A,C),place1(C,B).
+p931(A,B):-right(A,B).
+p941(A,B):-right(A,C),place1(C,B).
+p946(A,B):-right(A,B).
+p952(A,B):-place1(A,B).
+p954(A,B):-right(A,C),place1(C,B).
+p956(A,B):-place1(A,C),place1(C,B).
+p960(A,B):-right(A,C),place1(C,B).
+p962(A,B):-place1(A,B).
+p965(A,B):-right(A,C),place1(C,B).
+p981(A,B):-right(A,B).
+p991(A,B):-place1(A,B).
+p1006(A,B):-place1(A,B).
+p1009(A,B):-right(A,C),place1(C,B).
+p1017(A,B):-right(A,B).
+p1020(A,B):-place1(A,C),place1(C,B).
+p1029(A,B):-right(A,C),place1(C,B).
+p1037(A,B):-place1(A,C),place1(C,B).
+p1038(A,B):-right(A,B).
+p1052(A,B):-right(A,B).
+p1054(A,B):-right(A,B).
+p1058(A,B):-right(A,C),place1(C,B).
+p1059(A,B):-right(A,B).
+p1060(A,B):-right(A,C),place1(C,B).
+p1066(A,B):-right(A,B).
+p1078(A,B):-right(A,B).
+p1083(A,B):-right(A,B).
+p1097(A,B):-right(A,B).
+p1107(A,B):-right(A,C),place1(C,B).
+p1110(A,B):-place1(A,C),place1(C,B).
+p1135(A,B):-right(A,B).
+p1139(A,B):-right(A,B).
+p1142(A,B):-right(A,C),place1(C,B).
+p1143(A,B):-right(A,B).
+p1149(A,B):-right(A,B).
+p1150(A,B):-place1(A,C),place1(C,B).
+p1158(A,B):-right(A,C),place1(C,B).
+p1160(A,B):-place1(A,B).
+p1165(A,B):-place1(A,B).
+p1166(A,B):-right(A,C),place1(C,B).
+p1181(A,B):-place1(A,C),place1(C,B).
+p1184(A,B):-place1(A,B).
+p1190(A,B):-right(A,B).
+p1215(A,B):-place1(A,B).
+p1217(A,B):-right(A,C),place1(C,B).
+p1223(A,B):-place1(A,C),place1(C,B).
+p1238(A,B):-place1(A,B).
+p1242(A,B):-right(A,B).
+p1243(A,B):-place1(A,C),place1(C,B).
+p1250(A,B):-right(A,C),place1(C,B).
+p1257(A,B):-place1(A,C),place1(C,B).
+p1260(A,B):-right(A,B).
+p1265(A,B):-right(A,C),place1(C,B).
+p1279(A,B):-place1(A,B).
+p1283(A,B):-place1(A,B).
+p1286(A,B):-place1(A,C),place1(C,B).
+p1290(A,B):-place1(A,B).
+p1291(A,B):-right(A,C),place1(C,B).
+p1292(A,B):-right(A,C),place1(C,B).
+p1293(A,B):-place1(A,B).
+p1295(A,B):-place1(A,C),place1(C,B).
+p1300(A,B):-place1(A,B).
+p1312(A,B):-place1(A,B).
+p1318(A,B):-right(A,C),place1(C,B).
+p1323(A,B):-place1(A,C),place1(C,B).
+p1325(A,B):-right(A,C),place1(C,B).
+p1328(A,B):-right(A,B).
+p1344(A,B):-right(A,B).
+p1346(A,B):-right(A,B).
+p1357(A,B):-place1(A,C),place1(C,B).
+p1358(A,B):-right(A,C),place1(C,B).
+p1361(A,B):-place1(A,B).
+p1365(A,B):-place1(A,C),place1(C,B).
+p1369(A,B):-right(A,B).
+p1374(A,B):-place1(A,C),place1(C,B).
+p1376(A,B):-place1(A,B).
+p1379(A,B):-right(A,C),place1(C,B).
+p1383(A,B):-place1(A,C),place1(C,B).
+p1387(A,B):-right(A,B).
+p1396(A,B):-right(A,C),place1(C,B).
+p1397(A,B):-place1(A,B).
+p1400(A,B):-place1(A,C),place1(C,B).
+p1405(A,B):-right(A,C),place1(C,B).
+p1407(A,B):-place1(A,B).
+p1408(A,B):-right(A,C),place1(C,B).
+p1414(A,B):-right(A,B).
+p1416(A,B):-right(A,C),place1(C,B).
+p1421(A,B):-right(A,C),place1(C,B).
+p1449(A,B):-place1(A,B).
+p1459(A,B):-place1(A,B).
+p1468(A,B):-right(A,C),place1(C,B).
+p1470(A,B):-right(A,C),place1(C,B).
+p1471(A,B):-right(A,C),place1(C,B).
+p1496(A,B):-right(A,B).
+p1498(A,B):-place1(A,B).
+p1502(A,B):-right(A,B).
+p1507(A,B):-place1(A,C),place1(C,B).
+p1508(A,B):-right(A,B).
+p1510(A,B):-right(A,B).
+p1511(A,B):-right(A,B).
+p1514(A,B):-right(A,B).
+p1539(A,B):-right(A,C),place1(C,B).
+p1550(A,B):-place1(A,C),place1(C,B).
+p1551(A,B):-right(A,B).
+p1556(A,B):-right(A,B).
+p1562(A,B):-place1(A,C),place1(C,B).
+p1570(A,B):-place1(A,C),place1(C,B).
+p1579(A,B):-right(A,C),place1(C,B).
+p1580(A,B):-place1(A,C),place1(C,B).
+p1581(A,B):-right(A,B).
+p1587(A,B):-right(A,C),place1(C,B).
+p1592(A,B):-right(A,B).
+p1594(A,B):-right(A,B).
+p1595(A,B):-place1(A,C),place1(C,B).
+p1611(A,B):-right(A,B).
+p1616(A,B):-place1(A,C),place1(C,B).
+p1625(A,B):-place1(A,C),place1(C,B).
+p1644(A,B):-right(A,B).
+p1650(A,B):-place1(A,B).
+p1658(A,B):-right(A,C),place1(C,B).
+p1663(A,B):-right(A,C),place1(C,B).
+p1664(A,B):-right(A,B).
+p1665(A,B):-right(A,C),place1(C,B).
+p1669(A,B):-right(A,B).
+p1676(A,B):-place1(A,B).
+p1678(A,B):-right(A,C),place1(C,B).
+p1680(A,B):-right(A,C),place1(C,B).
+p1681(A,B):-place1(A,B).
+p1685(A,B):-place1(A,C),place1(C,B).
+p1689(A,B):-place1(A,B).
+p1691(A,B):-place1(A,B).
+p1699(A,B):-place1(A,C),place1(C,B).
+p1704(A,B):-right(A,B).
+p1707(A,B):-right(A,C),place1(C,B).
+p1711(A,B):-place1(A,B).
+p1720(A,B):-right(A,C),place1(C,B).
+p1721(A,B):-place1(A,B).
+p1735(A,B):-right(A,C),place1(C,B).
+p1744(A,B):-place1(A,B).
+p1747(A,B):-right(A,B).
+p1758(A,B):-place1(A,C),place1(C,B).
+p1760(A,B):-right(A,B).
+p1763(A,B):-place1(A,B).
+p1767(A,B):-place1(A,B).
+p1770(A,B):-place1(A,B).
+p1780(A,B):-right(A,B).
+p1783(A,B):-right(A,B).
+p1785(A,B):-place1(A,C),place1(C,B).
+p1789(A,B):-right(A,C),place1(C,B).
+p1796(A,B):-place1(A,C),place1(C,B).
+p1797(A,B):-right(A,C),place1(C,B).
+p1803(A,B):-place1(A,C),place1(C,B).
+p1806(A,B):-place1(A,C),place1(C,B).
+p1823(A,B):-place1(A,B).
+p1825(A,B):-right(A,B).
+p1834(A,B):-right(A,C),place1(C,B).
+p1837(A,B):-right(A,B).
+p1843(A,B):-right(A,C),place1(C,B).
+p1844(A,B):-place1(A,B).
+p1856(A,B):-place1(A,B).
+p1862(A,B):-place1(A,C),place1(C,B).
+p1872(A,B):-right(A,C),place1(C,B).
+p1890(A,B):-right(A,C),place1(C,B).
+p1892(A,B):-right(A,B).
+p1897(A,B):-right(A,B).
+p1899(A,B):-right(A,C),place1(C,B).
+p1908(A,B):-place1(A,C),place1(C,B).
+p1913(A,B):-place1(A,C),place1(C,B).
+p1924(A,B):-place1(A,B).
+p1928(A,B):-place1(A,C),place1(C,B).
+p1931(A,B):-place1(A,B).
+p1933(A,B):-right(A,C),place1(C,B).
+p1945(A,B):-place1(A,C),place1(C,B).
+p1951(A,B):-place1(A,C),place1(C,B).
+p1954(A,B):-place1(A,C),place1(C,B).
+p1957(A,B):-place1(A,C),place1(C,B).
+p1973(A,B):-place1(A,C),place1(C,B).
+p1979(A,B):-right(A,C),place1(C,B).
+p1981(A,B):-place1(A,C),place1(C,B).
+p1986(A,B):-place1(A,B).
+p1987(A,B):-place1(A,B).
+p1993(A,B):-place1(A,C),place1(C,B).
+p1997(A,B):-place1(A,B).
+p2000(A,B):-right(A,B).
+p2007(A,B):-place1(A,B).
+p2023(A,B):-place1(A,C),place1(C,B).
+p2034(A,B):-right(A,B).
+p2038(A,B):-place1(A,C),place1(C,B).
+p2048(A,B):-right(A,C),place1(C,B).
+p2050(A,B):-right(A,B).
+p2051(A,B):-place1(A,B).
+p2055(A,B):-right(A,B).
+p2056(A,B):-place1(A,B).
+p2057(A,B):-right(A,B).
+p2063(A,B):-place1(A,C),place1(C,B).
+p2069(A,B):-place1(A,C),place1(C,B).
+p2074(A,B):-place1(A,B).
+p2075(A,B):-place1(A,C),place1(C,B).
+p2083(A,B):-place1(A,B).
+p2087(A,B):-place1(A,B).
+p2089(A,B):-right(A,B).
+p2090(A,B):-place1(A,C),place1(C,B).
+p2097(A,B):-place1(A,B).
+p2104(A,B):-place1(A,B).
+p2108(A,B):-right(A,C),place1(C,B).
+p2111(A,B):-place1(A,C),place1(C,B).
+p2114(A,B):-place1(A,B).
+p2119(A,B):-place1(A,C),place1(C,B).
+p2121(A,B):-place1(A,C),place1(C,B).
+p2129(A,B):-place1(A,C),place1(C,B).
+p2136(A,B):-right(A,B).
+p2154(A,B):-place1(A,B).
+p2155(A,B):-place1(A,C),place1(C,B).
+p2158(A,B):-place1(A,B).
+p2164(A,B):-right(A,C),place1(C,B).
+p2171(A,B):-right(A,B).
+p2174(A,B):-place1(A,B).
+p2178(A,B):-right(A,B).
+p2196(A,B):-place1(A,C),place1(C,B).
+p2210(A,B):-right(A,B).
+p2214(A,B):-right(A,C),place1(C,B).
+p2216(A,B):-place1(A,B).
+p2228(A,B):-right(A,B).
+p2246(A,B):-right(A,B).
+p2253(A,B):-place1(A,B).
+p2254(A,B):-right(A,B).
+p2265(A,B):-place1(A,B).
+p2267(A,B):-right(A,B).
+p2271(A,B):-right(A,C),place1(C,B).
+p2273(A,B):-right(A,B).
+p2274(A,B):-right(A,C),place1(C,B).
+p2280(A,B):-place1(A,B).
+p2282(A,B):-place1(A,C),place1(C,B).
+p2284(A,B):-right(A,C),place1(C,B).
+p2288(A,B):-right(A,C),place1(C,B).
+p2296(A,B):-place1(A,C),place1(C,B).
+p2300(A,B):-right(A,B).
+p2305(A,B):-right(A,B).
+p2308(A,B):-place1(A,B).
+p2323(A,B):-place1(A,B).
+p2329(A,B):-right(A,C),place1(C,B).
+p2334(A,B):-place1(A,C),place1(C,B).
+p2341(A,B):-place1(A,C),place1(C,B).
+p2349(A,B):-place1(A,C),place1(C,B).
+p2359(A,B):-place1(A,B).
+p2360(A,B):-place1(A,C),place1(C,B).
+p2368(A,B):-place1(A,C),place1(C,B).
+p2372(A,B):-right(A,C),place1(C,B).
+p2373(A,B):-right(A,C),place1(C,B).
+p2395(A,B):-right(A,C),place1(C,B).
+p2397(A,B):-right(A,C),place1(C,B).
+p2398(A,B):-right(A,B).
+p2401(A,B):-place1(A,B).
+p2407(A,B):-right(A,B).
+p2420(A,B):-right(A,C),place1(C,B).
+p2425(A,B):-place1(A,C),place1(C,B).
+p2429(A,B):-right(A,B).
+p2431(A,B):-place1(A,B).
+p2440(A,B):-right(A,C),place1(C,B).
+p2442(A,B):-right(A,B).
+p2444(A,B):-place1(A,B).
+p2447(A,B):-place1(A,B).
+p2452(A,B):-place1(A,C),place1(C,B).
+p2454(A,B):-place1(A,C),place1(C,B).
+p2458(A,B):-place1(A,B).
+p2459(A,B):-place1(A,C),place1(C,B).
+p2460(A,B):-right(A,B).
+p2466(A,B):-right(A,C),place1(C,B).
+p2467(A,B):-place1(A,C),place1(C,B).
+p2478(A,B):-right(A,B).
+p2500(A,B):-place1(A,B).
+p2506(A,B):-place1(A,C),place1(C,B).
+p2507(A,B):-right(A,C),place1(C,B).
+p2511(A,B):-right(A,C),place1(C,B).
+p2514(A,B):-right(A,B).
+p2515(A,B):-right(A,C),place1(C,B).
+p2520(A,B):-place1(A,C),place1(C,B).
+p2524(A,B):-right(A,B).
+p2525(A,B):-place1(A,C),place1(C,B).
+p2531(A,B):-right(A,B).
+p2538(A,B):-place1(A,B).
+p2546(A,B):-right(A,C),place1(C,B).
+p2551(A,B):-right(A,C),place1(C,B).
+p2552(A,B):-right(A,C),place1(C,B).
+p2553(A,B):-right(A,B).
+p2563(A,B):-place1(A,C),place1(C,B).
+p2567(A,B):-right(A,B).
+p2571(A,B):-place1(A,C),place1(C,B).
+p2583(A,B):-right(A,C),place1(C,B).
+p2587(A,B):-right(A,B).
+p2598(A,B):-place1(A,C),place1(C,B).
+p2599(A,B):-right(A,B).
+p2601(A,B):-place1(A,B).
+p2615(A,B):-right(A,C),place1(C,B).
+p2619(A,B):-place1(A,B).
+p2622(A,B):-place1(A,B).
+p2623(A,B):-right(A,B).
+p2631(A,B):-right(A,C),place1(C,B).
+p2639(A,B):-place1(A,B).
+p2643(A,B):-place1(A,B).
+p2645(A,B):-place1(A,B).
+p2648(A,B):-place1(A,B).
+p2652(A,B):-right(A,B).
+p2653(A,B):-place1(A,B).
+p2654(A,B):-right(A,C),place1(C,B).
+p2660(A,B):-place1(A,C),place1(C,B).
+p2665(A,B):-place1(A,B).
+p2666(A,B):-right(A,C),place1(C,B).
+p2678(A,B):-place1(A,B).
+p2681(A,B):-place1(A,B).
+p2702(A,B):-place1(A,B).
+p2720(A,B):-right(A,B).
+p2722(A,B):-place1(A,C),place1(C,B).
+p2730(A,B):-place1(A,B).
+p2732(A,B):-right(A,C),place1(C,B).
+p2734(A,B):-right(A,B).
+p2735(A,B):-right(A,B).
+p2740(A,B):-right(A,B).
+p2742(A,B):-place1(A,B).
+p2754(A,B):-place1(A,C),place1(C,B).
+p2755(A,B):-right(A,C),place1(C,B).
+p2761(A,B):-right(A,C),place1(C,B).
+p2762(A,B):-right(A,C),place1(C,B).
+p2767(A,B):-right(A,B).
+p2769(A,B):-right(A,B).
+p2786(A,B):-right(A,B).
+p2795(A,B):-right(A,B).
+p2806(A,B):-place1(A,B).
+p2810(A,B):-place1(A,B).
+p2821(A,B):-place1(A,C),place1(C,B).
+p2825(A,B):-right(A,B).
+p2834(A,B):-right(A,C),place1(C,B).
+p2839(A,B):-right(A,C),place1(C,B).
+p2843(A,B):-place1(A,B).
+p2844(A,B):-place1(A,C),place1(C,B).
+p2846(A,B):-right(A,C),place1(C,B).
+p2857(A,B):-place1(A,B).
+p2858(A,B):-place1(A,B).
+p2868(A,B):-right(A,B).
+p2875(A,B):-right(A,B).
+p2877(A,B):-place1(A,C),place1(C,B).
+p2880(A,B):-place1(A,C),place1(C,B).
+p2887(A,B):-right(A,C),place1(C,B).
+p2892(A,B):-place1(A,B).
+p2919(A,B):-place1(A,B).
+p2922(A,B):-place1(A,C),place1(C,B).
+p2938(A,B):-right(A,B).
+p2940(A,B):-place1(A,C),place1(C,B).
+p2944(A,B):-right(A,B).
+p2961(A,B):-right(A,C),place1(C,B).
+p2976(A,B):-right(A,C),place1(C,B).
+p2990(A,B):-place1(A,B).
+p2995(A,B):-right(A,B).
+p3002(A,B):-place1(A,B).
+p3003(A,B):-right(A,C),place1(C,B).
+p3014(A,B):-right(A,C),place1(C,B).
+p3025(A,B):-right(A,B).
+p3026(A,B):-place1(A,C),place1(C,B).
+p3034(A,B):-place1(A,B).
+p3046(A,B):-right(A,C),place1(C,B).
+p3051(A,B):-place1(A,C),place1(C,B).
+p3059(A,B):-right(A,B).
+p3063(A,B):-place1(A,C),place1(C,B).
+p3073(A,B):-place1(A,B).
+p3079(A,B):-place1(A,B).
+p3095(A,B):-right(A,B).
+p3102(A,B):-right(A,B).
+p3111(A,B):-right(A,C),place1(C,B).
+p3117(A,B):-place1(A,B).
+p3127(A,B):-place1(A,B).
+p3131(A,B):-right(A,B).
+p3151(A,B):-right(A,C),place1(C,B).
+p3155(A,B):-place1(A,C),place1(C,B).
+p3162(A,B):-right(A,C),place1(C,B).
+p3164(A,B):-right(A,C),place1(C,B).
+p3174(A,B):-right(A,B).
+p3185(A,B):-place1(A,B).
+p3197(A,B):-right(A,B).
+p3219(A,B):-place1(A,C),place1(C,B).
+p3236(A,B):-right(A,C),place1(C,B).
+p3254(A,B):-place1(A,C),place1(C,B).
+p3259(A,B):-right(A,C),place1(C,B).
+p3261(A,B):-right(A,B).
+p3265(A,B):-right(A,B).
+p3270(A,B):-right(A,C),place1(C,B).
+p3272(A,B):-place1(A,C),place1(C,B).
+p3274(A,B):-right(A,C),place1(C,B).
+p3277(A,B):-right(A,B).
+p3285(A,B):-right(A,B).
+p3290(A,B):-place1(A,C),place1(C,B).
+p3296(A,B):-right(A,B).
+p3297(A,B):-place1(A,B).
+p3300(A,B):-place1(A,C),place1(C,B).
+p3303(A,B):-right(A,C),place1(C,B).
+p3305(A,B):-place1(A,C),place1(C,B).
+p3313(A,B):-right(A,C),place1(C,B).
+p3314(A,B):-place1(A,C),place1(C,B).
+p3317(A,B):-place1(A,B).
+p3320(A,B):-right(A,C),place1(C,B).
+p3328(A,B):-place1(A,C),place1(C,B).
+p3332(A,B):-right(A,B).
+p3340(A,B):-place1(A,C),place1(C,B).
+p3346(A,B):-right(A,B).
+p3349(A,B):-right(A,B).
+p3356(A,B):-place1(A,B).
+p3370(A,B):-right(A,B).
+p3374(A,B):-right(A,C),place1(C,B).
+p3378(A,B):-right(A,B).
+p3380(A,B):-place1(A,B).
+p3397(A,B):-right(A,C),place1(C,B).
+p3404(A,B):-right(A,B).
+p3413(A,B):-place1(A,C),place1(C,B).
+p3417(A,B):-place1(A,C),place1(C,B).
+p3419(A,B):-right(A,C),place1(C,B).
+p3429(A,B):-place1(A,B).
+p3431(A,B):-right(A,C),place1(C,B).
+p3432(A,B):-place1(A,C),place1(C,B).
+p3437(A,B):-place1(A,B).
+p3443(A,B):-place1(A,C),place1(C,B).
+p3444(A,B):-place1(A,B).
+p3447(A,B):-place1(A,B).
+p3455(A,B):-right(A,B).
+p3459(A,B):-place1(A,B).
+p3463(A,B):-right(A,C),place1(C,B).
+p3487(A,B):-place1(A,C),place1(C,B).
+p3506(A,B):-place1(A,B).
+p3520(A,B):-right(A,B).
+p3525(A,B):-place1(A,B).
+p3528(A,B):-place1(A,B).
+p3533(A,B):-right(A,C),place1(C,B).
+p3535(A,B):-right(A,C),place1(C,B).
+p3536(A,B):-right(A,C),place1(C,B).
+p3540(A,B):-place1(A,C),place1(C,B).
+p3541(A,B):-place1(A,B).
+p3544(A,B):-place1(A,C),place1(C,B).
+p3547(A,B):-right(A,C),place1(C,B).
+p3555(A,B):-place1(A,B).
+p3556(A,B):-right(A,B).
+p3557(A,B):-place1(A,B).
+p3558(A,B):-place1(A,C),place1(C,B).
+p3564(A,B):-place1(A,C),place1(C,B).
+p3570(A,B):-right(A,C),place1(C,B).
+p3573(A,B):-right(A,C),place1(C,B).
+p3585(A,B):-place1(A,B).
+p3589(A,B):-right(A,C),place1(C,B).
+p3592(A,B):-place1(A,C),place1(C,B).
+p3596(A,B):-place1(A,B).
+p3610(A,B):-place1(A,C),place1(C,B).
+p3615(A,B):-place1(A,B).
+p3619(A,B):-place1(A,B).
+p3623(A,B):-place1(A,C),place1(C,B).
+p3632(A,B):-place1(A,C),place1(C,B).
+p3635(A,B):-right(A,C),place1(C,B).
+p3640(A,B):-place1(A,C),place1(C,B).
+p3641(A,B):-right(A,C),place1(C,B).
+p3642(A,B):-place1(A,B).
+p3645(A,B):-right(A,C),place1(C,B).
+p3646(A,B):-place1(A,C),place1(C,B).
+p3647(A,B):-right(A,C),place1(C,B).
+p3654(A,B):-right(A,C),place1(C,B).
+p3655(A,B):-right(A,B).
+p3667(A,B):-right(A,C),place1(C,B).
+p3669(A,B):-right(A,B).
+p3672(A,B):-right(A,B).
+p3674(A,B):-right(A,C),place1(C,B).
+p3687(A,B):-place1(A,C),place1(C,B).
+p3690(A,B):-place1(A,B).
+p3692(A,B):-right(A,B).
+p3694(A,B):-place1(A,B).
+p3695(A,B):-place1(A,B).
+p3700(A,B):-right(A,C),place1(C,B).
+p3703(A,B):-place1(A,C),place1(C,B).
+p3717(A,B):-place1(A,C),place1(C,B).
+p3725(A,B):-right(A,B).
+p3727(A,B):-place1(A,C),place1(C,B).
+p3729(A,B):-place1(A,B).
+p3733(A,B):-place1(A,C),place1(C,B).
+p3734(A,B):-right(A,B).
+p3735(A,B):-right(A,B).
+p3742(A,B):-right(A,C),place1(C,B).
+p3744(A,B):-place1(A,B).
+p3745(A,B):-place1(A,C),place1(C,B).
+p3746(A,B):-place1(A,C),place1(C,B).
+p3757(A,B):-right(A,C),place1(C,B).
+p3767(A,B):-right(A,B).
+p3771(A,B):-place1(A,B).
+p3774(A,B):-right(A,C),place1(C,B).
+p3775(A,B):-right(A,C),place1(C,B).
+p3779(A,B):-place1(A,C),place1(C,B).
+p3784(A,B):-right(A,C),place1(C,B).
+p3788(A,B):-place1(A,C),place1(C,B).
+p3794(A,B):-right(A,B).
+p3800(A,B):-right(A,B).
+p3805(A,B):-place1(A,B).
+p3815(A,B):-right(A,B).
+p3820(A,B):-place1(A,B).
+p3826(A,B):-place1(A,C),place1(C,B).
+p3831(A,B):-right(A,C),place1(C,B).
+p3836(A,B):-right(A,B).
+p3839(A,B):-place1(A,B).
+p3843(A,B):-place1(A,C),place1(C,B).
+p3846(A,B):-place1(A,C),place1(C,B).
+p3851(A,B):-right(A,B).
+p3858(A,B):-place1(A,B).
+p3859(A,B):-right(A,C),place1(C,B).
+p3860(A,B):-right(A,C),place1(C,B).
+p3864(A,B):-right(A,C),place1(C,B).
+p3884(A,B):-place1(A,B).
+p3885(A,B):-place1(A,C),place1(C,B).
+p3891(A,B):-right(A,C),place1(C,B).
+p3892(A,B):-right(A,C),place1(C,B).
+p3895(A,B):-right(A,C),place1(C,B).
+p3915(A,B):-place1(A,C),place1(C,B).
+p3929(A,B):-place1(A,B).
+p3932(A,B):-right(A,C),place1(C,B).
+p3934(A,B):-place1(A,C),place1(C,B).
+p3935(A,B):-right(A,C),place1(C,B).
+p3938(A,B):-place1(A,B).
+p3939(A,B):-place1(A,B).
+p3940(A,B):-place1(A,C),place1(C,B).
+p3943(A,B):-place1(A,B).
+p3945(A,B):-place1(A,B).
+p3949(A,B):-right(A,B).
+p3958(A,B):-place1(A,C),place1(C,B).
+p3965(A,B):-right(A,C),place1(C,B).
+p3968(A,B):-place1(A,B).
+p3982(A,B):-place1(A,B).
+p3983(A,B):-place1(A,B).
+p3991(A,B):-right(A,B).
+p3997(A,B):-right(A,C),place1(C,B).
+% asserting p17/2
+% asserting p24/2
+% asserting p28/2
+% asserting p33/2
+% asserting p34/2
+% asserting p36/2
+% asserting p48/2
+% asserting p49/2
+% asserting p50/2
+% asserting p53/2
+% asserting p78/2
+% asserting p79/2
+% asserting p84/2
+% asserting p92/2
+% asserting p97/2
+% asserting p100/2
+% asserting p101/2
+% asserting p106/2
+% asserting p115/2
+% asserting p116/2
+% asserting p117/2
+% asserting p118/2
+% asserting p121/2
+% asserting p124/2
+% asserting p144/2
+% asserting p150/2
+% asserting p154/2
+% asserting p158/2
+% asserting p168/2
+% asserting p173/2
+% asserting p174/2
+% asserting p176/2
+% asserting p177/2
+% asserting p190/2
+% asserting p197/2
+% asserting p200/2
+% asserting p216/2
+% asserting p217/2
+% asserting p218/2
+% asserting p219/2
+% asserting p224/2
+% asserting p248/2
+% asserting p250/2
+% asserting p253/2
+% asserting p258/2
+% asserting p271/2
+% asserting p278/2
+% asserting p285/2
+% asserting p294/2
+% asserting p298/2
+% asserting p299/2
+% asserting p308/2
+% asserting p310/2
+% asserting p311/2
+% asserting p314/2
+% asserting p321/2
+% asserting p322/2
+% asserting p329/2
+% asserting p336/2
+% asserting p338/2
+% asserting p341/2
+% asserting p342/2
+% asserting p347/2
+% asserting p348/2
+% asserting p350/2
+% asserting p352/2
+% asserting p376/2
+% asserting p377/2
+% asserting p412/2
+% asserting p415/2
+% asserting p417/2
+% asserting p418/2
+% asserting p426/2
+% asserting p427/2
+% asserting p431/2
+% asserting p444/2
+% asserting p452/2
+% asserting p460/2
+% asserting p480/2
+% asserting p482/2
+% asserting p492/2
+% asserting p503/2
+% asserting p509/2
+% asserting p512/2
+% asserting p517/2
+% asserting p523/2
+% asserting p533/2
+% asserting p536/2
+% asserting p544/2
+% asserting p550/2
+% asserting p551/2
+% asserting p553/2
+% asserting p554/2
+% asserting p556/2
+% asserting p561/2
+% asserting p565/2
+% asserting p569/2
+% asserting p570/2
+% asserting p575/2
+% asserting p578/2
+% asserting p586/2
+% asserting p599/2
+% asserting p604/2
+% asserting p607/2
+% asserting p608/2
+% asserting p614/2
+% asserting p619/2
+% asserting p634/2
+% asserting p675/2
+% asserting p681/2
+% asserting p682/2
+% asserting p688/2
+% asserting p691/2
+% asserting p694/2
+% asserting p708/2
+% asserting p715/2
+% asserting p718/2
+% asserting p720/2
+% asserting p721/2
+% asserting p755/2
+% asserting p757/2
+% asserting p765/2
+% asserting p766/2
+% asserting p773/2
+% asserting p779/2
+% asserting p791/2
+% asserting p801/2
+% asserting p805/2
+% asserting p806/2
+% asserting p809/2
+% asserting p811/2
+% asserting p817/2
+% asserting p818/2
+% asserting p819/2
+% asserting p824/2
+% asserting p827/2
+% asserting p840/2
+% asserting p841/2
+% asserting p845/2
+% asserting p850/2
+% asserting p864/2
+% asserting p865/2
+% asserting p866/2
+% asserting p868/2
+% asserting p882/2
+% asserting p891/2
+% asserting p896/2
+% asserting p898/2
+% asserting p900/2
+% asserting p925/2
+% asserting p931/2
+% asserting p941/2
+% asserting p946/2
+% asserting p952/2
+% asserting p954/2
+% asserting p956/2
+% asserting p960/2
+% asserting p962/2
+% asserting p965/2
+% asserting p981/2
+% asserting p991/2
+% asserting p1006/2
+% asserting p1009/2
+% asserting p1017/2
+% asserting p1020/2
+% asserting p1029/2
+% asserting p1037/2
+% asserting p1038/2
+% asserting p1052/2
+% asserting p1054/2
+% asserting p1058/2
+% asserting p1059/2
+% asserting p1060/2
+% asserting p1066/2
+% asserting p1078/2
+% asserting p1083/2
+% asserting p1097/2
+% asserting p1107/2
+% asserting p1110/2
+% asserting p1135/2
+% asserting p1139/2
+% asserting p1142/2
+% asserting p1143/2
+% asserting p1149/2
+% asserting p1150/2
+% asserting p1158/2
+% asserting p1160/2
+% asserting p1165/2
+% asserting p1166/2
+% asserting p1181/2
+% asserting p1184/2
+% asserting p1190/2
+% asserting p1215/2
+% asserting p1217/2
+% asserting p1223/2
+% asserting p1238/2
+% asserting p1242/2
+% asserting p1243/2
+% asserting p1250/2
+% asserting p1257/2
+% asserting p1260/2
+% asserting p1265/2
+% asserting p1279/2
+% asserting p1283/2
+% asserting p1286/2
+% asserting p1290/2
+% asserting p1291/2
+% asserting p1292/2
+% asserting p1293/2
+% asserting p1295/2
+% asserting p1300/2
+% asserting p1312/2
+% asserting p1318/2
+% asserting p1323/2
+% asserting p1325/2
+% asserting p1328/2
+% asserting p1344/2
+% asserting p1346/2
+% asserting p1357/2
+% asserting p1358/2
+% asserting p1361/2
+% asserting p1365/2
+% asserting p1369/2
+% asserting p1374/2
+% asserting p1376/2
+% asserting p1379/2
+% asserting p1383/2
+% asserting p1387/2
+% asserting p1396/2
+% asserting p1397/2
+% asserting p1400/2
+% asserting p1405/2
+% asserting p1407/2
+% asserting p1408/2
+% asserting p1414/2
+% asserting p1416/2
+% asserting p1421/2
+% asserting p1449/2
+% asserting p1459/2
+% asserting p1468/2
+% asserting p1470/2
+% asserting p1471/2
+% asserting p1496/2
+% asserting p1498/2
+% asserting p1502/2
+% asserting p1507/2
+% asserting p1508/2
+% asserting p1510/2
+% asserting p1511/2
+% asserting p1514/2
+% asserting p1539/2
+% asserting p1550/2
+% asserting p1551/2
+% asserting p1556/2
+% asserting p1562/2
+% asserting p1570/2
+% asserting p1579/2
+% asserting p1580/2
+% asserting p1581/2
+% asserting p1587/2
+% asserting p1592/2
+% asserting p1594/2
+% asserting p1595/2
+% asserting p1611/2
+% asserting p1616/2
+% asserting p1625/2
+% asserting p1644/2
+% asserting p1650/2
+% asserting p1658/2
+% asserting p1663/2
+% asserting p1664/2
+% asserting p1665/2
+% asserting p1669/2
+% asserting p1676/2
+% asserting p1678/2
+% asserting p1680/2
+% asserting p1681/2
+% asserting p1685/2
+% asserting p1689/2
+% asserting p1691/2
+% asserting p1699/2
+% asserting p1704/2
+% asserting p1707/2
+% asserting p1711/2
+% asserting p1720/2
+% asserting p1721/2
+% asserting p1735/2
+% asserting p1744/2
+% asserting p1747/2
+% asserting p1758/2
+% asserting p1760/2
+% asserting p1763/2
+% asserting p1767/2
+% asserting p1770/2
+% asserting p1780/2
+% asserting p1783/2
+% asserting p1785/2
+% asserting p1789/2
+% asserting p1796/2
+% asserting p1797/2
+% asserting p1803/2
+% asserting p1806/2
+% asserting p1823/2
+% asserting p1825/2
+% asserting p1834/2
+% asserting p1837/2
+% asserting p1843/2
+% asserting p1844/2
+% asserting p1856/2
+% asserting p1862/2
+% asserting p1872/2
+% asserting p1890/2
+% asserting p1892/2
+% asserting p1897/2
+% asserting p1899/2
+% asserting p1908/2
+% asserting p1913/2
+% asserting p1924/2
+% asserting p1928/2
+% asserting p1931/2
+% asserting p1933/2
+% asserting p1945/2
+% asserting p1951/2
+% asserting p1954/2
+% asserting p1957/2
+% asserting p1973/2
+% asserting p1979/2
+% asserting p1981/2
+% asserting p1986/2
+% asserting p1987/2
+% asserting p1993/2
+% asserting p1997/2
+% asserting p2000/2
+% asserting p2007/2
+% asserting p2023/2
+% asserting p2034/2
+% asserting p2038/2
+% asserting p2048/2
+% asserting p2050/2
+% asserting p2051/2
+% asserting p2055/2
+% asserting p2056/2
+% asserting p2057/2
+% asserting p2063/2
+% asserting p2069/2
+% asserting p2074/2
+% asserting p2075/2
+% asserting p2083/2
+% asserting p2087/2
+% asserting p2089/2
+% asserting p2090/2
+% asserting p2097/2
+% asserting p2104/2
+% asserting p2108/2
+% asserting p2111/2
+% asserting p2114/2
+% asserting p2119/2
+% asserting p2121/2
+% asserting p2129/2
+% asserting p2136/2
+% asserting p2154/2
+% asserting p2155/2
+% asserting p2158/2
+% asserting p2164/2
+% asserting p2171/2
+% asserting p2174/2
+% asserting p2178/2
+% asserting p2196/2
+% asserting p2210/2
+% asserting p2214/2
+% asserting p2216/2
+% asserting p2228/2
+% asserting p2246/2
+% asserting p2253/2
+% asserting p2254/2
+% asserting p2265/2
+% asserting p2267/2
+% asserting p2271/2
+% asserting p2273/2
+% asserting p2274/2
+% asserting p2280/2
+% asserting p2282/2
+% asserting p2284/2
+% asserting p2288/2
+% asserting p2296/2
+% asserting p2300/2
+% asserting p2305/2
+% asserting p2308/2
+% asserting p2323/2
+% asserting p2329/2
+% asserting p2334/2
+% asserting p2341/2
+% asserting p2349/2
+% asserting p2359/2
+% asserting p2360/2
+% asserting p2368/2
+% asserting p2372/2
+% asserting p2373/2
+% asserting p2395/2
+% asserting p2397/2
+% asserting p2398/2
+% asserting p2401/2
+% asserting p2407/2
+% asserting p2420/2
+% asserting p2425/2
+% asserting p2429/2
+% asserting p2431/2
+% asserting p2440/2
+% asserting p2442/2
+% asserting p2444/2
+% asserting p2447/2
+% asserting p2452/2
+% asserting p2454/2
+% asserting p2458/2
+% asserting p2459/2
+% asserting p2460/2
+% asserting p2466/2
+% asserting p2467/2
+% asserting p2478/2
+% asserting p2500/2
+% asserting p2506/2
+% asserting p2507/2
+% asserting p2511/2
+% asserting p2514/2
+% asserting p2515/2
+% asserting p2520/2
+% asserting p2524/2
+% asserting p2525/2
+% asserting p2531/2
+% asserting p2538/2
+% asserting p2546/2
+% asserting p2551/2
+% asserting p2552/2
+% asserting p2553/2
+% asserting p2563/2
+% asserting p2567/2
+% asserting p2571/2
+% asserting p2583/2
+% asserting p2587/2
+% asserting p2598/2
+% asserting p2599/2
+% asserting p2601/2
+% asserting p2615/2
+% asserting p2619/2
+% asserting p2622/2
+% asserting p2623/2
+% asserting p2631/2
+% asserting p2639/2
+% asserting p2643/2
+% asserting p2645/2
+% asserting p2648/2
+% asserting p2652/2
+% asserting p2653/2
+% asserting p2654/2
+% asserting p2660/2
+% asserting p2665/2
+% asserting p2666/2
+% asserting p2678/2
+% asserting p2681/2
+% asserting p2702/2
+% asserting p2720/2
+% asserting p2722/2
+% asserting p2730/2
+% asserting p2732/2
+% asserting p2734/2
+% asserting p2735/2
+% asserting p2740/2
+% asserting p2742/2
+% asserting p2754/2
+% asserting p2755/2
+% asserting p2761/2
+% asserting p2762/2
+% asserting p2767/2
+% asserting p2769/2
+% asserting p2786/2
+% asserting p2795/2
+% asserting p2806/2
+% asserting p2810/2
+% asserting p2821/2
+% asserting p2825/2
+% asserting p2834/2
+% asserting p2839/2
+% asserting p2843/2
+% asserting p2844/2
+% asserting p2846/2
+% asserting p2857/2
+% asserting p2858/2
+% asserting p2868/2
+% asserting p2875/2
+% asserting p2877/2
+% asserting p2880/2
+% asserting p2887/2
+% asserting p2892/2
+% asserting p2919/2
+% asserting p2922/2
+% asserting p2938/2
+% asserting p2940/2
+% asserting p2944/2
+% asserting p2961/2
+% asserting p2976/2
+% asserting p2990/2
+% asserting p2995/2
+% asserting p3002/2
+% asserting p3003/2
+% asserting p3014/2
+% asserting p3025/2
+% asserting p3026/2
+% asserting p3034/2
+% asserting p3046/2
+% asserting p3051/2
+% asserting p3059/2
+% asserting p3063/2
+% asserting p3073/2
+% asserting p3079/2
+% asserting p3095/2
+% asserting p3102/2
+% asserting p3111/2
+% asserting p3117/2
+% asserting p3127/2
+% asserting p3131/2
+% asserting p3151/2
+% asserting p3155/2
+% asserting p3162/2
+% asserting p3164/2
+% asserting p3174/2
+% asserting p3185/2
+% asserting p3197/2
+% asserting p3219/2
+% asserting p3236/2
+% asserting p3254/2
+% asserting p3259/2
+% asserting p3261/2
+% asserting p3265/2
+% asserting p3270/2
+% asserting p3272/2
+% asserting p3274/2
+% asserting p3277/2
+% asserting p3285/2
+% asserting p3290/2
+% asserting p3296/2
+% asserting p3297/2
+% asserting p3300/2
+% asserting p3303/2
+% asserting p3305/2
+% asserting p3313/2
+% asserting p3314/2
+% asserting p3317/2
+% asserting p3320/2
+% asserting p3328/2
+% asserting p3332/2
+% asserting p3340/2
+% asserting p3346/2
+% asserting p3349/2
+% asserting p3356/2
+% asserting p3370/2
+% asserting p3374/2
+% asserting p3378/2
+% asserting p3380/2
+% asserting p3397/2
+% asserting p3404/2
+% asserting p3413/2
+% asserting p3417/2
+% asserting p3419/2
+% asserting p3429/2
+% asserting p3431/2
+% asserting p3432/2
+% asserting p3437/2
+% asserting p3443/2
+% asserting p3444/2
+% asserting p3447/2
+% asserting p3455/2
+% asserting p3459/2
+% asserting p3463/2
+% asserting p3487/2
+% asserting p3506/2
+% asserting p3520/2
+% asserting p3525/2
+% asserting p3528/2
+% asserting p3533/2
+% asserting p3535/2
+% asserting p3536/2
+% asserting p3540/2
+% asserting p3541/2
+% asserting p3544/2
+% asserting p3547/2
+% asserting p3555/2
+% asserting p3556/2
+% asserting p3557/2
+% asserting p3558/2
+% asserting p3564/2
+% asserting p3570/2
+% asserting p3573/2
+% asserting p3585/2
+% asserting p3589/2
+% asserting p3592/2
+% asserting p3596/2
+% asserting p3610/2
+% asserting p3615/2
+% asserting p3619/2
+% asserting p3623/2
+% asserting p3632/2
+% asserting p3635/2
+% asserting p3640/2
+% asserting p3641/2
+% asserting p3642/2
+% asserting p3645/2
+% asserting p3646/2
+% asserting p3647/2
+% asserting p3654/2
+% asserting p3655/2
+% asserting p3667/2
+% asserting p3669/2
+% asserting p3672/2
+% asserting p3674/2
+% asserting p3687/2
+% asserting p3690/2
+% asserting p3692/2
+% asserting p3694/2
+% asserting p3695/2
+% asserting p3700/2
+% asserting p3703/2
+% asserting p3717/2
+% asserting p3725/2
+% asserting p3727/2
+% asserting p3729/2
+% asserting p3733/2
+% asserting p3734/2
+% asserting p3735/2
+% asserting p3742/2
+% asserting p3744/2
+% asserting p3745/2
+% asserting p3746/2
+% asserting p3757/2
+% asserting p3767/2
+% asserting p3771/2
+% asserting p3774/2
+% asserting p3775/2
+% asserting p3779/2
+% asserting p3784/2
+% asserting p3788/2
+% asserting p3794/2
+% asserting p3800/2
+% asserting p3805/2
+% asserting p3815/2
+% asserting p3820/2
+% asserting p3826/2
+% asserting p3831/2
+% asserting p3836/2
+% asserting p3839/2
+% asserting p3843/2
+% asserting p3846/2
+% asserting p3851/2
+% asserting p3858/2
+% asserting p3859/2
+% asserting p3860/2
+% asserting p3864/2
+% asserting p3884/2
+% asserting p3885/2
+% asserting p3891/2
+% asserting p3892/2
+% asserting p3895/2
+% asserting p3915/2
+% asserting p3929/2
+% asserting p3932/2
+% asserting p3934/2
+% asserting p3935/2
+% asserting p3938/2
+% asserting p3939/2
+% asserting p3940/2
+% asserting p3943/2
+% asserting p3945/2
+% asserting p3949/2
+% asserting p3958/2
+% asserting p3965/2
+% asserting p3968/2
+% asserting p3982/2
+% asserting p3983/2
+% asserting p3991/2
+% asserting p3997/2
+% depth 2
+p0(A,B):-right(A,C),p33(C,B).
+p8(A,B):-p33(A,C),p84(C,B).
+p10(A,B):-p33(A,C),p84(C,B).
+p11(A,B):-right(A,C),p33(C,B).
+p15(A,B):-place1(A,C),p84(C,B).
+p16(A,B):-right(A,C),p33(C,B).
+p19(A,B):-place1(A,C),p84(C,B).
+p22(A,B):-right(A,C),p33(C,B).
+p27(A,B):-p33(A,C),p84(C,B).
+p31(A,B):-right(A,C),p33(C,B).
+p35(A,B):-p33(A,C),p84(C,B).
+p37(A,B):-place1(A,C),p84(C,B).
+p38(A,B):-place1(A,C),p38_1(C,B).
+p38_1(A,B):-right(A,C),p33(C,B).
+p45(A,B):-right(A,C),p33(C,B).
+p47(A,B):-place1(A,C),p47_1(C,B).
+p47_1(A,B):-right(A,C),p33(C,B).
+p54(A,B):-place1(A,C),p84(C,B).
+p55(A,B):-p84(A,C),p33(C,B).
+p56(A,B):-place1(A,C),p84(C,B).
+p61(A,B):-right(A,C),p84(C,B).
+p63(A,B):-place1(A,C),p84(C,B).
+p64(A,B):-place1(A,C),p64_1(C,B).
+p64_1(A,B):-p84(A,C),p84(C,B).
+p76(A,B):-place1(A,C),p76_1(C,B).
+p76_1(A,B):-right(A,C),p33(C,B).
+p86(A,B):-place1(A,C),p84(C,B).
+p113(A,B):-place1(A,C),p84(C,B).
+p122(A,B):-place1(A,C),p84(C,B).
+p131(A,B):-place1(A,C),p84(C,B).
+p134(A,B):-right(A,C),p33(C,B).
+p137(A,B):-place1(A,C),p84(C,B).
+p138(A,B):-p33(A,C),p84(C,B).
+p139(A,B):-right(A,C),p33(C,B).
+p140(A,B):-p33(A,C),p84(C,B).
+p146(A,B):-right(A,C),p33(C,B).
+p147(A,B):-p33(A,C),p84(C,B).
+p151(A,B):-right(A,C),p33(C,B).
+p157(A,B):-place1(A,C),p84(C,B).
+p161(A,B):-p33(A,C),p84(C,B).
+p167(A,B):-p33(A,C),p84(C,B).
+p179(A,B):-place1(A,C),p179_1(C,B).
+p179_1(A,B):-right(A,C),p33(C,B).
+p187(A,B):-place1(A,C),p187_1(C,B).
+p187_1(A,B):-right(A,C),p84(C,B).
+p194(A,B):-right(A,C),p33(C,B).
+p195(A,B):-p33(A,C),p84(C,B).
+p196(A,B):-place1(A,C),p84(C,B).
+p198(A,B):-right(A,C),p33(C,B).
+p206(A,B):-place1(A,C),p206_1(C,B).
+p206_1(A,B):-right(A,C),p33(C,B).
+p208(A,B):-p33(A,C),p84(C,B).
+p214(A,B):-p33(A,C),p84(C,B).
+p226(A,B):-place1(A,C),p84(C,B).
+p227(A,B):-right(A,C),p33(C,B).
+p235(A,B):-place1(A,C),p84(C,B).
+p244(A,B):-place1(A,C),p244_1(C,B).
+p244_1(A,B):-p84(A,C),p33(C,B).
+p246(A,B):-place1(A,C),p84(C,B).
+p263(A,B):-right(A,C),p33(C,B).
+p265(A,B):-right(A,C),p33(C,B).
+p267(A,B):-p33(A,C),p267_1(C,B).
+p267_1(A,B):-right(A,C),p33(C,B).
+p273(A,B):-p84(A,C),p84(C,B).
+p279(A,B):-p84(A,C),p84(C,B).
+p280(A,B):-p33(A,C),p84(C,B).
+p289(A,B):-p84(A,C),p33(C,B).
+p291(A,B):-p33(A,C),p84(C,B).
+p303(A,B):-right(A,C),p33(C,B).
+p307(A,B):-place1(A,C),p307_1(C,B).
+p307_1(A,B):-right(A,C),p33(C,B).
+p309(A,B):-right(A,C),p33(C,B).
+p312(A,B):-right(A,C),p33(C,B).
+p316(A,B):-place1(A,C),p84(C,B).
+p319(A,B):-place1(A,C),p319_1(C,B).
+p319_1(A,B):-p33(A,C),p84(C,B).
+p320(A,B):-right(A,C),p33(C,B).
+p327(A,B):-right(A,C),p33(C,B).
+p332(A,B):-p33(A,C),p84(C,B).
+p340(A,B):-right(A,C),p33(C,B).
+p346(A,B):-right(A,C),p33(C,B).
+p349(A,B):-p33(A,C),p349_1(C,B).
+p349_1(A,B):-right(A,C),p33(C,B).
+p355(A,B):-place1(A,C),p355_1(C,B).
+p355_1(A,B):-right(A,C),p33(C,B).
+p357(A,B):-p33(A,C),p84(C,B).
+p358(A,B):-place1(A,C),p33(C,B).
+p360(A,B):-p84(A,C),p84(C,B).
+p370(A,B):-place1(A,C),p370_1(C,B).
+p370_1(A,B):-right(A,C),p33(C,B).
+p382(A,B):-place1(A,C),p84(C,B).
+p385(A,B):-right(A,C),p33(C,B).
+p390(A,B):-right(A,C),p33(C,B).
+p395(A,B):-p33(A,C),p84(C,B).
+p397(A,B):-p84(A,C),p33(C,B).
+p406(A,B):-p33(A,C),p406_1(C,B).
+p406_1(A,B):-right(A,C),p33(C,B).
+p409(A,B):-p33(A,C),p84(C,B).
+p416(A,B):-p33(A,C),p84(C,B).
+p419(A,B):-place1(A,C),p84(C,B).
+p424(A,B):-right(A,C),p33(C,B).
+p428(A,B):-place1(A,C),p84(C,B).
+p432(A,B):-right(A,C),p33(C,B).
+p433(A,B):-place1(A,C),p84(C,B).
+p436(A,B):-place1(A,C),p436_1(C,B).
+p436_1(A,B):-right(A,C),p33(C,B).
+p437(A,B):-place1(A,C),p84(C,B).
+p441(A,B):-place1(A,C),p441_1(C,B).
+p441_1(A,B):-p84(A,C),p33(C,B).
+p446(A,B):-p33(A,C),p84(C,B).
+p447(A,B):-p33(A,C),p447_1(C,B).
+p447_1(A,B):-right(A,C),p33(C,B).
+p456(A,B):-place1(A,C),p456_1(C,B).
+p456_1(A,B):-right(A,C),p33(C,B).
+p458(A,B):-place1(A,C),p84(C,B).
+p459(A,B):-place1(A,C),p84(C,B).
+p462(A,B):-p33(A,C),p84(C,B).
+p463(A,B):-right(A,C),p33(C,B).
+p469(A,B):-p33(A,C),p469_1(C,B).
+p469_1(A,B):-right(A,C),p33(C,B).
+p486(A,B):-place1(A,C),p84(C,B).
+p487(A,B):-place1(A,C),p84(C,B).
+p488(A,B):-place1(A,C),p33(C,B).
+p490(A,B):-place1(A,C),p84(C,B).
+p495(A,B):-p84(A,C),p84(C,B).
+p504(A,B):-p33(A,C),p84(C,B).
+p505(A,B):-p33(A,C),p84(C,B).
+p506(A,B):-p33(A,C),p84(C,B).
+p510(A,B):-place1(A,C),p84(C,B).
+p511(A,B):-p33(A,C),p84(C,B).
+p513(A,B):-right(A,C),p84(C,B).
+p516(A,B):-p33(A,C),p84(C,B).
+p518(A,B):-place1(A,C),p84(C,B).
+p539(A,B):-p33(A,C),p84(C,B).
+p548(A,B):-right(A,C),p33(C,B).
+p552(A,B):-p33(A,C),p84(C,B).
+p555(A,B):-right(A,C),p33(C,B).
+p566(A,B):-place1(A,C),p84(C,B).
+p567(A,B):-right(A,C),p33(C,B).
+p573(A,B):-place1(A,C),p573_1(C,B).
+p573_1(A,B):-right(A,C),p33(C,B).
+p576(A,B):-p33(A,C),p84(C,B).
+p584(A,B):-right(A,C),p84(C,B).
+p600(A,B):-right(A,C),p84(C,B).
+p602(A,B):-p33(A,C),p84(C,B).
+p605(A,B):-p33(A,C),p84(C,B).
+p616(A,B):-place1(A,C),p84(C,B).
+p624(A,B):-place1(A,C),p624_1(C,B).
+p624_1(A,B):-p84(A,C),p84(C,B).
+p628(A,B):-place1(A,C),p84(C,B).
+p638(A,B):-right(A,C),p33(C,B).
+p645(A,B):-p33(A,C),p84(C,B).
+p652(A,B):-right(A,C),p652_1(C,B).
+p652_1(A,B):-right(A,C),p33(C,B).
+p654(A,B):-p33(A,C),p84(C,B).
+p683(A,B):-p33(A,C),p84(C,B).
+p686(A,B):-p33(A,C),p84(C,B).
+p687(A,B):-p33(A,C),p84(C,B).
+p692(A,B):-place1(A,C),p84(C,B).
+p695(A,B):-right(A,C),p33(C,B).
+p699(A,B):-place1(A,C),p84(C,B).
+p706(A,B):-right(A,C),p33(C,B).
+p712(A,B):-right(A,C),p33(C,B).
+p735(A,B):-right(A,C),p33(C,B).
+p753(A,B):-right(A,C),p33(C,B).
+p761(A,B):-right(A,C),p33(C,B).
+p763(A,B):-place1(A,C),p84(C,B).
+p767(A,B):-right(A,C),p33(C,B).
+p770(A,B):-right(A,C),p33(C,B).
+p771(A,B):-place1(A,C),p771_1(C,B).
+p771_1(A,B):-right(A,C),p33(C,B).
+p774(A,B):-p33(A,C),p84(C,B).
+p795(A,B):-right(A,C),p33(C,B).
+p797(A,B):-place1(A,C),p84(C,B).
+p808(A,B):-place1(A,C),p84(C,B).
+p821(A,B):-p33(A,C),p84(C,B).
+p828(A,B):-place1(A,C),p33(C,B).
+p829(A,B):-place1(A,C),p84(C,B).
+p831(A,B):-place1(A,C),p831_1(C,B).
+p831_1(A,B):-p33(A,C),p84(C,B).
+p835(A,B):-right(A,C),p33(C,B).
+p846(A,B):-p33(A,C),p84(C,B).
+p859(A,B):-right(A,C),p33(C,B).
+p862(A,B):-place1(A,C),p862_1(C,B).
+p862_1(A,B):-p84(A,C),p33(C,B).
+p869(A,B):-p33(A,C),p84(C,B).
+p876(A,B):-right(A,C),p33(C,B).
+p879(A,B):-right(A,C),p33(C,B).
+p884(A,B):-right(A,C),p33(C,B).
+p886(A,B):-p33(A,C),p84(C,B).
+p893(A,B):-place1(A,C),p893_1(C,B).
+p893_1(A,B):-p84(A,C),p84(C,B).
+p897(A,B):-place1(A,C),p84(C,B).
+p902(A,B):-right(A,C),p33(C,B).
+p903(A,B):-right(A,C),p33(C,B).
+p907(A,B):-p33(A,C),p84(C,B).
+p915(A,B):-p33(A,C),p84(C,B).
+p921(A,B):-right(A,C),p921_1(C,B).
+p921_1(A,B):-p84(A,C),p33(C,B).
+p928(A,B):-place1(A,C),p84(C,B).
+p930(A,B):-place1(A,C),p930_1(C,B).
+p930_1(A,B):-right(A,C),p33(C,B).
+p932(A,B):-p84(A,C),p84(C,B).
+p934(A,B):-right(A,C),p33(C,B).
+p964(A,B):-place1(A,C),p84(C,B).
+p968(A,B):-right(A,C),p33(C,B).
+p970(A,B):-right(A,C),p84(C,B).
+p976(A,B):-right(A,C),p33(C,B).
+p977(A,B):-p33(A,C),p84(C,B).
+p983(A,B):-p33(A,C),p84(C,B).
+p996(A,B):-right(A,C),p33(C,B).
+p997(A,B):-p33(A,C),p997_1(C,B).
+p997_1(A,B):-right(A,C),p33(C,B).
+p1025(A,B):-right(A,C),p33(C,B).
+p1032(A,B):-p84(A,C),p84(C,B).
+p1034(A,B):-right(A,C),p33(C,B).
+p1036(A,B):-p33(A,C),p84(C,B).
+p1048(A,B):-p84(A,C),p84(C,B).
+p1057(A,B):-place1(A,C),p84(C,B).
+p1062(A,B):-p33(A,C),p84(C,B).
+p1063(A,B):-right(A,C),p33(C,B).
+p1082(A,B):-right(A,C),p33(C,B).
+p1085(A,B):-place1(A,C),p84(C,B).
+p1091(A,B):-p33(A,C),p84(C,B).
+p1093(A,B):-p84(A,C),p84(C,B).
+p1100(A,B):-p33(A,C),p1100_1(C,B).
+p1100_1(A,B):-right(A,C),p33(C,B).
+p1102(A,B):-place1(A,C),p84(C,B).
+p1103(A,B):-place1(A,C),p84(C,B).
+p1106(A,B):-right(A,C),p1106_1(C,B).
+p1106_1(A,B):-p33(A,C),p84(C,B).
+p1116(A,B):-place1(A,C),p84(C,B).
+p1121(A,B):-place1(A,C),p1121_1(C,B).
+p1121_1(A,B):-right(A,C),p33(C,B).
+p1122(A,B):-right(A,C),p33(C,B).
+p1123(A,B):-place1(A,C),p84(C,B).
+p1128(A,B):-p33(A,C),p84(C,B).
+p1131(A,B):-place1(A,C),p1131_1(C,B).
+p1131_1(A,B):-right(A,C),p33(C,B).
+p1140(A,B):-p33(A,C),p84(C,B).
+p1141(A,B):-right(A,C),p33(C,B).
+p1145(A,B):-p33(A,C),p1145_1(C,B).
+p1145_1(A,B):-right(A,C),p33(C,B).
+p1155(A,B):-right(A,C),p1155_1(C,B).
+p1155_1(A,B):-p84(A,C),p33(C,B).
+p1157(A,B):-p33(A,C),p84(C,B).
+p1164(A,B):-right(A,C),p33(C,B).
+p1174(A,B):-place1(A,C),p84(C,B).
+p1175(A,B):-p84(A,C),p84(C,B).
+p1177(A,B):-place1(A,C),p84(C,B).
+p1178(A,B):-place1(A,C),p1178_1(C,B).
+p1178_1(A,B):-p84(A,C),p33(C,B).
+p1180(A,B):-p33(A,C),p84(C,B).
+p1185(A,B):-place1(A,C),p33(C,B).
+p1188(A,B):-place1(A,C),p84(C,B).
+p1189(A,B):-place1(A,C),p84(C,B).
+p1198(A,B):-right(A,C),p33(C,B).
+p1199(A,B):-place1(A,C),p33(C,B).
+p1200(A,B):-p33(A,C),p84(C,B).
+p1208(A,B):-p33(A,C),p84(C,B).
+p1213(A,B):-right(A,C),p33(C,B).
+p1214(A,B):-right(A,C),p33(C,B).
+p1229(A,B):-place1(A,C),p84(C,B).
+p1240(A,B):-place1(A,C),p1240_1(C,B).
+p1240_1(A,B):-right(A,C),p33(C,B).
+p1247(A,B):-place1(A,C),p33(C,B).
+p1252(A,B):-p33(A,C),p84(C,B).
+p1264(A,B):-right(A,C),p33(C,B).
+p1270(A,B):-p84(A,C),p84(C,B).
+p1278(A,B):-place1(A,C),p84(C,B).
+p1287(A,B):-place1(A,C),p33(C,B).
+p1288(A,B):-place1(A,C),p84(C,B).
+p1297(A,B):-place1(A,C),p1297_1(C,B).
+p1297_1(A,B):-right(A,C),p33(C,B).
+p1306(A,B):-p33(A,C),p84(C,B).
+p1308(A,B):-p33(A,C),p84(C,B).
+p1311(A,B):-p33(A,C),p84(C,B).
+p1313(A,B):-place1(A,C),p84(C,B).
+p1315(A,B):-place1(A,C),p1315_1(C,B).
+p1315_1(A,B):-p84(A,C),p33(C,B).
+p1319(A,B):-place1(A,C),p84(C,B).
+p1326(A,B):-place1(A,C),p84(C,B).
+p1338(A,B):-p33(A,C),p84(C,B).
+p1339(A,B):-p33(A,C),p84(C,B).
+p1343(A,B):-p33(A,C),p1343_1(C,B).
+p1343_1(A,B):-right(A,C),p33(C,B).
+p1355(A,B):-right(A,C),p33(C,B).
+p1367(A,B):-place1(A,C),p33(C,B).
+p1384(A,B):-p33(A,C),p1384_1(C,B).
+p1384_1(A,B):-right(A,C),p33(C,B).
+p1393(A,B):-p33(A,C),p84(C,B).
+p1403(A,B):-p84(A,C),p33(C,B).
+p1404(A,B):-place1(A,C),p84(C,B).
+p1419(A,B):-right(A,C),p1419_1(C,B).
+p1419_1(A,B):-p84(A,C),p33(C,B).
+p1423(A,B):-right(A,C),p84(C,B).
+p1429(A,B):-p33(A,C),p1429_1(C,B).
+p1429_1(A,B):-right(A,C),p33(C,B).
+p1430(A,B):-p33(A,C),p84(C,B).
+p1431(A,B):-place1(A,C),p84(C,B).
+p1434(A,B):-right(A,C),p33(C,B).
+p1439(A,B):-p84(A,C),p84(C,B).
+p1445(A,B):-right(A,C),p33(C,B).
+p1451(A,B):-right(A,C),p84(C,B).
+p1474(A,B):-right(A,C),p33(C,B).
+p1481(A,B):-place1(A,C),p1481_1(C,B).
+p1481_1(A,B):-right(A,C),p33(C,B).
+p1492(A,B):-p33(A,C),p84(C,B).
+p1519(A,B):-place1(A,C),p33(C,B).
+p1520(A,B):-p33(A,C),p84(C,B).
+p1522(A,B):-place1(A,C),p84(C,B).
+p1523(A,B):-place1(A,C),p84(C,B).
+p1526(A,B):-place1(A,C),p84(C,B).
+p1528(A,B):-right(A,C),p33(C,B).
+p1530(A,B):-p33(A,C),p1530_1(C,B).
+p1530_1(A,B):-right(A,C),p33(C,B).
+p1538(A,B):-right(A,C),p33(C,B).
+p1547(A,B):-right(A,C),p33(C,B).
+p1558(A,B):-right(A,C),p33(C,B).
+p1566(A,B):-p33(A,C),p84(C,B).
+p1573(A,B):-p33(A,C),p84(C,B).
+p1574(A,B):-right(A,C),p33(C,B).
+p1575(A,B):-place1(A,C),p84(C,B).
+p1583(A,B):-place1(A,C),p84(C,B).
+p1584(A,B):-p84(A,C),p33(C,B).
+p1585(A,B):-place1(A,C),p84(C,B).
+p1590(A,B):-place1(A,C),p1590_1(C,B).
+p1590_1(A,B):-right(A,C),p84(C,B).
+p1600(A,B):-place1(A,C),p84(C,B).
+p1602(A,B):-place1(A,C),p1602_1(C,B).
+p1602_1(A,B):-right(A,C),p33(C,B).
+p1605(A,B):-place1(A,C),p1605_1(C,B).
+p1605_1(A,B):-right(A,C),p33(C,B).
+p1608(A,B):-right(A,C),p33(C,B).
+p1613(A,B):-p33(A,C),p1613_1(C,B).
+p1613_1(A,B):-right(A,C),p33(C,B).
+p1618(A,B):-p33(A,C),p84(C,B).
+p1631(A,B):-place1(A,C),p84(C,B).
+p1633(A,B):-right(A,C),p33(C,B).
+p1640(A,B):-place1(A,C),p33(C,B).
+p1643(A,B):-right(A,C),p33(C,B).
+p1649(A,B):-place1(A,C),p84(C,B).
+p1657(A,B):-place1(A,C),p84(C,B).
+p1667(A,B):-place1(A,C),p84(C,B).
+p1670(A,B):-right(A,C),p33(C,B).
+p1671(A,B):-place1(A,C),p1671_1(C,B).
+p1671_1(A,B):-right(A,C),p33(C,B).
+p1675(A,B):-place1(A,C),p84(C,B).
+p1683(A,B):-right(A,C),p33(C,B).
+p1693(A,B):-right(A,C),p33(C,B).
+p1695(A,B):-right(A,C),p33(C,B).
+p1700(A,B):-place1(A,C),p84(C,B).
+p1703(A,B):-place1(A,C),p84(C,B).
+p1716(A,B):-right(A,C),p84(C,B).
+p1717(A,B):-p33(A,C),p84(C,B).
+p1728(A,B):-place1(A,C),p1728_1(C,B).
+p1728_1(A,B):-right(A,C),p33(C,B).
+p1729(A,B):-place1(A,C),p84(C,B).
+p1731(A,B):-p33(A,C),p84(C,B).
+p1734(A,B):-place1(A,C),p84(C,B).
+p1743(A,B):-place1(A,C),p1743_1(C,B).
+p1743_1(A,B):-right(A,C),p33(C,B).
+p1746(A,B):-place1(A,C),p84(C,B).
+p1750(A,B):-p33(A,C),p84(C,B).
+p1751(A,B):-place1(A,C),p1751_1(C,B).
+p1751_1(A,B):-right(A,C),p33(C,B).
+p1755(A,B):-p84(A,C),p33(C,B).
+p1759(A,B):-p33(A,C),p1759_1(C,B).
+p1759_1(A,B):-right(A,C),p33(C,B).
+p1769(A,B):-p33(A,C),p84(C,B).
+p1784(A,B):-place1(A,C),p84(C,B).
+p1788(A,B):-right(A,C),p33(C,B).
+p1792(A,B):-right(A,C),p33(C,B).
+p1793(A,B):-place1(A,C),p84(C,B).
+p1799(A,B):-place1(A,C),p33(C,B).
+p1801(A,B):-right(A,C),p33(C,B).
+p1802(A,B):-place1(A,C),p84(C,B).
+p1805(A,B):-p33(A,C),p84(C,B).
+p1816(A,B):-place1(A,C),p84(C,B).
+p1817(A,B):-p33(A,C),p84(C,B).
+p1824(A,B):-p33(A,C),p84(C,B).
+p1829(A,B):-right(A,C),p33(C,B).
+p1839(A,B):-place1(A,C),p84(C,B).
+p1841(A,B):-p33(A,C),p84(C,B).
+p1846(A,B):-place1(A,C),p84(C,B).
+p1859(A,B):-place1(A,C),p33(C,B).
+p1866(A,B):-p33(A,C),p84(C,B).
+p1868(A,B):-right(A,C),p33(C,B).
+p1875(A,B):-place1(A,C),p84(C,B).
+p1879(A,B):-right(A,C),p84(C,B).
+p1882(A,B):-right(A,C),p33(C,B).
+p1893(A,B):-p33(A,C),p84(C,B).
+p1904(A,B):-p84(A,C),p33(C,B).
+p1905(A,B):-place1(A,C),p84(C,B).
+p1912(A,B):-place1(A,C),p84(C,B).
+p1919(A,B):-right(A,C),p33(C,B).
+p1921(A,B):-right(A,C),p33(C,B).
+p1927(A,B):-p33(A,C),p84(C,B).
+p1929(A,B):-right(A,C),p33(C,B).
+p1943(A,B):-p33(A,C),p84(C,B).
+p1955(A,B):-right(A,C),p33(C,B).
+p1959(A,B):-p33(A,C),p84(C,B).
+p1963(A,B):-place1(A,C),p33(C,B).
+p1965(A,B):-p33(A,C),p84(C,B).
+p2005(A,B):-p33(A,C),p84(C,B).
+p2010(A,B):-right(A,C),p33(C,B).
+p2017(A,B):-right(A,C),p33(C,B).
+p2020(A,B):-place1(A,C),p84(C,B).
+p2026(A,B):-p33(A,C),p84(C,B).
+p2030(A,B):-p33(A,C),p84(C,B).
+p2033(A,B):-right(A,C),p33(C,B).
+p2035(A,B):-right(A,C),p33(C,B).
+p2067(A,B):-p84(A,C),p84(C,B).
+p2070(A,B):-p84(A,C),p33(C,B).
+p2072(A,B):-place1(A,C),p33(C,B).
+p2081(A,B):-right(A,C),p84(C,B).
+p2082(A,B):-place1(A,C),p84(C,B).
+p2109(A,B):-right(A,C),p33(C,B).
+p2123(A,B):-place1(A,C),p33(C,B).
+p2124(A,B):-place1(A,C),p33(C,B).
+p2125(A,B):-place1(A,C),p84(C,B).
+p2131(A,B):-place1(A,C),p84(C,B).
+p2140(A,B):-p33(A,C),p84(C,B).
+p2156(A,B):-right(A,C),p33(C,B).
+p2160(A,B):-p33(A,C),p84(C,B).
+p2161(A,B):-place1(A,C),p84(C,B).
+p2166(A,B):-p33(A,C),p84(C,B).
+p2184(A,B):-place1(A,C),p33(C,B).
+p2189(A,B):-place1(A,C),p33(C,B).
+p2190(A,B):-p84(A,C),p33(C,B).
+p2200(A,B):-p33(A,C),p84(C,B).
+p2202(A,B):-right(A,C),p33(C,B).
+p2206(A,B):-place1(A,C),p84(C,B).
+p2215(A,B):-place1(A,C),p84(C,B).
+p2229(A,B):-p33(A,C),p84(C,B).
+p2236(A,B):-p84(A,C),p84(C,B).
+p2237(A,B):-p33(A,C),p84(C,B).
+p2238(A,B):-right(A,C),p33(C,B).
+p2242(A,B):-right(A,C),p33(C,B).
+p2245(A,B):-right(A,C),p33(C,B).
+p2252(A,B):-place1(A,C),p84(C,B).
+p2269(A,B):-p33(A,C),p84(C,B).
+p2283(A,B):-p33(A,C),p84(C,B).
+p2286(A,B):-p33(A,C),p84(C,B).
+p2289(A,B):-p84(A,C),p84(C,B).
+p2292(A,B):-place1(A,C),p33(C,B).
+p2293(A,B):-right(A,C),p33(C,B).
+p2303(A,B):-p33(A,C),p84(C,B).
+p2306(A,B):-p33(A,C),p33(C,B).
+p2314(A,B):-right(A,C),p33(C,B).
+p2316(A,B):-p33(A,C),p84(C,B).
+p2319(A,B):-p84(A,C),p84(C,B).
+p2320(A,B):-p33(A,C),p84(C,B).
+p2325(A,B):-right(A,C),p33(C,B).
+p2338(A,B):-right(A,C),p33(C,B).
+p2342(A,B):-right(A,C),p33(C,B).
+p2352(A,B):-right(A,C),p33(C,B).
+p2357(A,B):-right(A,C),p84(C,B).
+p2358(A,B):-p84(A,C),p84(C,B).
+p2367(A,B):-right(A,C),p33(C,B).
+p2375(A,B):-place1(A,C),p84(C,B).
+p2380(A,B):-place1(A,C),p84(C,B).
+p2392(A,B):-place1(A,C),p84(C,B).
+p2394(A,B):-right(A,C),p33(C,B).
+p2411(A,B):-p33(A,C),p84(C,B).
+p2413(A,B):-place1(A,C),p84(C,B).
+p2414(A,B):-place1(A,C),p84(C,B).
+p2417(A,B):-place1(A,C),p84(C,B).
+p2421(A,B):-p33(A,C),p84(C,B).
+p2434(A,B):-place1(A,C),p84(C,B).
+p2437(A,B):-right(A,C),p33(C,B).
+p2468(A,B):-p33(A,C),p84(C,B).
+p2475(A,B):-right(A,C),p33(C,B).
+p2476(A,B):-p33(A,C),p84(C,B).
+p2477(A,B):-right(A,C),p33(C,B).
+p2479(A,B):-place1(A,C),p84(C,B).
+p2483(A,B):-p33(A,C),p84(C,B).
+p2485(A,B):-p33(A,C),p84(C,B).
+p2487(A,B):-place1(A,C),p84(C,B).
+p2493(A,B):-place1(A,C),p84(C,B).
+p2521(A,B):-place1(A,C),p2521_1(C,B).
+p2521_1(A,B):-right(A,C),p33(C,B).
+p2523(A,B):-p33(A,C),p84(C,B).
+p2533(A,B):-place1(A,C),p84(C,B).
+p2544(A,B):-p84(A,C),p33(C,B).
+p2561(A,B):-right(A,C),p33(C,B).
+p2575(A,B):-right(A,C),p33(C,B).
+p2585(A,B):-right(A,C),p33(C,B).
+p2593(A,B):-p84(A,C),p33(C,B).
+p2602(A,B):-place1(A,C),p33(C,B).
+p2611(A,B):-place1(A,C),p84(C,B).
+p2612(A,B):-right(A,C),p33(C,B).
+p2613(A,B):-right(A,C),p33(C,B).
+p2616(A,B):-place1(A,C),p84(C,B).
+p2617(A,B):-place1(A,C),p84(C,B).
+p2620(A,B):-right(A,C),p33(C,B).
+p2621(A,B):-right(A,C),p84(C,B).
+p2626(A,B):-right(A,C),p33(C,B).
+p2633(A,B):-p33(A,C),p84(C,B).
+p2635(A,B):-p84(A,C),p33(C,B).
+p2661(A,B):-place1(A,C),p84(C,B).
+p2683(A,B):-p33(A,C),p84(C,B).
+p2685(A,B):-place1(A,C),p84(C,B).
+p2687(A,B):-p33(A,C),p84(C,B).
+p2689(A,B):-right(A,C),p33(C,B).
+p2706(A,B):-place1(A,C),p84(C,B).
+p2707(A,B):-place1(A,C),p84(C,B).
+p2713(A,B):-right(A,C),p33(C,B).
+p2716(A,B):-right(A,C),p33(C,B).
+p2725(A,B):-place1(A,C),p84(C,B).
+p2745(A,B):-place1(A,C),p84(C,B).
+p2758(A,B):-p33(A,C),p84(C,B).
+p2766(A,B):-p33(A,C),p84(C,B).
+p2781(A,B):-place1(A,C),p84(C,B).
+p2783(A,B):-p33(A,C),p84(C,B).
+p2792(A,B):-place1(A,C),p33(C,B).
+p2796(A,B):-p84(A,C),p84(C,B).
+p2800(A,B):-place1(A,C),p84(C,B).
+p2808(A,B):-place1(A,C),p84(C,B).
+p2815(A,B):-right(A,C),p33(C,B).
+p2819(A,B):-place1(A,C),p2819_1(C,B).
+p2819_1(A,B):-right(A,C),p33(C,B).
+p2829(A,B):-right(A,C),p2829_1(C,B).
+p2829_1(A,B):-right(A,C),p33(C,B).
+p2830(A,B):-right(A,C),p33(C,B).
+p2836(A,B):-right(A,C),p33(C,B).
+p2838(A,B):-place1(A,C),p2838_1(C,B).
+p2838_1(A,B):-right(A,C),p84(C,B).
+p2840(A,B):-p84(A,C),p33(C,B).
+p2849(A,B):-p33(A,C),p84(C,B).
+p2856(A,B):-p33(A,C),p2856_1(C,B).
+p2856_1(A,B):-right(A,C),p33(C,B).
+p2864(A,B):-p84(A,C),p84(C,B).
+p2867(A,B):-right(A,C),p2867_1(C,B).
+p2867_1(A,B):-p33(A,C),p33(C,B).
+p2869(A,B):-right(A,C),p33(C,B).
+p2878(A,B):-p33(A,C),p2878_1(C,B).
+p2878_1(A,B):-right(A,C),p33(C,B).
+p2884(A,B):-p33(A,C),p84(C,B).
+p2888(A,B):-place1(A,C),p84(C,B).
+p2896(A,B):-right(A,C),p33(C,B).
+p2899(A,B):-right(A,C),p33(C,B).
+p2900(A,B):-right(A,C),p33(C,B).
+p2914(A,B):-place1(A,C),p2914_1(C,B).
+p2914_1(A,B):-right(A,C),p33(C,B).
+p2932(A,B):-p33(A,C),p84(C,B).
+p2934(A,B):-right(A,C),p33(C,B).
+p2936(A,B):-p33(A,C),p84(C,B).
+p2939(A,B):-p33(A,C),p84(C,B).
+p2942(A,B):-p84(A,C),p33(C,B).
+p2943(A,B):-place1(A,C),p2943_1(C,B).
+p2943_1(A,B):-p84(A,C),p84(C,B).
+p2952(A,B):-place1(A,C),p84(C,B).
+p2953(A,B):-place1(A,C),p84(C,B).
+p2960(A,B):-right(A,C),p84(C,B).
+p2963(A,B):-right(A,C),p33(C,B).
+p2965(A,B):-p33(A,C),p2965_1(C,B).
+p2965_1(A,B):-right(A,C),p33(C,B).
+p2966(A,B):-right(A,C),p33(C,B).
+p2970(A,B):-p33(A,C),p2970_1(C,B).
+p2970_1(A,B):-right(A,C),p33(C,B).
+p2980(A,B):-place1(A,C),p84(C,B).
+p2987(A,B):-right(A,C),p2987_1(C,B).
+p2987_1(A,B):-right(A,C),p33(C,B).
+p2993(A,B):-p33(A,C),p84(C,B).
+p2999(A,B):-p84(A,C),p84(C,B).
+p3000(A,B):-place1(A,C),p84(C,B).
+p3013(A,B):-p84(A,C),p33(C,B).
+p3015(A,B):-place1(A,C),p84(C,B).
+p3021(A,B):-p33(A,C),p84(C,B).
+p3022(A,B):-right(A,C),p33(C,B).
+p3028(A,B):-place1(A,C),p84(C,B).
+p3035(A,B):-right(A,C),p33(C,B).
+p3036(A,B):-right(A,C),p33(C,B).
+p3064(A,B):-place1(A,C),p84(C,B).
+p3078(A,B):-place1(A,C),p3078_1(C,B).
+p3078_1(A,B):-right(A,C),p33(C,B).
+p3082(A,B):-place1(A,C),p3082_1(C,B).
+p3082_1(A,B):-right(A,C),p33(C,B).
+p3088(A,B):-right(A,C),p33(C,B).
+p3099(A,B):-right(A,C),p33(C,B).
+p3104(A,B):-right(A,C),p33(C,B).
+p3106(A,B):-p33(A,C),p84(C,B).
+p3115(A,B):-place1(A,C),p84(C,B).
+p3119(A,B):-right(A,C),p84(C,B).
+p3120(A,B):-place1(A,C),p84(C,B).
+p3124(A,B):-right(A,C),p84(C,B).
+p3130(A,B):-place1(A,C),p84(C,B).
+p3138(A,B):-p33(A,C),p84(C,B).
+p3141(A,B):-place1(A,C),p84(C,B).
+p3147(A,B):-place1(A,C),p3147_1(C,B).
+p3147_1(A,B):-p84(A,C),p33(C,B).
+p3149(A,B):-right(A,C),p33(C,B).
+p3154(A,B):-place1(A,C),p84(C,B).
+p3156(A,B):-right(A,C),p33(C,B).
+p3158(A,B):-place1(A,C),p84(C,B).
+p3161(A,B):-place1(A,C),p3161_1(C,B).
+p3161_1(A,B):-p84(A,C),p33(C,B).
+p3165(A,B):-p84(A,C),p84(C,B).
+p3170(A,B):-place1(A,C),p84(C,B).
+p3172(A,B):-p33(A,C),p84(C,B).
+p3183(A,B):-p33(A,C),p84(C,B).
+p3184(A,B):-right(A,C),p33(C,B).
+p3187(A,B):-p33(A,C),p84(C,B).
+p3195(A,B):-p33(A,C),p3195_1(C,B).
+p3195_1(A,B):-right(A,C),p33(C,B).
+p3196(A,B):-place1(A,C),p84(C,B).
+p3202(A,B):-p33(A,C),p84(C,B).
+p3209(A,B):-right(A,C),p33(C,B).
+p3218(A,B):-right(A,C),p33(C,B).
+p3221(A,B):-p33(A,C),p84(C,B).
+p3230(A,B):-right(A,C),p84(C,B).
+p3235(A,B):-right(A,C),p33(C,B).
+p3246(A,B):-p84(A,C),p33(C,B).
+p3249(A,B):-right(A,C),p33(C,B).
+p3250(A,B):-p33(A,C),p84(C,B).
+p3266(A,B):-p33(A,C),p84(C,B).
+p3279(A,B):-place1(A,C),p84(C,B).
+p3281(A,B):-p33(A,C),p84(C,B).
+p3282(A,B):-place1(A,C),p84(C,B).
+p3293(A,B):-place1(A,C),p33(C,B).
+p3295(A,B):-p33(A,C),p84(C,B).
+p3327(A,B):-right(A,C),p33(C,B).
+p3329(A,B):-right(A,C),p33(C,B).
+p3331(A,B):-right(A,C),p84(C,B).
+p3335(A,B):-right(A,C),p33(C,B).
+p3343(A,B):-p84(A,C),p33(C,B).
+p3348(A,B):-right(A,C),p33(C,B).
+p3350(A,B):-place1(A,C),p84(C,B).
+p3354(A,B):-p84(A,C),p84(C,B).
+p3361(A,B):-p33(A,C),p84(C,B).
+p3384(A,B):-place1(A,C),p84(C,B).
+p3390(A,B):-place1(A,C),p84(C,B).
+p3399(A,B):-p33(A,C),p84(C,B).
+p3400(A,B):-place1(A,C),p84(C,B).
+p3406(A,B):-p33(A,C),p84(C,B).
+p3409(A,B):-right(A,C),p33(C,B).
+p3411(A,B):-right(A,C),p33(C,B).
+p3415(A,B):-place1(A,C),p84(C,B).
+p3420(A,B):-p33(A,C),p84(C,B).
+p3426(A,B):-p33(A,C),p84(C,B).
+p3442(A,B):-right(A,C),p33(C,B).
+p3446(A,B):-p33(A,C),p84(C,B).
+p3452(A,B):-place1(A,C),p84(C,B).
+p3460(A,B):-p33(A,C),p84(C,B).
+p3462(A,B):-p33(A,C),p84(C,B).
+p3466(A,B):-place1(A,C),p84(C,B).
+p3467(A,B):-place1(A,C),p84(C,B).
+p3470(A,B):-p33(A,C),p84(C,B).
+p3476(A,B):-place1(A,C),p84(C,B).
+p3488(A,B):-p84(A,C),p84(C,B).
+p3489(A,B):-right(A,C),p33(C,B).
+p3490(A,B):-place1(A,C),p84(C,B).
+p3500(A,B):-p33(A,C),p84(C,B).
+p3511(A,B):-p33(A,C),p84(C,B).
+p3518(A,B):-right(A,C),p33(C,B).
+p3532(A,B):-place1(A,C),p33(C,B).
+p3543(A,B):-right(A,C),p33(C,B).
+p3546(A,B):-p33(A,C),p84(C,B).
+p3560(A,B):-right(A,C),p33(C,B).
+p3568(A,B):-place1(A,C),p84(C,B).
+p3576(A,B):-p33(A,C),p84(C,B).
+p3577(A,B):-right(A,C),p33(C,B).
+p3584(A,B):-right(A,C),p33(C,B).
+p3586(A,B):-right(A,C),p33(C,B).
+p3588(A,B):-p33(A,C),p84(C,B).
+p3591(A,B):-p84(A,C),p84(C,B).
+p3593(A,B):-place1(A,C),p33(C,B).
+p3604(A,B):-place1(A,C),p84(C,B).
+p3607(A,B):-p33(A,C),p84(C,B).
+p3612(A,B):-right(A,C),p33(C,B).
+p3622(A,B):-right(A,C),p33(C,B).
+p3626(A,B):-place1(A,C),p84(C,B).
+p3634(A,B):-place1(A,C),p33(C,B).
+p3650(A,B):-p33(A,C),p84(C,B).
+p3661(A,B):-place1(A,C),p84(C,B).
+p3664(A,B):-right(A,C),p33(C,B).
+p3681(A,B):-right(A,C),p33(C,B).
+p3688(A,B):-p33(A,C),p84(C,B).
+p3698(A,B):-p33(A,C),p84(C,B).
+p3704(A,B):-right(A,C),p33(C,B).
+p3706(A,B):-p33(A,C),p84(C,B).
+p3708(A,B):-p33(A,C),p84(C,B).
+p3720(A,B):-right(A,C),p33(C,B).
+p3721(A,B):-right(A,C),p33(C,B).
+p3726(A,B):-p84(A,C),p84(C,B).
+p3748(A,B):-place1(A,C),p33(C,B).
+p3756(A,B):-p33(A,C),p84(C,B).
+p3761(A,B):-right(A,C),p33(C,B).
+p3766(A,B):-right(A,C),p84(C,B).
+p3770(A,B):-right(A,C),p33(C,B).
+p3781(A,B):-p33(A,C),p84(C,B).
+p3789(A,B):-place1(A,C),p84(C,B).
+p3791(A,B):-right(A,C),p33(C,B).
+p3824(A,B):-right(A,C),p33(C,B).
+p3830(A,B):-place1(A,C),p84(C,B).
+p3853(A,B):-p33(A,C),p84(C,B).
+p3854(A,B):-right(A,C),p33(C,B).
+p3855(A,B):-place1(A,C),p84(C,B).
+p3869(A,B):-p33(A,C),p84(C,B).
+p3876(A,B):-p84(A,C),p84(C,B).
+p3879(A,B):-p33(A,C),p84(C,B).
+p3883(A,B):-p33(A,C),p84(C,B).
+p3893(A,B):-right(A,C),p33(C,B).
+p3905(A,B):-place1(A,C),p84(C,B).
+p3908(A,B):-place1(A,C),p84(C,B).
+p3910(A,B):-right(A,C),p33(C,B).
+p3917(A,B):-p33(A,C),p84(C,B).
+p3923(A,B):-place1(A,C),p84(C,B).
+p3936(A,B):-place1(A,C),p84(C,B).
+p3952(A,B):-place1(A,C),p84(C,B).
+p3957(A,B):-place1(A,C),p84(C,B).
+p3959(A,B):-right(A,C),p33(C,B).
+p3978(A,B):-place1(A,C),p84(C,B).
+p3984(A,B):-place1(A,C),p84(C,B).
+p3990(A,B):-p33(A,C),p84(C,B).
+p3993(A,B):-p33(A,C),p84(C,B).
+% asserting p0/2
+% asserting p8/2
+% asserting p10/2
+% asserting p11/2
+% asserting p15/2
+% asserting p16/2
+% asserting p19/2
+% asserting p22/2
+% asserting p27/2
+% asserting p31/2
+% asserting p35/2
+% asserting p37/2
+% asserting p38_1/2
+% asserting p38/2
+% asserting p45/2
+% asserting p47_1/2
+% asserting p47/2
+% asserting p54/2
+% asserting p55/2
+% asserting p56/2
+% asserting p61/2
+% asserting p63/2
+% asserting p64_1/2
+% asserting p64/2
+% asserting p76_1/2
+% asserting p76/2
+% asserting p86/2
+% asserting p113/2
+% asserting p122/2
+% asserting p131/2
+% asserting p134/2
+% asserting p137/2
+% asserting p138/2
+% asserting p139/2
+% asserting p140/2
+% asserting p146/2
+% asserting p147/2
+% asserting p151/2
+% asserting p157/2
+% asserting p161/2
+% asserting p167/2
+% asserting p179_1/2
+% asserting p179/2
+% asserting p187_1/2
+% asserting p187/2
+% asserting p194/2
+% asserting p195/2
+% asserting p196/2
+% asserting p198/2
+% asserting p206_1/2
+% asserting p206/2
+% asserting p208/2
+% asserting p214/2
+% asserting p226/2
+% asserting p227/2
+% asserting p235/2
+% asserting p244_1/2
+% asserting p244/2
+% asserting p246/2
+% asserting p263/2
+% asserting p265/2
+% asserting p267_1/2
+% asserting p267/2
+% asserting p273/2
+% asserting p279/2
+% asserting p280/2
+% asserting p289/2
+% asserting p291/2
+% asserting p303/2
+% asserting p307_1/2
+% asserting p307/2
+% asserting p309/2
+% asserting p312/2
+% asserting p316/2
+% asserting p319_1/2
+% asserting p319/2
+% asserting p320/2
+% asserting p327/2
+% asserting p332/2
+% asserting p340/2
+% asserting p346/2
+% asserting p349_1/2
+% asserting p349/2
+% asserting p355_1/2
+% asserting p355/2
+% asserting p357/2
+% asserting p358/2
+% asserting p360/2
+% asserting p370_1/2
+% asserting p370/2
+% asserting p382/2
+% asserting p385/2
+% asserting p390/2
+% asserting p395/2
+% asserting p397/2
+% asserting p406_1/2
+% asserting p406/2
+% asserting p409/2
+% asserting p416/2
+% asserting p419/2
+% asserting p424/2
+% asserting p428/2
+% asserting p432/2
+% asserting p433/2
+% asserting p436_1/2
+% asserting p436/2
+% asserting p437/2
+% asserting p441_1/2
+% asserting p441/2
+% asserting p446/2
+% asserting p447_1/2
+% asserting p447/2
+% asserting p456_1/2
+% asserting p456/2
+% asserting p458/2
+% asserting p459/2
+% asserting p462/2
+% asserting p463/2
+% asserting p469_1/2
+% asserting p469/2
+% asserting p486/2
+% asserting p487/2
+% asserting p488/2
+% asserting p490/2
+% asserting p495/2
+% asserting p504/2
+% asserting p505/2
+% asserting p506/2
+% asserting p510/2
+% asserting p511/2
+% asserting p513/2
+% asserting p516/2
+% asserting p518/2
+% asserting p539/2
+% asserting p548/2
+% asserting p552/2
+% asserting p555/2
+% asserting p566/2
+% asserting p567/2
+% asserting p573_1/2
+% asserting p573/2
+% asserting p576/2
+% asserting p584/2
+% asserting p600/2
+% asserting p602/2
+% asserting p605/2
+% asserting p616/2
+% asserting p624_1/2
+% asserting p624/2
+% asserting p628/2
+% asserting p638/2
+% asserting p645/2
+% asserting p652_1/2
+% asserting p652/2
+% asserting p654/2
+% asserting p683/2
+% asserting p686/2
+% asserting p687/2
+% asserting p692/2
+% asserting p695/2
+% asserting p699/2
+% asserting p706/2
+% asserting p712/2
+% asserting p735/2
+% asserting p753/2
+% asserting p761/2
+% asserting p763/2
+% asserting p767/2
+% asserting p770/2
+% asserting p771_1/2
+% asserting p771/2
+% asserting p774/2
+% asserting p795/2
+% asserting p797/2
+% asserting p808/2
+% asserting p821/2
+% asserting p828/2
+% asserting p829/2
+% asserting p831_1/2
+% asserting p831/2
+% asserting p835/2
+% asserting p846/2
+% asserting p859/2
+% asserting p862_1/2
+% asserting p862/2
+% asserting p869/2
+% asserting p876/2
+% asserting p879/2
+% asserting p884/2
+% asserting p886/2
+% asserting p893_1/2
+% asserting p893/2
+% asserting p897/2
+% asserting p902/2
+% asserting p903/2
+% asserting p907/2
+% asserting p915/2
+% asserting p921_1/2
+% asserting p921/2
+% asserting p928/2
+% asserting p930_1/2
+% asserting p930/2
+% asserting p932/2
+% asserting p934/2
+% asserting p964/2
+% asserting p968/2
+% asserting p970/2
+% asserting p976/2
+% asserting p977/2
+% asserting p983/2
+% asserting p996/2
+% asserting p997_1/2
+% asserting p997/2
+% asserting p1025/2
+% asserting p1032/2
+% asserting p1034/2
+% asserting p1036/2
+% asserting p1048/2
+% asserting p1057/2
+% asserting p1062/2
+% asserting p1063/2
+% asserting p1082/2
+% asserting p1085/2
+% asserting p1091/2
+% asserting p1093/2
+% asserting p1100_1/2
+% asserting p1100/2
+% asserting p1102/2
+% asserting p1103/2
+% asserting p1106_1/2
+% asserting p1106/2
+% asserting p1116/2
+% asserting p1121_1/2
+% asserting p1121/2
+% asserting p1122/2
+% asserting p1123/2
+% asserting p1128/2
+% asserting p1131_1/2
+% asserting p1131/2
+% asserting p1140/2
+% asserting p1141/2
+% asserting p1145_1/2
+% asserting p1145/2
+% asserting p1155_1/2
+% asserting p1155/2
+% asserting p1157/2
+% asserting p1164/2
+% asserting p1174/2
+% asserting p1175/2
+% asserting p1177/2
+% asserting p1178_1/2
+% asserting p1178/2
+% asserting p1180/2
+% asserting p1185/2
+% asserting p1188/2
+% asserting p1189/2
+% asserting p1198/2
+% asserting p1199/2
+% asserting p1200/2
+% asserting p1208/2
+% asserting p1213/2
+% asserting p1214/2
+% asserting p1229/2
+% asserting p1240_1/2
+% asserting p1240/2
+% asserting p1247/2
+% asserting p1252/2
+% asserting p1264/2
+% asserting p1270/2
+% asserting p1278/2
+% asserting p1287/2
+% asserting p1288/2
+% asserting p1297_1/2
+% asserting p1297/2
+% asserting p1306/2
+% asserting p1308/2
+% asserting p1311/2
+% asserting p1313/2
+% asserting p1315_1/2
+% asserting p1315/2
+% asserting p1319/2
+% asserting p1326/2
+% asserting p1338/2
+% asserting p1339/2
+% asserting p1343_1/2
+% asserting p1343/2
+% asserting p1355/2
+% asserting p1367/2
+% asserting p1384_1/2
+% asserting p1384/2
+% asserting p1393/2
+% asserting p1403/2
+% asserting p1404/2
+% asserting p1419_1/2
+% asserting p1419/2
+% asserting p1423/2
+% asserting p1429_1/2
+% asserting p1429/2
+% asserting p1430/2
+% asserting p1431/2
+% asserting p1434/2
+% asserting p1439/2
+% asserting p1445/2
+% asserting p1451/2
+% asserting p1474/2
+% asserting p1481_1/2
+% asserting p1481/2
+% asserting p1492/2
+% asserting p1519/2
+% asserting p1520/2
+% asserting p1522/2
+% asserting p1523/2
+% asserting p1526/2
+% asserting p1528/2
+% asserting p1530_1/2
+% asserting p1530/2
+% asserting p1538/2
+% asserting p1547/2
+% asserting p1558/2
+% asserting p1566/2
+% asserting p1573/2
+% asserting p1574/2
+% asserting p1575/2
+% asserting p1583/2
+% asserting p1584/2
+% asserting p1585/2
+% asserting p1590_1/2
+% asserting p1590/2
+% asserting p1600/2
+% asserting p1602_1/2
+% asserting p1602/2
+% asserting p1605_1/2
+% asserting p1605/2
+% asserting p1608/2
+% asserting p1613_1/2
+% asserting p1613/2
+% asserting p1618/2
+% asserting p1631/2
+% asserting p1633/2
+% asserting p1640/2
+% asserting p1643/2
+% asserting p1649/2
+% asserting p1657/2
+% asserting p1667/2
+% asserting p1670/2
+% asserting p1671_1/2
+% asserting p1671/2
+% asserting p1675/2
+% asserting p1683/2
+% asserting p1693/2
+% asserting p1695/2
+% asserting p1700/2
+% asserting p1703/2
+% asserting p1716/2
+% asserting p1717/2
+% asserting p1728_1/2
+% asserting p1728/2
+% asserting p1729/2
+% asserting p1731/2
+% asserting p1734/2
+% asserting p1743_1/2
+% asserting p1743/2
+% asserting p1746/2
+% asserting p1750/2
+% asserting p1751_1/2
+% asserting p1751/2
+% asserting p1755/2
+% asserting p1759_1/2
+% asserting p1759/2
+% asserting p1769/2
+% asserting p1784/2
+% asserting p1788/2
+% asserting p1792/2
+% asserting p1793/2
+% asserting p1799/2
+% asserting p1801/2
+% asserting p1802/2
+% asserting p1805/2
+% asserting p1816/2
+% asserting p1817/2
+% asserting p1824/2
+% asserting p1829/2
+% asserting p1839/2
+% asserting p1841/2
+% asserting p1846/2
+% asserting p1859/2
+% asserting p1866/2
+% asserting p1868/2
+% asserting p1875/2
+% asserting p1879/2
+% asserting p1882/2
+% asserting p1893/2
+% asserting p1904/2
+% asserting p1905/2
+% asserting p1912/2
+% asserting p1919/2
+% asserting p1921/2
+% asserting p1927/2
+% asserting p1929/2
+% asserting p1943/2
+% asserting p1955/2
+% asserting p1959/2
+% asserting p1963/2
+% asserting p1965/2
+% asserting p2005/2
+% asserting p2010/2
+% asserting p2017/2
+% asserting p2020/2
+% asserting p2026/2
+% asserting p2030/2
+% asserting p2033/2
+% asserting p2035/2
+% asserting p2067/2
+% asserting p2070/2
+% asserting p2072/2
+% asserting p2081/2
+% asserting p2082/2
+% asserting p2109/2
+% asserting p2123/2
+% asserting p2124/2
+% asserting p2125/2
+% asserting p2131/2
+% asserting p2140/2
+% asserting p2156/2
+% asserting p2160/2
+% asserting p2161/2
+% asserting p2166/2
+% asserting p2184/2
+% asserting p2189/2
+% asserting p2190/2
+% asserting p2200/2
+% asserting p2202/2
+% asserting p2206/2
+% asserting p2215/2
+% asserting p2229/2
+% asserting p2236/2
+% asserting p2237/2
+% asserting p2238/2
+% asserting p2242/2
+% asserting p2245/2
+% asserting p2252/2
+% asserting p2269/2
+% asserting p2283/2
+% asserting p2286/2
+% asserting p2289/2
+% asserting p2292/2
+% asserting p2293/2
+% asserting p2303/2
+% asserting p2306/2
+% asserting p2314/2
+% asserting p2316/2
+% asserting p2319/2
+% asserting p2320/2
+% asserting p2325/2
+% asserting p2338/2
+% asserting p2342/2
+% asserting p2352/2
+% asserting p2357/2
+% asserting p2358/2
+% asserting p2367/2
+% asserting p2375/2
+% asserting p2380/2
+% asserting p2392/2
+% asserting p2394/2
+% asserting p2411/2
+% asserting p2413/2
+% asserting p2414/2
+% asserting p2417/2
+% asserting p2421/2
+% asserting p2434/2
+% asserting p2437/2
+% asserting p2468/2
+% asserting p2475/2
+% asserting p2476/2
+% asserting p2477/2
+% asserting p2479/2
+% asserting p2483/2
+% asserting p2485/2
+% asserting p2487/2
+% asserting p2493/2
+% asserting p2521_1/2
+% asserting p2521/2
+% asserting p2523/2
+% asserting p2533/2
+% asserting p2544/2
+% asserting p2561/2
+% asserting p2575/2
+% asserting p2585/2
+% asserting p2593/2
+% asserting p2602/2
+% asserting p2611/2
+% asserting p2612/2
+% asserting p2613/2
+% asserting p2616/2
+% asserting p2617/2
+% asserting p2620/2
+% asserting p2621/2
+% asserting p2626/2
+% asserting p2633/2
+% asserting p2635/2
+% asserting p2661/2
+% asserting p2683/2
+% asserting p2685/2
+% asserting p2687/2
+% asserting p2689/2
+% asserting p2706/2
+% asserting p2707/2
+% asserting p2713/2
+% asserting p2716/2
+% asserting p2725/2
+% asserting p2745/2
+% asserting p2758/2
+% asserting p2766/2
+% asserting p2781/2
+% asserting p2783/2
+% asserting p2792/2
+% asserting p2796/2
+% asserting p2800/2
+% asserting p2808/2
+% asserting p2815/2
+% asserting p2819_1/2
+% asserting p2819/2
+% asserting p2829_1/2
+% asserting p2829/2
+% asserting p2830/2
+% asserting p2836/2
+% asserting p2838_1/2
+% asserting p2838/2
+% asserting p2840/2
+% asserting p2849/2
+% asserting p2856_1/2
+% asserting p2856/2
+% asserting p2864/2
+% asserting p2867_1/2
+% asserting p2867/2
+% asserting p2869/2
+% asserting p2878_1/2
+% asserting p2878/2
+% asserting p2884/2
+% asserting p2888/2
+% asserting p2896/2
+% asserting p2899/2
+% asserting p2900/2
+% asserting p2914_1/2
+% asserting p2914/2
+% asserting p2932/2
+% asserting p2934/2
+% asserting p2936/2
+% asserting p2939/2
+% asserting p2942/2
+% asserting p2943_1/2
+% asserting p2943/2
+% asserting p2952/2
+% asserting p2953/2
+% asserting p2960/2
+% asserting p2963/2
+% asserting p2965_1/2
+% asserting p2965/2
+% asserting p2966/2
+% asserting p2970_1/2
+% asserting p2970/2
+% asserting p2980/2
+% asserting p2987_1/2
+% asserting p2987/2
+% asserting p2993/2
+% asserting p2999/2
+% asserting p3000/2
+% asserting p3013/2
+% asserting p3015/2
+% asserting p3021/2
+% asserting p3022/2
+% asserting p3028/2
+% asserting p3035/2
+% asserting p3036/2
+% asserting p3064/2
+% asserting p3078_1/2
+% asserting p3078/2
+% asserting p3082_1/2
+% asserting p3082/2
+% asserting p3088/2
+% asserting p3099/2
+% asserting p3104/2
+% asserting p3106/2
+% asserting p3115/2
+% asserting p3119/2
+% asserting p3120/2
+% asserting p3124/2
+% asserting p3130/2
+% asserting p3138/2
+% asserting p3141/2
+% asserting p3147_1/2
+% asserting p3147/2
+% asserting p3149/2
+% asserting p3154/2
+% asserting p3156/2
+% asserting p3158/2
+% asserting p3161_1/2
+% asserting p3161/2
+% asserting p3165/2
+% asserting p3170/2
+% asserting p3172/2
+% asserting p3183/2
+% asserting p3184/2
+% asserting p3187/2
+% asserting p3195_1/2
+% asserting p3195/2
+% asserting p3196/2
+% asserting p3202/2
+% asserting p3209/2
+% asserting p3218/2
+% asserting p3221/2
+% asserting p3230/2
+% asserting p3235/2
+% asserting p3246/2
+% asserting p3249/2
+% asserting p3250/2
+% asserting p3266/2
+% asserting p3279/2
+% asserting p3281/2
+% asserting p3282/2
+% asserting p3293/2
+% asserting p3295/2
+% asserting p3327/2
+% asserting p3329/2
+% asserting p3331/2
+% asserting p3335/2
+% asserting p3343/2
+% asserting p3348/2
+% asserting p3350/2
+% asserting p3354/2
+% asserting p3361/2
+% asserting p3384/2
+% asserting p3390/2
+% asserting p3399/2
+% asserting p3400/2
+% asserting p3406/2
+% asserting p3409/2
+% asserting p3411/2
+% asserting p3415/2
+% asserting p3420/2
+% asserting p3426/2
+% asserting p3442/2
+% asserting p3446/2
+% asserting p3452/2
+% asserting p3460/2
+% asserting p3462/2
+% asserting p3466/2
+% asserting p3467/2
+% asserting p3470/2
+% asserting p3476/2
+% asserting p3488/2
+% asserting p3489/2
+% asserting p3490/2
+% asserting p3500/2
+% asserting p3511/2
+% asserting p3518/2
+% asserting p3532/2
+% asserting p3543/2
+% asserting p3546/2
+% asserting p3560/2
+% asserting p3568/2
+% asserting p3576/2
+% asserting p3577/2
+% asserting p3584/2
+% asserting p3586/2
+% asserting p3588/2
+% asserting p3591/2
+% asserting p3593/2
+% asserting p3604/2
+% asserting p3607/2
+% asserting p3612/2
+% asserting p3622/2
+% asserting p3626/2
+% asserting p3634/2
+% asserting p3650/2
+% asserting p3661/2
+% asserting p3664/2
+% asserting p3681/2
+% asserting p3688/2
+% asserting p3698/2
+% asserting p3704/2
+% asserting p3706/2
+% asserting p3708/2
+% asserting p3720/2
+% asserting p3721/2
+% asserting p3726/2
+% asserting p3748/2
+% asserting p3756/2
+% asserting p3761/2
+% asserting p3766/2
+% asserting p3770/2
+% asserting p3781/2
+% asserting p3789/2
+% asserting p3791/2
+% asserting p3824/2
+% asserting p3830/2
+% asserting p3853/2
+% asserting p3854/2
+% asserting p3855/2
+% asserting p3869/2
+% asserting p3876/2
+% asserting p3879/2
+% asserting p3883/2
+% asserting p3893/2
+% asserting p3905/2
+% asserting p3908/2
+% asserting p3910/2
+% asserting p3917/2
+% asserting p3923/2
+% asserting p3936/2
+% asserting p3952/2
+% asserting p3957/2
+% asserting p3959/2
+% asserting p3978/2
+% asserting p3984/2
+% asserting p3990/2
+% asserting p3993/2
+% depth 3
+p2(A,B):-p319(A,C),p267(C,B).
+p3(A,B):-right(A,C),p319(C,B).
+p4(A,B):-p319(A,C),p652(C,B).
+p5(A,B):-p267(A,B).
+p6(A,B):-p267(A,B).
+p7(A,B):-p38(A,B).
+p13(A,B):-p33(A,C),p1106(C,B).
+p14(A,B):-place1(A,C),p244(C,B).
+p20(A,B):-p358(A,C),p652(C,B).
+p21(A,B):-p64_1(A,C),p0(C,B).
+p23(A,B):-p267(A,C),p244(C,B).
+p25(A,B):-p64(A,B).
+p26(A,B):-right(A,C),p652(C,B).
+p30(A,B):-p1106(A,B).
+p39(A,B):-p319(A,C),p61(C,B).
+p40(A,B):-p38(A,B).
+p44(A,B):-p38(A,B).
+p57(A,B):-p33(A,C),p921(C,B).
+p58(A,B):-p267(A,C),p187(C,B).
+p59(A,B):-p1106(A,B).
+p60(A,B):-p267(A,B).
+p62(A,B):-p33(A,C),p921(C,B).
+p65(A,B):-p1106(A,B).
+p67(A,B):-p319(A,C),p267(C,B).
+p68(A,B):-place1(A,C),p244(C,B).
+p69(A,B):-p33(A,C),p1106(C,B).
+p71(A,B):-p358(A,C),p64(C,B).
+p72(A,B):-right(A,C),p38(C,B).
+p74(A,B):-right(A,C),p267(C,B).
+p75(A,B):-p38(A,C),p244(C,B).
+p81(A,B):-p319(A,C),p55(C,B).
+p82(A,B):-p267(A,B).
+p88(A,B):-p319(A,C),p8(C,B).
+p89(A,B):-p33(A,C),p64(C,B).
+p90(A,B):-p61(A,C),p38(C,B).
+p91(A,B):-p319(A,C),p267(C,B).
+p94(A,B):-p33(A,C),p64(C,B).
+p95(A,B):-p267(A,C),p652(C,B).
+p96(A,B):-p319(A,C),p8(C,B).
+p99(A,B):-place1(A,C),p1106(C,B).
+p102(A,B):-p0(A,C),p244(C,B).
+p103(A,B):-right(A,C),p2867(C,B).
+p104(A,B):-p8(A,C),p55(C,B).
+p107(A,B):-place1(A,C),p64(C,B).
+p108(A,B):-p38(A,B).
+p111(A,B):-p38(A,B).
+p112(A,B):-p8(A,C),p267(C,B).
+p119(A,B):-p8(A,C),p267(C,B).
+p125(A,B):-p15(A,C),p38(C,B).
+p127(A,B):-p319(A,C),p15(C,B).
+p128(A,B):-p358(A,C),p652(C,B).
+p132(A,B):-place1(A,C),p64(C,B).
+p133(A,B):-p267(A,B).
+p135(A,B):-p319(A,C),p267(C,B).
+p136(A,B):-p0(A,C),p244(C,B).
+p142(A,B):-p33(A,C),p244(C,B).
+p145(A,B):-p8(A,C),p55(C,B).
+p148(A,B):-p319(A,C),p15(C,B).
+p149(A,B):-p267(A,C),p64(C,B).
+p153(A,B):-p8(A,C),p244(C,B).
+p155(A,B):-p8(A,C),p55(C,B).
+p156(A,B):-p319(A,C),p0(C,B).
+p159(A,B):-p38(A,B).
+p160(A,B):-p8(A,C),p0(C,B).
+p162(A,B):-p244(A,B).
+p163(A,B):-p319(A,C),p38(C,B).
+p164(A,B):-p319(A,C),p38(C,B).
+p166(A,B):-p8(A,C),p244(C,B).
+p169(A,B):-p84(A,C),p319(C,B).
+p170(A,B):-p267(A,B).
+p175(A,B):-p358(A,C),p652(C,B).
+p178(A,B):-p38(A,B).
+p180(A,B):-p38(A,B).
+p182(A,B):-p267(A,B).
+p186(A,B):-p15(A,C),p0(C,B).
+p188(A,B):-p358(A,C),p64(C,B).
+p189(A,B):-p319(A,C),p38(C,B).
+p191(A,B):-p33(A,C),p1106(C,B).
+p193(A,B):-p8(A,C),p652(C,B).
+p199(A,B):-p1106(A,B).
+p201(A,B):-p319(A,C),p38(C,B).
+p202(A,B):-p187(A,B).
+p204(A,B):-p319(A,C),p8(C,B).
+p205(A,B):-p319(A,C),p64_1(C,B).
+p209(A,B):-p33(A,C),p1106(C,B).
+p212(A,B):-p267(A,B).
+p213(A,B):-p8(A,C),p55(C,B).
+p215(A,B):-p267(A,B).
+p222(A,B):-place1(A,C),p244(C,B).
+p225(A,B):-p358(A,C),p921(C,B).
+p231(A,B):-right(A,C),p244(C,B).
+p232(A,B):-right(A,C),p319(C,B).
+p234(A,B):-p33(A,C),p1106(C,B).
+p236(A,B):-place1(A,C),p267(C,B).
+p237(A,B):-p319(A,C),p244(C,B).
+p238(A,B):-p33(A,C),p652(C,B).
+p239(A,B):-p652(A,B).
+p240(A,B):-p319(A,C),p55(C,B).
+p241(A,B):-p921(A,C),p2867(C,B).
+p242(A,B):-right(A,C),p38(C,B).
+p243(A,B):-p8(A,C),p244(C,B).
+p245(A,B):-place1(A,C),p652(C,B).
+p254(A,B):-p358(A,C),p921(C,B).
+p256(A,B):-p15(A,C),p38(C,B).
+p257(A,B):-p267(A,C),p244(C,B).
+p259(A,B):-p15(A,C),p267(C,B).
+p260(A,B):-p8(A,C),p0(C,B).
+p261(A,B):-right(A,C),p187(C,B).
+p262(A,B):-p38(A,C),p267(C,B).
+p268(A,B):-right(A,C),p38(C,B).
+p269(A,B):-p0(A,C),p652(C,B).
+p272(A,B):-p8(A,C),p8(C,B).
+p274(A,B):-p319(A,C),p267(C,B).
+p275(A,B):-p319(A,C),p267(C,B).
+p276(A,B):-p2306(A,C),p1106(C,B).
+p277(A,B):-p33(A,C),p1106(C,B).
+p281(A,B):-p267(A,B).
+p282(A,B):-p8(A,C),p55(C,B).
+p286(A,B):-p33(A,C),p244(C,B).
+p288(A,B):-p8(A,C),p1106(C,B).
+p292(A,B):-p8(A,C),p244(C,B).
+p293(A,B):-right(A,C),p244(C,B).
+p297(A,B):-p0(A,C),p244(C,B).
+p301(A,B):-p244(A,B).
+p302(A,B):-place1(A,C),p921(C,B).
+p304(A,B):-p38(A,B).
+p306(A,B):-p8(A,C),p244(C,B).
+p313(A,B):-p8(A,C),p244(C,B).
+p315(A,B):-p267(A,B).
+p317(A,B):-p0(A,C),p244(C,B).
+p323(A,B):-p319(A,C),p55(C,B).
+p324(A,B):-p15(A,C),p55(C,B).
+p333(A,B):-p319(A,C),p267(C,B).
+p334(A,B):-p8(A,C),p0(C,B).
+p337(A,B):-p1106(A,C),p2867(C,B).
+p344(A,B):-right(A,C),p319(C,B).
+p345(A,B):-p38(A,B).
+p351(A,B):-p652(A,B).
+p353(A,B):-p84(A,C),p921(C,B).
+p354(A,B):-p64(A,C),p8(C,B).
+p356(A,B):-p8(A,C),p38(C,B).
+p363(A,B):-p33(A,C),p921(C,B).
+p367(A,B):-p1106(A,B).
+p368(A,B):-p33(A,C),p187(C,B).
+p369(A,B):-p267(A,B).
+p371(A,B):-p15(A,C),p267(C,B).
+p372(A,B):-p84(A,C),p319(C,B).
+p374(A,B):-p38(A,B).
+p375(A,B):-p61(A,C),p2867(C,B).
+p380(A,B):-p319(A,C),p267(C,B).
+p381(A,B):-p33(A,C),p187(C,B).
+p383(A,B):-p38(A,C),p652(C,B).
+p387(A,B):-p15(A,C),p64_1(C,B).
+p388(A,B):-p8(A,C),p64_1(C,B).
+p389(A,B):-p267(A,C),p244(C,B).
+p391(A,B):-p1106(A,B).
+p394(A,B):-p0(A,C),p244(C,B).
+p396(A,B):-p15(A,C),p38(C,B).
+p399(A,B):-p64(A,B).
+p401(A,B):-place1(A,C),p64(C,B).
+p402(A,B):-p8(A,C),p244(C,B).
+p403(A,B):-p33(A,C),p244(C,B).
+p404(A,B):-place1(A,C),p921(C,B).
+p405(A,B):-p33(A,C),p652(C,B).
+p407(A,B):-p64(A,B).
+p408(A,B):-p8(A,C),p38(C,B).
+p413(A,B):-p84(A,C),p244(C,B).
+p423(A,B):-p319(A,C),p8(C,B).
+p425(A,B):-p8(A,C),p61(C,B).
+p430(A,B):-p84(A,C),p2867(C,B).
+p435(A,B):-p8(A,C),p8(C,B).
+p438(A,B):-p38(A,B).
+p439(A,B):-p33(A,C),p652(C,B).
+p440(A,B):-place1(A,C),p187(C,B).
+p442(A,B):-p64_1(A,C),p55(C,B).
+p443(A,B):-right(A,C),p38(C,B).
+p445(A,B):-p267(A,B).
+p448(A,B):-p64(A,B).
+p451(A,B):-p15(A,C),p38(C,B).
+p454(A,B):-p15(A,C),p38(C,B).
+p455(A,B):-p652(A,B).
+p464(A,B):-place1(A,C),p652(C,B).
+p465(A,B):-p33(A,C),p652(C,B).
+p466(A,B):-p267(A,B).
+p470(A,B):-right(A,C),p244(C,B).
+p471(A,B):-p38(A,B).
+p473(A,B):-p38(A,B).
+p475(A,B):-p33(A,C),p652(C,B).
+p476(A,B):-p33(A,C),p187(C,B).
+p478(A,B):-right(A,C),p38(C,B).
+p481(A,B):-p187(A,B).
+p485(A,B):-p319(A,C),p652(C,B).
+p489(A,B):-p0(A,C),p2867(C,B).
+p493(A,B):-p15(A,C),p64_1(C,B).
+p496(A,B):-place1(A,C),p267(C,B).
+p497(A,B):-p84(A,C),p267(C,B).
+p498(A,B):-p33(A,C),p1106(C,B).
+p499(A,B):-p15(A,C),p267(C,B).
+p500(A,B):-p267(A,B).
+p501(A,B):-p319(A,C),p15(C,B).
+p507(A,B):-p0(A,C),p244(C,B).
+p508(A,B):-p319(A,C),p55(C,B).
+p514(A,B):-p267(A,B).
+p515(A,B):-p84(A,C),p921(C,B).
+p520(A,B):-p358(A,C),p652(C,B).
+p526(A,B):-p267(A,B).
+p527(A,B):-p84(A,C),p244(C,B).
+p529(A,B):-place1(A,C),p921(C,B).
+p531(A,B):-p319(A,C),p358(C,B).
+p532(A,B):-p15(A,C),p55(C,B).
+p534(A,B):-p319(A,C),p267(C,B).
+p535(A,B):-p38(A,B).
+p541(A,B):-p8(A,C),p0(C,B).
+p542(A,B):-place1(A,C),p244(C,B).
+p545(A,B):-p319(A,C),p244(C,B).
+p546(A,B):-place1(A,C),p267(C,B).
+p547(A,B):-p84(A,C),p244(C,B).
+p549(A,B):-p33(A,C),p1106(C,B).
+p557(A,B):-place1(A,C),p1106(C,B).
+p558(A,B):-p84(A,C),p244(C,B).
+p562(A,B):-p33(A,C),p652(C,B).
+p564(A,B):-p33(A,C),p921(C,B).
+p568(A,B):-p33(A,C),p652(C,B).
+p574(A,B):-right(A,C),p38(C,B).
+p577(A,B):-p267(A,B).
+p579(A,B):-p38(A,B).
+p581(A,B):-p319(A,C),p55(C,B).
+p582(A,B):-p319(A,C),p0(C,B).
+p583(A,B):-p267(A,B).
+p585(A,B):-right(A,C),p244(C,B).
+p587(A,B):-place1(A,C),p187(C,B).
+p588(A,B):-p15(A,C),p55(C,B).
+p589(A,B):-p8(A,C),p319(C,B).
+p590(A,B):-right(A,C),p319(C,B).
+p591(A,B):-p84(A,C),p267(C,B).
+p595(A,B):-p319(A,C),p0(C,B).
+p596(A,B):-p267(A,B).
+p597(A,B):-p267(A,B).
+p598(A,B):-p319(A,C),p1106(C,B).
+p610(A,B):-p358(A,C),p64(C,B).
+p611(A,B):-p33(A,C),p921(C,B).
+p613(A,B):-p33(A,C),p652(C,B).
+p620(A,B):-p61(A,C),p244(C,B).
+p622(A,B):-p15(A,C),p38(C,B).
+p626(A,B):-p15(A,C),p267(C,B).
+p630(A,B):-p267(A,B).
+p631(A,B):-p64(A,C),p8(C,B).
+p632(A,B):-p84(A,C),p267(C,B).
+p633(A,B):-right(A,C),p38(C,B).
+p635(A,B):-p33(A,C),p921(C,B).
+p636(A,B):-right(A,C),p244(C,B).
+p637(A,B):-p15(A,C),p8(C,B).
+p640(A,B):-p319(A,B).
+p642(A,B):-place1(A,C),p1106(C,B).
+p644(A,B):-p267(A,B).
+p646(A,B):-p1106(A,B).
+p649(A,B):-p1106(A,B).
+p651(A,B):-p319(A,C),p0(C,B).
+p653(A,B):-place1(A,C),p267(C,B).
+p655(A,B):-p244(A,C),p244(C,B).
+p657(A,B):-p84(A,C),p244(C,B).
+p659(A,B):-p0(A,C),p244(C,B).
+p660(A,B):-right(A,C),p2867(C,B).
+p661(A,B):-p267(A,C),p921(C,B).
+p662(A,B):-p33(A,C),p921(C,B).
+p663(A,B):-p15(A,C),p64(C,B).
+p664(A,B):-p15(A,C),p0(C,B).
+p666(A,B):-p267(A,B).
+p667(A,B):-place1(A,C),p64(C,B).
+p669(A,B):-p8(A,C),p267(C,B).
+p670(A,B):-p38(A,B).
+p671(A,B):-p33(A,C),p1106(C,B).
+p672(A,B):-p33(A,C),p652(C,B).
+p673(A,B):-p319(A,C),p244(C,B).
+p674(A,B):-p15(A,C),p267(C,B).
+p679(A,B):-p267(A,B).
+p680(A,B):-p319(A,C),p0(C,B).
+p684(A,B):-p8(A,C),p38(C,B).
+p689(A,B):-p319(A,C),p267(C,B).
+p690(A,B):-p319(A,C),p55(C,B).
+p700(A,B):-p267(A,B).
+p702(A,B):-p652(A,C),p244(C,B).
+p703(A,B):-place1(A,C),p921(C,B).
+p704(A,B):-p38(A,B).
+p705(A,B):-p8(A,C),p8(C,B).
+p709(A,B):-p38(A,B).
+p710(A,B):-p38(A,B).
+p711(A,B):-p358(A,C),p244(C,B).
+p713(A,B):-p15(A,C),p38(C,B).
+p719(A,B):-p15(A,C),p8(C,B).
+p722(A,B):-p15(A,C),p55(C,B).
+p724(A,B):-p1106(A,C),p2867(C,B).
+p727(A,B):-p187(A,C),p8(C,B).
+p728(A,B):-p38(A,B).
+p729(A,B):-p1106(A,C),p2867(C,B).
+p730(A,B):-p84(A,C),p319(C,B).
+p731(A,B):-place1(A,C),p652(C,B).
+p733(A,B):-p319(A,C),p15(C,B).
+p734(A,B):-p1106(A,B).
+p741(A,B):-p38(A,B).
+p743(A,B):-p0(A,C),p244(C,B).
+p744(A,B):-p319(A,C),p8(C,B).
+p745(A,B):-p33(A,C),p244(C,B).
+p746(A,B):-p38(A,C),p244(C,B).
+p750(A,B):-p8(A,C),p2867(C,B).
+p754(A,B):-p8(A,C),p8(C,B).
+p758(A,B):-p8(A,C),p8(C,B).
+p759(A,B):-p55(A,C),p652(C,B).
+p760(A,B):-p33(A,C),p921(C,B).
+p762(A,B):-p33(A,C),p921(C,B).
+p769(A,B):-p33(A,C),p1106(C,B).
+p772(A,B):-p33(A,C),p921(C,B).
+p777(A,B):-p15(A,C),p55(C,B).
+p780(A,B):-p358(A,C),p652(C,B).
+p782(A,B):-p358(A,C),p921(C,B).
+p784(A,B):-p358(A,C),p921(C,B).
+p785(A,B):-p319(A,C),p267(C,B).
+p787(A,B):-p0(A,C),p244(C,B).
+p788(A,B):-p8(A,C),p267(C,B).
+p790(A,B):-p358(A,C),p921(C,B).
+p796(A,B):-p15(A,C),p0(C,B).
+p798(A,B):-p319(A,C),p64(C,B).
+p799(A,B):-place1(A,C),p267(C,B).
+p800(A,B):-place1(A,C),p921(C,B).
+p802(A,B):-place1(A,C),p267(C,B).
+p803(A,B):-p8(A,C),p244(C,B).
+p807(A,B):-p267(A,B).
+p812(A,B):-p358(A,C),p652(C,B).
+p814(A,B):-p38(A,B).
+p815(A,B):-right(A,C),p652(C,B).
+p825(A,B):-p38(A,B).
+p832(A,B):-p319(A,C),p64(C,B).
+p833(A,B):-p267(A,B).
+p834(A,B):-p33(A,C),p187(C,B).
+p836(A,B):-p319(A,C),p55(C,B).
+p837(A,B):-p64_1(A,C),p267(C,B).
+p838(A,B):-p187(A,C),p244(C,B).
+p842(A,B):-p319(A,C),p244(C,B).
+p843(A,B):-p319(A,C),p55(C,B).
+p844(A,B):-p8(A,C),p267(C,B).
+p849(A,B):-place1(A,C),p244(C,B).
+p851(A,B):-p64(A,C),p8(C,B).
+p856(A,B):-right(A,C),p267(C,B).
+p861(A,B):-p244(A,C),p244(C,B).
+p863(A,B):-p244(A,C),p2867(C,B).
+p870(A,B):-p55(A,C),p1106(C,B).
+p872(A,B):-p38(A,B).
+p873(A,B):-p33(A,C),p244(C,B).
+p874(A,B):-p38(A,B).
+p875(A,B):-p33(A,C),p267(C,B).
+p880(A,B):-p267(A,B).
+p881(A,B):-place1(A,C),p1106(C,B).
+p883(A,B):-p1106(A,B).
+p887(A,B):-place1(A,C),p652(C,B).
+p888(A,B):-p15(A,C),p267(C,B).
+p890(A,B):-p652(A,B).
+p895(A,B):-p38(A,C),p244(C,B).
+p899(A,B):-p187(A,C),p38(C,B).
+p901(A,B):-p84(A,C),p64(C,B).
+p904(A,B):-p1106(A,C),p319(C,B).
+p905(A,B):-p38(A,C),p64(C,B).
+p906(A,B):-p319(A,C),p267(C,B).
+p908(A,B):-p187(A,C),p319(C,B).
+p909(A,B):-p33(A,C),p244(C,B).
+p910(A,B):-p84(A,C),p652(C,B).
+p911(A,B):-p84(A,C),p244(C,B).
+p912(A,B):-place1(A,C),p187(C,B).
+p913(A,B):-p33(A,C),p64(C,B).
+p916(A,B):-p8(A,C),p55(C,B).
+p917(A,B):-place1(A,C),p921(C,B).
+p918(A,B):-p8(A,C),p652(C,B).
+p919(A,B):-p267(A,B).
+p920(A,B):-place1(A,C),p244(C,B).
+p922(A,B):-p267(A,B).
+p923(A,B):-p921(A,B).
+p926(A,B):-right(A,C),p1106(C,B).
+p929(A,B):-p267(A,B).
+p933(A,B):-p267(A,B).
+p937(A,B):-p15(A,C),p0(C,B).
+p938(A,B):-p358(A,C),p921(C,B).
+p939(A,B):-p15(A,C),p187(C,B).
+p942(A,B):-place1(A,C),p267(C,B).
+p943(A,B):-p921(A,B).
+p944(A,B):-place1(A,C),p244(C,B).
+p948(A,B):-p64(A,C),p55(C,B).
+p949(A,B):-p358(A,C),p921(C,B).
+p950(A,B):-p8(A,C),p921(C,B).
+p951(A,B):-p244(A,B).
+p953(A,B):-p8(A,C),p244(C,B).
+p957(A,B):-p15(A,C),p38(C,B).
+p961(A,B):-p33(A,C),p1106(C,B).
+p966(A,B):-p267(A,B).
+p967(A,B):-p84(A,C),p921(C,B).
+p969(A,B):-p319(A,C),p267(C,B).
+p971(A,B):-p15(A,C),p0(C,B).
+p973(A,B):-p187(A,B).
+p974(A,B):-p8(A,C),p244(C,B).
+p975(A,B):-p319(A,C),p0(C,B).
+p979(A,B):-p33(A,C),p1106(C,B).
+p980(A,B):-p33(A,C),p187(C,B).
+p984(A,B):-p267(A,C),p244(C,B).
+p985(A,B):-p267(A,B).
+p988(A,B):-p267(A,B).
+p989(A,B):-p61(A,C),p319(C,B).
+p992(A,B):-p33(A,C),p244(C,B).
+p993(A,B):-p38(A,B).
+p994(A,B):-right(A,C),p921(C,B).
+p1001(A,B):-right(A,C),p64(C,B).
+p1003(A,B):-right(A,C),p267(C,B).
+p1004(A,B):-place1(A,C),p267(C,B).
+p1005(A,B):-p38(A,B).
+p1007(A,B):-p38(A,B).
+p1011(A,B):-p33(A,C),p1106(C,B).
+p1014(A,B):-p33(A,C),p64(C,B).
+p1016(A,B):-place1(A,C),p652(C,B).
+p1018(A,B):-p64_1(A,C),p0(C,B).
+p1021(A,B):-p319(A,C),p55(C,B).
+p1022(A,B):-p319(A,C),p267(C,B).
+p1023(A,B):-p267(A,B).
+p1024(A,B):-p8(A,C),p244(C,B).
+p1027(A,B):-p187(A,C),p2867(C,B).
+p1028(A,B):-place1(A,C),p921(C,B).
+p1031(A,B):-p38(A,B).
+p1035(A,B):-p33(A,C),p921(C,B).
+p1039(A,B):-p319(A,C),p55(C,B).
+p1041(A,B):-p15(A,C),p55(C,B).
+p1042(A,B):-p267(A,C),p244(C,B).
+p1044(A,B):-p8(A,C),p244(C,B).
+p1045(A,B):-p319(A,B).
+p1049(A,B):-p267(A,B).
+p1051(A,B):-place1(A,C),p244(C,B).
+p1053(A,B):-p15(A,C),p55(C,B).
+p1055(A,B):-p15(A,C),p8(C,B).
+p1064(A,B):-p8(A,C),p0(C,B).
+p1065(A,B):-place1(A,C),p64(C,B).
+p1068(A,B):-p358(A,C),p652(C,B).
+p1070(A,B):-right(A,C),p319(C,B).
+p1071(A,B):-right(A,C),p2867(C,B).
+p1072(A,B):-p319(A,C),p64_1(C,B).
+p1074(A,B):-p33(A,C),p1106(C,B).
+p1076(A,B):-place1(A,C),p187(C,B).
+p1077(A,B):-p319(A,C),p55(C,B).
+p1080(A,B):-p15(A,C),p0(C,B).
+p1081(A,B):-place1(A,C),p267(C,B).
+p1089(A,B):-p8(A,C),p244(C,B).
+p1090(A,B):-p267(A,B).
+p1092(A,B):-p33(A,C),p187(C,B).
+p1095(A,B):-place1(A,C),p244(C,B).
+p1096(A,B):-p8(A,C),p244(C,B).
+p1098(A,B):-right(A,C),p319(C,B).
+p1099(A,B):-p84(A,C),p244(C,B).
+p1104(A,B):-place1(A,C),p267(C,B).
+p1105(A,B):-p33(A,C),p244(C,B).
+p1108(A,B):-right(A,C),p319(C,B).
+p1111(A,B):-p33(A,C),p921(C,B).
+p1113(A,B):-p0(A,C),p64(C,B).
+p1114(A,B):-p267(A,B).
+p1115(A,B):-p38(A,B).
+p1117(A,B):-p55(A,C),p64(C,B).
+p1118(A,B):-p84(A,C),p267(C,B).
+p1120(A,B):-p38(A,B).
+p1124(A,B):-p187(A,B).
+p1125(A,B):-p15(A,C),p8(C,B).
+p1127(A,B):-place1(A,C),p652(C,B).
+p1129(A,B):-p38(A,B).
+p1130(A,B):-p187(A,B).
+p1133(A,B):-p38(A,B).
+p1134(A,B):-p38(A,B).
+p1138(A,B):-p8(A,C),p55(C,B).
+p1146(A,B):-p8(A,C),p0(C,B).
+p1147(A,B):-p8(A,C),p0(C,B).
+p1152(A,B):-p55(A,C),p2867(C,B).
+p1153(A,B):-p319(A,C),p8(C,B).
+p1156(A,B):-p358(A,C),p652(C,B).
+p1159(A,B):-p15(A,C),p187(C,B).
+p1161(A,B):-p15(A,C),p267(C,B).
+p1162(A,B):-p33(A,C),p652(C,B).
+p1169(A,B):-p8(A,C),p267(C,B).
+p1170(A,B):-p358(A,C),p921(C,B).
+p1173(A,B):-p15(A,C),p244(C,B).
+p1176(A,B):-p319(A,B).
+p1179(A,B):-p8(A,C),p55(C,B).
+p1182(A,B):-right(A,C),p319(C,B).
+p1183(A,B):-p15(A,C),p38(C,B).
+p1186(A,B):-p0(A,C),p244(C,B).
+p1187(A,B):-p319(A,C),p55(C,B).
+p1191(A,B):-place1(A,C),p64(C,B).
+p1192(A,B):-place1(A,C),p652(C,B).
+p1194(A,B):-p15(A,C),p64_1(C,B).
+p1195(A,B):-p15(A,C),p55(C,B).
+p1196(A,B):-place1(A,C),p244(C,B).
+p1201(A,B):-p15(A,C),p38(C,B).
+p1202(A,B):-p15(A,C),p38(C,B).
+p1203(A,B):-p38(A,B).
+p1205(A,B):-p358(A,C),p921(C,B).
+p1206(A,B):-p1106(A,B).
+p1207(A,B):-place1(A,C),p921(C,B).
+p1209(A,B):-p319(A,C),p55(C,B).
+p1210(A,B):-p319(A,B).
+p1211(A,B):-p84(A,C),p267(C,B).
+p1216(A,B):-place1(A,C),p64(C,B).
+p1221(A,B):-p33(A,C),p1106(C,B).
+p1224(A,B):-place1(A,C),p244(C,B).
+p1226(A,B):-p8(A,C),p0(C,B).
+p1227(A,B):-p84(A,C),p244(C,B).
+p1231(A,B):-p244(A,C),p64(C,B).
+p1235(A,B):-p358(A,C),p921(C,B).
+p1237(A,B):-p358(A,C),p652(C,B).
+p1241(A,B):-p319(A,C),p8(C,B).
+p1244(A,B):-p1106(A,C),p38(C,B).
+p1245(A,B):-p8(A,C),p38(C,B).
+p1248(A,B):-p38(A,B).
+p1251(A,B):-p38(A,B).
+p1254(A,B):-p15(A,C),p8(C,B).
+p1256(A,B):-right(A,C),p38(C,B).
+p1258(A,B):-p319(A,C),p0(C,B).
+p1259(A,B):-p319(A,C),p8(C,B).
+p1261(A,B):-p8(A,C),p8(C,B).
+p1262(A,B):-p358(A,C),p652(C,B).
+p1266(A,B):-p33(A,C),p64(C,B).
+p1267(A,B):-place1(A,C),p921(C,B).
+p1268(A,B):-p8(A,C),p0(C,B).
+p1272(A,B):-p319(A,C),p267(C,B).
+p1273(A,B):-p8(A,C),p267(C,B).
+p1274(A,B):-p8(A,C),p187(C,B).
+p1275(A,B):-p61(A,C),p0(C,B).
+p1277(A,B):-p8(A,C),p0(C,B).
+p1280(A,B):-p8(A,C),p652(C,B).
+p1281(A,B):-p319(A,C),p921(C,B).
+p1282(A,B):-p15(A,C),p244(C,B).
+p1284(A,B):-p8(A,C),p8(C,B).
+p1289(A,B):-p15(A,C),p267(C,B).
+p1294(A,B):-place1(A,C),p187(C,B).
+p1296(A,B):-p38(A,B).
+p1298(A,B):-p64_1(A,C),p55(C,B).
+p1299(A,B):-p267(A,C),p64(C,B).
+p1301(A,B):-p319(A,C),p15(C,B).
+p1302(A,B):-p8(A,C),p38(C,B).
+p1303(A,B):-p187(A,C),p84(C,B).
+p1305(A,B):-p267(A,B).
+p1307(A,B):-p244(A,B).
+p1309(A,B):-p38(A,C),p2867(C,B).
+p1310(A,B):-p358(A,C),p244(C,B).
+p1316(A,B):-p33(A,C),p1106(C,B).
+p1317(A,B):-p319(A,C),p267(C,B).
+p1320(A,B):-p319(A,C),p8(C,B).
+p1321(A,B):-p61(A,C),p0(C,B).
+p1322(A,B):-p652(A,C),p244(C,B).
+p1324(A,B):-p84(A,C),p267(C,B).
+p1327(A,B):-p8(A,C),p244(C,B).
+p1332(A,B):-place1(A,C),p267(C,B).
+p1334(A,B):-p38(A,B).
+p1335(A,B):-p267(A,B).
+p1336(A,B):-right(A,C),p38(C,B).
+p1340(A,B):-p187(A,C),p38(C,B).
+p1341(A,B):-place1(A,C),p64(C,B).
+p1342(A,B):-p319(A,C),p55(C,B).
+p1345(A,B):-p267(A,B).
+p1347(A,B):-p652(A,B).
+p1348(A,B):-place1(A,C),p187(C,B).
+p1349(A,B):-p84(A,C),p244(C,B).
+p1350(A,B):-p38(A,C),p244(C,B).
+p1351(A,B):-p319(A,C),p38(C,B).
+p1353(A,B):-p15(A,C),p0(C,B).
+p1362(A,B):-p33(A,C),p921(C,B).
+p1364(A,B):-p267(A,B).
+p1366(A,B):-p15(A,C),p8(C,B).
+p1368(A,B):-p15(A,C),p8(C,B).
+p1370(A,B):-p319(A,B).
+p1373(A,B):-p64(A,C),p55(C,B).
+p1375(A,B):-p15(A,C),p0(C,B).
+p1378(A,B):-p267(A,C),p244(C,B).
+p1380(A,B):-right(A,C),p267(C,B).
+p1382(A,B):-place1(A,C),p64(C,B).
+p1385(A,B):-right(A,C),p187(C,B).
+p1386(A,B):-p652(A,B).
+p1388(A,B):-p8(A,C),p2867(C,B).
+p1389(A,B):-p267(A,B).
+p1390(A,B):-p319(A,C),p267(C,B).
+p1391(A,B):-p61(A,C),p2867(C,B).
+p1392(A,B):-p358(A,C),p652(C,B).
+p1394(A,B):-p319(A,C),p55(C,B).
+p1395(A,B):-p267(A,B).
+p1398(A,B):-p267(A,B).
+p1401(A,B):-place1(A,C),p267(C,B).
+p1402(A,B):-place1(A,C),p64(C,B).
+p1406(A,B):-p921(A,B).
+p1409(A,B):-place1(A,C),p652(C,B).
+p1410(A,B):-right(A,C),p38(C,B).
+p1411(A,B):-p267(A,B).
+p1412(A,B):-p319(A,C),p244(C,B).
+p1415(A,B):-right(A,C),p267(C,B).
+p1417(A,B):-p267(A,B).
+p1418(A,B):-p15(A,C),p8(C,B).
+p1422(A,B):-p267(A,B).
+p1425(A,B):-p267(A,C),p244(C,B).
+p1426(A,B):-p38(A,B).
+p1432(A,B):-p244(A,B).
+p1433(A,B):-p15(A,C),p267(C,B).
+p1438(A,B):-p319(A,C),p244(C,B).
+p1442(A,B):-place1(A,C),p187(C,B).
+p1443(A,B):-p38(A,B).
+p1444(A,B):-p33(A,C),p921(C,B).
+p1446(A,B):-p187(A,C),p38(C,B).
+p1448(A,B):-place1(A,C),p652(C,B).
+p1450(A,B):-right(A,C),p319(C,B).
+p1453(A,B):-p38(A,B).
+p1454(A,B):-p8(A,C),p244(C,B).
+p1455(A,B):-p1106(A,B).
+p1457(A,B):-p267(A,C),p244(C,B).
+p1458(A,B):-p15(A,C),p61(C,B).
+p1460(A,B):-place1(A,C),p921(C,B).
+p1462(A,B):-p84(A,C),p267(C,B).
+p1463(A,B):-p64(A,B).
+p1464(A,B):-p652(A,B).
+p1466(A,B):-p319(A,B).
+p1467(A,B):-p652(A,B).
+p1469(A,B):-p8(A,C),p8(C,B).
+p1473(A,B):-p8(A,C),p319(C,B).
+p1475(A,B):-p244(A,B).
+p1476(A,B):-place1(A,C),p187(C,B).
+p1478(A,B):-p8(A,C),p8(C,B).
+p1479(A,B):-p1106(A,B).
+p1484(A,B):-p358(A,C),p921(C,B).
+p1487(A,B):-p319(A,C),p8(C,B).
+p1488(A,B):-p64(A,B).
+p1490(A,B):-p319(A,C),p55(C,B).
+p1491(A,B):-p319(A,C),p267(C,B).
+p1493(A,B):-right(A,C),p319(C,B).
+p1494(A,B):-p15(A,C),p0(C,B).
+p1495(A,B):-p1106(A,B).
+p1500(A,B):-p64(A,B).
+p1505(A,B):-p84(A,C),p319(C,B).
+p1506(A,B):-p187(A,C),p319(C,B).
+p1512(A,B):-p267(A,B).
+p1513(A,B):-p38(A,C),p267(C,B).
+p1525(A,B):-place1(A,C),p187(C,B).
+p1527(A,B):-place1(A,C),p1106(C,B).
+p1531(A,B):-p267(A,B).
+p1532(A,B):-p8(A,C),p8(C,B).
+p1533(A,B):-right(A,C),p319(C,B).
+p1534(A,B):-right(A,C),p244(C,B).
+p1536(A,B):-p8(A,C),p2867(C,B).
+p1540(A,B):-p33(A,C),p652(C,B).
+p1541(A,B):-p33(A,C),p187(C,B).
+p1542(A,B):-p319(A,C),p267(C,B).
+p1543(A,B):-p84(A,C),p267(C,B).
+p1544(A,B):-p15(A,C),p244(C,B).
+p1545(A,B):-p38(A,B).
+p1546(A,B):-p652(A,B).
+p1554(A,B):-p15(A,C),p0(C,B).
+p1559(A,B):-p33(A,C),p64(C,B).
+p1560(A,B):-p38(A,C),p64(C,B).
+p1561(A,B):-p15(A,C),p267(C,B).
+p1563(A,B):-place1(A,C),p64(C,B).
+p1565(A,B):-p267(A,C),p244(C,B).
+p1567(A,B):-p33(A,C),p64(C,B).
+p1569(A,B):-place1(A,C),p319(C,B).
+p1571(A,B):-p15(A,C),p244(C,B).
+p1572(A,B):-p319(A,C),p8(C,B).
+p1578(A,B):-p319(A,C),p38(C,B).
+p1582(A,B):-p15(A,C),p55(C,B).
+p1586(A,B):-p15(A,C),p8(C,B).
+p1588(A,B):-p38(A,B).
+p1589(A,B):-p38(A,B).
+p1593(A,B):-p267(A,B).
+p1596(A,B):-p267(A,B).
+p1598(A,B):-p187(A,B).
+p1599(A,B):-p319(A,C),p55(C,B).
+p1601(A,B):-p8(A,C),p8(C,B).
+p1603(A,B):-p33(A,C),p921(C,B).
+p1604(A,B):-p33(A,C),p244(C,B).
+p1612(A,B):-p319(A,B).
+p1614(A,B):-right(A,C),p244(C,B).
+p1615(A,B):-p0(A,C),p244(C,B).
+p1617(A,B):-p8(A,C),p64_1(C,B).
+p1619(A,B):-p0(A,C),p244(C,B).
+p1622(A,B):-p8(A,C),p8(C,B).
+p1626(A,B):-p33(A,C),p652(C,B).
+p1628(A,B):-place1(A,C),p267(C,B).
+p1629(A,B):-p267(A,B).
+p1630(A,B):-right(A,C),p267(C,B).
+p1632(A,B):-p267(A,B).
+p1634(A,B):-place1(A,C),p652(C,B).
+p1635(A,B):-p319(A,C),p38(C,B).
+p1637(A,B):-p187(A,B).
+p1638(A,B):-p15(A,C),p38(C,B).
+p1639(A,B):-p61(A,C),p319(C,B).
+p1641(A,B):-p358(A,C),p652(C,B).
+p1645(A,B):-place1(A,C),p64(C,B).
+p1648(A,B):-place1(A,C),p244(C,B).
+p1651(A,B):-p319(A,C),p267(C,B).
+p1653(A,B):-p38(A,B).
+p1654(A,B):-place1(A,C),p652(C,B).
+p1655(A,B):-right(A,C),p244(C,B).
+p1659(A,B):-p33(A,C),p921(C,B).
+p1660(A,B):-p33(A,C),p267(C,B).
+p1662(A,B):-p8(A,C),p64(C,B).
+p1668(A,B):-p319(A,C),p15(C,B).
+p1673(A,B):-p38(A,B).
+p1674(A,B):-place1(A,C),p244(C,B).
+p1679(A,B):-p921(A,B).
+p1682(A,B):-p15(A,C),p0(C,B).
+p1690(A,B):-p15(A,C),p8(C,B).
+p1696(A,B):-place1(A,C),p267(C,B).
+p1701(A,B):-p0(A,C),p244(C,B).
+p1702(A,B):-p8(A,C),p8(C,B).
+p1705(A,B):-p244(A,C),p64(C,B).
+p1706(A,B):-p33(A,C),p244(C,B).
+p1708(A,B):-p319(A,C),p38(C,B).
+p1710(A,B):-p38(A,B).
+p1712(A,B):-p8(A,C),p319(C,B).
+p1713(A,B):-p358(A,C),p652(C,B).
+p1714(A,B):-p15(A,C),p244(C,B).
+p1719(A,B):-p358(A,C),p652(C,B).
+p1722(A,B):-p319(A,C),p38(C,B).
+p1725(A,B):-place1(A,C),p921(C,B).
+p1730(A,B):-p319(A,C),p0(C,B).
+p1733(A,B):-p15(A,C),p8(C,B).
+p1736(A,B):-p15(A,C),p55(C,B).
+p1741(A,B):-p61(A,C),p267(C,B).
+p1742(A,B):-p15(A,C),p55(C,B).
+p1745(A,B):-p187(A,B).
+p1748(A,B):-right(A,C),p319(C,B).
+p1749(A,B):-p0(A,C),p652(C,B).
+p1752(A,B):-p33(A,C),p2867(C,B).
+p1757(A,B):-p358(A,C),p652(C,B).
+p1762(A,B):-p319(A,C),p8(C,B).
+p1764(A,B):-p319(A,C),p38(C,B).
+p1765(A,B):-p319(A,C),p38(C,B).
+p1766(A,B):-place1(A,C),p64(C,B).
+p1768(A,B):-p8(A,C),p267(C,B).
+p1772(A,B):-p38(A,B).
+p1773(A,B):-place1(A,C),p187(C,B).
+p1774(A,B):-right(A,C),p187(C,B).
+p1775(A,B):-p652(A,B).
+p1776(A,B):-p267(A,B).
+p1779(A,B):-p84(A,C),p267(C,B).
+p1781(A,B):-p921(A,B).
+p1782(A,B):-p267(A,B).
+p1787(A,B):-p267(A,B).
+p1790(A,B):-p38(A,B).
+p1794(A,B):-p61(A,C),p2867(C,B).
+p1795(A,B):-place1(A,C),p921(C,B).
+p1798(A,B):-right(A,C),p267(C,B).
+p1804(A,B):-p15(A,C),p55(C,B).
+p1808(A,B):-p33(A,C),p187(C,B).
+p1814(A,B):-p267(A,C),p244(C,B).
+p1815(A,B):-p8(A,C),p8(C,B).
+p1818(A,B):-p8(A,C),p55(C,B).
+p1819(A,B):-p921(A,B).
+p1820(A,B):-p38(A,B).
+p1821(A,B):-p38(A,B).
+p1826(A,B):-p84(A,C),p244(C,B).
+p1830(A,B):-place1(A,C),p921(C,B).
+p1831(A,B):-p1106(A,B).
+p1833(A,B):-p319(A,C),p187(C,B).
+p1835(A,B):-p267(A,B).
+p1836(A,B):-p84(A,C),p267(C,B).
+p1838(A,B):-p8(A,C),p38(C,B).
+p1840(A,B):-p187(A,C),p0(C,B).
+p1842(A,B):-place1(A,C),p921(C,B).
+p1849(A,B):-p15(A,C),p0(C,B).
+p1851(A,B):-place1(A,C),p652(C,B).
+p1852(A,B):-place1(A,C),p267(C,B).
+p1853(A,B):-p267(A,C),p244(C,B).
+p1854(A,B):-p319(A,C),p15(C,B).
+p1855(A,B):-p38(A,B).
+p1857(A,B):-right(A,C),p38(C,B).
+p1858(A,B):-p8(A,C),p38(C,B).
+p1860(A,B):-place1(A,C),p187(C,B).
+p1861(A,B):-right(A,C),p38(C,B).
+p1863(A,B):-p38(A,B).
+p1865(A,B):-p15(A,C),p244(C,B).
+p1867(A,B):-p15(A,C),p0(C,B).
+p1869(A,B):-p267(A,B).
+p1870(A,B):-p38(A,B).
+p1871(A,B):-p38(A,B).
+p1873(A,B):-p319(A,B).
+p1874(A,B):-p319(A,C),p55(C,B).
+p1876(A,B):-p38(A,C),p244(C,B).
+p1880(A,B):-place1(A,C),p267(C,B).
+p1883(A,B):-p38(A,B).
+p1886(A,B):-p15(A,C),p267(C,B).
+p1887(A,B):-p1106(A,B).
+p1888(A,B):-p267(A,B).
+p1889(A,B):-p244(A,C),p187(C,B).
+p1891(A,B):-p38(A,B).
+p1894(A,B):-place1(A,C),p652(C,B).
+p1895(A,B):-p8(A,C),p267(C,B).
+p1896(A,B):-p38(A,B).
+p1901(A,B):-p267(A,B).
+p1903(A,B):-p84(A,C),p267(C,B).
+p1906(A,B):-p319(A,C),p267(C,B).
+p1907(A,B):-p267(A,C),p64(C,B).
+p1909(A,B):-p244(A,C),p652(C,B).
+p1910(A,B):-p15(A,C),p8(C,B).
+p1911(A,B):-p15(A,C),p0(C,B).
+p1916(A,B):-p319(A,C),p55(C,B).
+p1918(A,B):-p8(A,C),p244(C,B).
+p1920(A,B):-p38(A,B).
+p1922(A,B):-p38(A,B).
+p1923(A,B):-p319(A,C),p8(C,B).
+p1925(A,B):-p267(A,C),p64(C,B).
+p1930(A,B):-p267(A,C),p244(C,B).
+p1934(A,B):-right(A,C),p38(C,B).
+p1935(A,B):-p267(A,B).
+p1936(A,B):-p8(A,C),p38(C,B).
+p1937(A,B):-right(A,C),p921(C,B).
+p1938(A,B):-p267(A,B).
+p1939(A,B):-p187(A,B).
+p1940(A,B):-p33(A,C),p267(C,B).
+p1941(A,B):-p61(A,C),p319(C,B).
+p1944(A,B):-p15(A,C),p244(C,B).
+p1946(A,B):-p319(A,C),p0(C,B).
+p1949(A,B):-p187(A,B).
+p1950(A,B):-p15(A,C),p267(C,B).
+p1952(A,B):-p38(A,B).
+p1953(A,B):-p33(A,C),p244(C,B).
+p1956(A,B):-p33(A,C),p244(C,B).
+p1960(A,B):-p8(A,C),p244(C,B).
+p1962(A,B):-p319(A,C),p55(C,B).
+p1964(A,B):-p267(A,B).
+p1966(A,B):-p8(A,C),p61(C,B).
+p1970(A,B):-p8(A,C),p187(C,B).
+p1974(A,B):-p15(A,C),p8(C,B).
+p1975(A,B):-p267(A,B).
+p1977(A,B):-p358(A,C),p652(C,B).
+p1978(A,B):-p15(A,C),p38(C,B).
+p1980(A,B):-place1(A,C),p187(C,B).
+p1982(A,B):-p319(A,C),p267(C,B).
+p1984(A,B):-p38(A,B).
+p1985(A,B):-p33(A,C),p921(C,B).
+p1989(A,B):-place1(A,C),p652(C,B).
+p1991(A,B):-p8(A,C),p55(C,B).
+p1992(A,B):-p38(A,C),p244(C,B).
+p1994(A,B):-p38(A,B).
+p1995(A,B):-p38(A,B).
+p1996(A,B):-p0(A,C),p652(C,B).
+p1998(A,B):-p15(A,C),p0(C,B).
+p1999(A,B):-p84(A,C),p244(C,B).
+p2001(A,B):-p319(A,C),p55(C,B).
+p2002(A,B):-p1106(A,B).
+p2003(A,B):-p267(A,B).
+p2004(A,B):-p15(A,C),p8(C,B).
+p2008(A,B):-p358(A,C),p652(C,B).
+p2009(A,B):-p267(A,C),p244(C,B).
+p2011(A,B):-p8(A,C),p0(C,B).
+p2012(A,B):-p267(A,B).
+p2013(A,B):-p84(A,C),p244(C,B).
+p2015(A,B):-p38(A,B).
+p2018(A,B):-place1(A,C),p64(C,B).
+p2021(A,B):-right(A,C),p267(C,B).
+p2024(A,B):-place1(A,C),p921(C,B).
+p2025(A,B):-p244(A,B).
+p2029(A,B):-right(A,C),p319(C,B).
+p2031(A,B):-p652(A,B).
+p2032(A,B):-p38(A,B).
+p2036(A,B):-p15(A,C),p244(C,B).
+p2037(A,B):-right(A,C),p38(C,B).
+p2039(A,B):-place1(A,C),p267(C,B).
+p2040(A,B):-p61(A,C),p55(C,B).
+p2042(A,B):-p358(A,C),p921(C,B).
+p2043(A,B):-p8(A,C),p244(C,B).
+p2045(A,B):-p358(A,C),p652(C,B).
+p2046(A,B):-p267(A,B).
+p2047(A,B):-p1106(A,B).
+p2053(A,B):-p84(A,C),p267(C,B).
+p2054(A,B):-p84(A,C),p244(C,B).
+p2058(A,B):-p267(A,B).
+p2060(A,B):-p38(A,B).
+p2061(A,B):-p319(A,C),p15(C,B).
+p2066(A,B):-p38(A,B).
+p2068(A,B):-p33(A,C),p64(C,B).
+p2071(A,B):-p187(A,B).
+p2073(A,B):-p921(A,B).
+p2076(A,B):-p319(A,C),p187(C,B).
+p2077(A,B):-p921(A,B).
+p2078(A,B):-p64(A,C),p319(C,B).
+p2079(A,B):-p319(A,C),p55(C,B).
+p2084(A,B):-p0(A,C),p244(C,B).
+p2085(A,B):-p319(A,C),p15(C,B).
+p2086(A,B):-place1(A,C),p921(C,B).
+p2093(A,B):-p84(A,C),p921(C,B).
+p2094(A,B):-p64(A,B).
+p2095(A,B):-p319(A,C),p0(C,B).
+p2096(A,B):-p33(A,C),p187(C,B).
+p2098(A,B):-p33(A,C),p64(C,B).
+p2099(A,B):-p15(A,C),p267(C,B).
+p2100(A,B):-p652(A,B).
+p2101(A,B):-p15(A,C),p38(C,B).
+p2102(A,B):-p38(A,C),p244(C,B).
+p2105(A,B):-p319(A,B).
+p2106(A,B):-p0(A,C),p187(C,B).
+p2107(A,B):-p15(A,C),p0(C,B).
+p2110(A,B):-place1(A,C),p1106(C,B).
+p2112(A,B):-place1(A,C),p652(C,B).
+p2113(A,B):-p38(A,B).
+p2115(A,B):-p921(A,B).
+p2116(A,B):-p38(A,B).
+p2117(A,B):-p319(A,C),p15(C,B).
+p2118(A,B):-p8(A,C),p0(C,B).
+p2120(A,B):-p38(A,B).
+p2122(A,B):-p15(A,C),p8(C,B).
+p2126(A,B):-p33(A,C),p187(C,B).
+p2127(A,B):-p15(A,C),p244(C,B).
+p2128(A,B):-p267(A,B).
+p2133(A,B):-p358(A,C),p921(C,B).
+p2137(A,B):-p319(A,C),p8(C,B).
+p2138(A,B):-place1(A,C),p1106(C,B).
+p2139(A,B):-place1(A,C),p2867(C,B).
+p2141(A,B):-p8(A,C),p8(C,B).
+p2144(A,B):-p8(A,C),p55(C,B).
+p2145(A,B):-p38(A,B).
+p2146(A,B):-p15(A,C),p8(C,B).
+p2147(A,B):-p319(A,C),p1106(C,B).
+p2148(A,B):-p319(A,C),p267(C,B).
+p2149(A,B):-p0(A,C),p244(C,B).
+p2150(A,B):-p15(A,C),p55(C,B).
+p2151(A,B):-p61(A,C),p319(C,B).
+p2152(A,B):-p187(A,C),p15(C,B).
+p2153(A,B):-place1(A,C),p921(C,B).
+p2157(A,B):-p187(A,B).
+p2159(A,B):-p319(A,C),p0(C,B).
+p2163(A,B):-p64(A,C),p244(C,B).
+p2167(A,B):-p358(A,C),p921(C,B).
+p2172(A,B):-p38(A,B).
+p2173(A,B):-place1(A,C),p244(C,B).
+p2175(A,B):-p921(A,B).
+p2176(A,B):-p319(A,C),p55(C,B).
+p2182(A,B):-p38(A,B).
+p2183(A,B):-p8(A,C),p244(C,B).
+p2185(A,B):-p55(A,C),p921(C,B).
+p2186(A,B):-p33(A,C),p921(C,B).
+p2188(A,B):-p319(A,C),p38(C,B).
+p2192(A,B):-p84(A,C),p267(C,B).
+p2193(A,B):-p0(A,C),p244(C,B).
+p2194(A,B):-p38(A,B).
+p2199(A,B):-p33(A,C),p921(C,B).
+p2201(A,B):-p319(A,C),p38(C,B).
+p2204(A,B):-p8(A,C),p64_1(C,B).
+p2207(A,B):-p319(A,C),p8(C,B).
+p2208(A,B):-p15(A,C),p55(C,B).
+p2209(A,B):-p267(A,C),p244(C,B).
+p2211(A,B):-p187(A,B).
+p2212(A,B):-p0(A,C),p244(C,B).
+p2213(A,B):-p38(A,B).
+p2217(A,B):-place1(A,C),p64(C,B).
+p2218(A,B):-p15(A,C),p8(C,B).
+p2220(A,B):-p0(A,C),p267(C,B).
+p2221(A,B):-p8(A,C),p267(C,B).
+p2222(A,B):-place1(A,C),p1106(C,B).
+p2224(A,B):-p267(A,B).
+p2226(A,B):-p8(A,C),p38(C,B).
+p2227(A,B):-p38(A,B).
+p2231(A,B):-p64_1(A,C),p2867(C,B).
+p2234(A,B):-p38(A,B).
+p2235(A,B):-p38(A,B).
+p2240(A,B):-p8(A,C),p55(C,B).
+p2241(A,B):-p33(A,C),p187(C,B).
+p2244(A,B):-p33(A,C),p244(C,B).
+p2247(A,B):-p55(A,C),p2867(C,B).
+p2248(A,B):-p15(A,C),p8(C,B).
+p2249(A,B):-p921(A,B).
+p2250(A,B):-p38(A,B).
+p2256(A,B):-p8(A,C),p8(C,B).
+p2257(A,B):-p33(A,C),p244(C,B).
+p2258(A,B):-p33(A,C),p244(C,B).
+p2260(A,B):-p0(A,C),p187(C,B).
+p2264(A,B):-p8(A,C),p38(C,B).
+p2268(A,B):-p38(A,B).
+p2270(A,B):-p38(A,B).
+p2277(A,B):-p33(A,C),p921(C,B).
+p2278(A,B):-p319(A,C),p38(C,B).
+p2281(A,B):-p921(A,B).
+p2287(A,B):-right(A,C),p244(C,B).
+p2290(A,B):-place1(A,C),p64(C,B).
+p2291(A,B):-p319(A,C),p267(C,B).
+p2295(A,B):-p319(A,C),p358(C,B).
+p2297(A,B):-p267(A,B).
+p2299(A,B):-p267(A,B).
+p2301(A,B):-right(A,C),p267(C,B).
+p2302(A,B):-p33(A,C),p64(C,B).
+p2304(A,B):-p84(A,C),p267(C,B).
+p2307(A,B):-p61(A,C),p38(C,B).
+p2309(A,B):-p267(A,B).
+p2312(A,B):-p2867(A,B).
+p2317(A,B):-p33(A,C),p921(C,B).
+p2318(A,B):-p33(A,C),p1106(C,B).
+p2322(A,B):-right(A,C),p38(C,B).
+p2327(A,B):-place1(A,C),p1106(C,B).
+p2328(A,B):-p8(A,C),p38(C,B).
+p2330(A,B):-p319(A,C),p8(C,B).
+p2332(A,B):-right(A,C),p61(C,B).
+p2333(A,B):-p8(A,C),p64_1(C,B).
+p2335(A,B):-p33(A,C),p1106(C,B).
+p2337(A,B):-p33(A,C),p244(C,B).
+p2343(A,B):-p38(A,B).
+p2344(A,B):-p38(A,B).
+p2346(A,B):-place1(A,C),p1106(C,B).
+p2347(A,B):-p319(A,C),p38(C,B).
+p2348(A,B):-p267(A,B).
+p2350(A,B):-p267(A,B).
+p2351(A,B):-right(A,C),p319(C,B).
+p2353(A,B):-p84(A,C),p244(C,B).
+p2354(A,B):-p8(A,C),p55(C,B).
+p2356(A,B):-p319(A,C),p267(C,B).
+p2361(A,B):-p187(A,C),p267(C,B).
+p2362(A,B):-p244(A,B).
+p2365(A,B):-p15(A,C),p55(C,B).
+p2366(A,B):-p8(A,C),p0(C,B).
+p2369(A,B):-p33(A,C),p187(C,B).
+p2371(A,B):-place1(A,C),p921(C,B).
+p2374(A,B):-p267(A,B).
+p2379(A,B):-p652(A,B).
+p2381(A,B):-p38(A,C),p244(C,B).
+p2382(A,B):-p267(A,B).
+p2386(A,B):-p319(A,C),p8(C,B).
+p2387(A,B):-p8(A,C),p319(C,B).
+p2389(A,B):-p8(A,C),p244(C,B).
+p2390(A,B):-right(A,C),p267(C,B).
+p2391(A,B):-p33(A,C),p652(C,B).
+p2393(A,B):-p319(A,C),p267(C,B).
+p2396(A,B):-p38(A,B).
+p2399(A,B):-p267(A,B).
+p2400(A,B):-p267(A,B).
+p2402(A,B):-p0(A,C),p267(C,B).
+p2403(A,B):-p0(A,C),p652(C,B).
+p2404(A,B):-p38(A,B).
+p2405(A,B):-p33(A,C),p2867(C,B).
+p2408(A,B):-p15(A,C),p55(C,B).
+p2409(A,B):-p2867(A,B).
+p2410(A,B):-place1(A,C),p1106(C,B).
+p2412(A,B):-right(A,C),p319(C,B).
+p2418(A,B):-p33(A,C),p244(C,B).
+p2419(A,B):-p33(A,C),p187(C,B).
+p2422(A,B):-p15(A,C),p319(C,B).
+p2424(A,B):-p8(A,C),p267(C,B).
+p2428(A,B):-p319(A,C),p652(C,B).
+p2430(A,B):-p84(A,C),p652(C,B).
+p2435(A,B):-place1(A,C),p1106(C,B).
+p2436(A,B):-p15(A,C),p38(C,B).
+p2439(A,B):-p1106(A,B).
+p2441(A,B):-p319(A,B).
+p2443(A,B):-place1(A,C),p652(C,B).
+p2445(A,B):-p15(A,C),p0(C,B).
+p2446(A,B):-p15(A,C),p38(C,B).
+p2448(A,B):-p8(A,C),p244(C,B).
+p2449(A,B):-p8(A,C),p244(C,B).
+p2450(A,B):-p319(A,B).
+p2451(A,B):-p187(A,C),p8(C,B).
+p2453(A,B):-p15(A,C),p0(C,B).
+p2455(A,B):-p187(A,C),p2867(C,B).
+p2456(A,B):-p267(A,B).
+p2457(A,B):-p358(A,C),p921(C,B).
+p2461(A,B):-p187(A,C),p319(C,B).
+p2462(A,B):-place1(A,C),p652(C,B).
+p2464(A,B):-p267(A,B).
+p2465(A,B):-p267(A,C),p921(C,B).
+p2469(A,B):-p61(A,C),p267(C,B).
+p2470(A,B):-p33(A,C),p1106(C,B).
+p2471(A,B):-p38(A,B).
+p2482(A,B):-p358(A,C),p921(C,B).
+p2484(A,B):-p38(A,C),p244(C,B).
+p2488(A,B):-p38(A,B).
+p2491(A,B):-p33(A,C),p244(C,B).
+p2492(A,B):-p8(A,C),p8(C,B).
+p2494(A,B):-place1(A,C),p244(C,B).
+p2495(A,B):-p319(A,C),p38(C,B).
+p2496(A,B):-p244(A,B).
+p2497(A,B):-p64(A,C),p2867(C,B).
+p2498(A,B):-p33(A,C),p187(C,B).
+p2499(A,B):-p33(A,C),p1106(C,B).
+p2501(A,B):-p64(A,C),p0(C,B).
+p2502(A,B):-place1(A,C),p244(C,B).
+p2505(A,B):-p38(A,B).
+p2510(A,B):-right(A,C),p244(C,B).
+p2513(A,B):-p8(A,C),p244(C,B).
+p2516(A,B):-p267(A,C),p1106(C,B).
+p2517(A,B):-p8(A,C),p55(C,B).
+p2518(A,B):-p15(A,C),p267(C,B).
+p2519(A,B):-p267(A,B).
+p2522(A,B):-p267(A,B).
+p2528(A,B):-p0(A,C),p2867(C,B).
+p2529(A,B):-p1106(A,B).
+p2535(A,B):-place1(A,C),p244(C,B).
+p2539(A,B):-right(A,C),p244(C,B).
+p2543(A,B):-p38(A,C),p244(C,B).
+p2547(A,B):-p0(A,C),p244(C,B).
+p2548(A,B):-p187(A,C),p244(C,B).
+p2549(A,B):-p267(A,B).
+p2555(A,B):-p8(A,C),p0(C,B).
+p2556(A,B):-p8(A,C),p244(C,B).
+p2559(A,B):-p2306(A,C),p1106(C,B).
+p2560(A,B):-p33(A,C),p64(C,B).
+p2564(A,B):-p1106(A,C),p0(C,B).
+p2565(A,B):-p0(A,C),p267(C,B).
+p2566(A,B):-p2867(A,C),p921(C,B).
+p2568(A,B):-p84(A,C),p267(C,B).
+p2569(A,B):-right(A,C),p267(C,B).
+p2572(A,B):-place1(A,C),p187(C,B).
+p2573(A,B):-p15(A,C),p0(C,B).
+p2576(A,B):-p84(A,C),p267(C,B).
+p2577(A,B):-right(A,C),p244(C,B).
+p2579(A,B):-p15(A,C),p8(C,B).
+p2581(A,B):-p38(A,B).
+p2582(A,B):-place1(A,C),p652(C,B).
+p2584(A,B):-p8(A,C),p0(C,B).
+p2586(A,B):-right(A,C),p38(C,B).
+p2588(A,B):-p319(A,C),p0(C,B).
+p2589(A,B):-p15(A,C),p1106(C,B).
+p2594(A,B):-p1106(A,C),p55(C,B).
+p2596(A,B):-p84(A,C),p267(C,B).
+p2597(A,B):-p38(A,B).
+p2600(A,B):-p2306(A,C),p652(C,B).
+p2604(A,B):-right(A,C),p244(C,B).
+p2605(A,B):-p15(A,C),p38(C,B).
+p2606(A,B):-place1(A,C),p1106(C,B).
+p2609(A,B):-place1(A,C),p244(C,B).
+p2610(A,B):-p358(A,C),p921(C,B).
+p2614(A,B):-p33(A,C),p64(C,B).
+p2618(A,B):-p244(A,B).
+p2625(A,B):-p319(A,C),p0(C,B).
+p2627(A,B):-p267(A,B).
+p2628(A,B):-p319(A,C),p15(C,B).
+p2630(A,B):-place1(A,C),p64(C,B).
+p2634(A,B):-p38(A,B).
+p2638(A,B):-p38(A,C),p244(C,B).
+p2640(A,B):-p33(A,C),p1106(C,B).
+p2646(A,B):-p358(A,C),p652(C,B).
+p2647(A,B):-p319(A,C),p267(C,B).
+p2649(A,B):-p358(A,C),p652(C,B).
+p2650(A,B):-place1(A,C),p652(C,B).
+p2655(A,B):-p38(A,B).
+p2656(A,B):-p267(A,B).
+p2659(A,B):-p64(A,C),p244(C,B).
+p2662(A,B):-p8(A,C),p244(C,B).
+p2668(A,B):-p358(A,C),p921(C,B).
+p2669(A,B):-p15(A,C),p652(C,B).
+p2670(A,B):-right(A,C),p267(C,B).
+p2671(A,B):-place1(A,C),p244(C,B).
+p2672(A,B):-p8(A,C),p244(C,B).
+p2674(A,B):-p38(A,B).
+p2675(A,B):-p358(A,C),p652(C,B).
+p2677(A,B):-p33(A,C),p187(C,B).
+p2680(A,B):-p358(A,C),p652(C,B).
+p2684(A,B):-p319(A,C),p2867(C,B).
+p2686(A,B):-p38(A,B).
+p2688(A,B):-p0(A,C),p244(C,B).
+p2690(A,B):-p2306(A,C),p2867(C,B).
+p2692(A,B):-p38(A,B).
+p2693(A,B):-p64(A,B).
+p2696(A,B):-p8(A,C),p244(C,B).
+p2697(A,B):-p8(A,C),p38(C,B).
+p2698(A,B):-p2306(A,C),p921(C,B).
+p2703(A,B):-place1(A,C),p1106(C,B).
+p2704(A,B):-p38(A,C),p244(C,B).
+p2711(A,B):-p38(A,B).
+p2712(A,B):-p358(A,C),p921(C,B).
+p2714(A,B):-p319(A,C),p15(C,B).
+p2715(A,B):-p267(A,C),p244(C,B).
+p2717(A,B):-p1106(A,B).
+p2718(A,B):-p319(A,C),p267(C,B).
+p2719(A,B):-p38(A,B).
+p2721(A,B):-p8(A,C),p38(C,B).
+p2723(A,B):-p267(A,B).
+p2724(A,B):-p84(A,C),p244(C,B).
+p2726(A,B):-p8(A,C),p0(C,B).
+p2727(A,B):-p244(A,C),p652(C,B).
+p2728(A,B):-p267(A,C),p187(C,B).
+p2729(A,B):-p55(A,C),p652(C,B).
+p2736(A,B):-right(A,C),p244(C,B).
+p2737(A,B):-p33(A,C),p187(C,B).
+p2738(A,B):-p652(A,B).
+p2741(A,B):-p8(A,C),p244(C,B).
+p2748(A,B):-p38(A,B).
+p2749(A,B):-p0(A,C),p64(C,B).
+p2751(A,B):-p33(A,C),p652(C,B).
+p2752(A,B):-p33(A,C),p64(C,B).
+p2753(A,B):-place1(A,C),p187(C,B).
+p2757(A,B):-p244(A,B).
+p2759(A,B):-p8(A,C),p652(C,B).
+p2760(A,B):-p33(A,C),p244(C,B).
+p2764(A,B):-p319(A,B).
+p2768(A,B):-p0(A,C),p652(C,B).
+p2770(A,B):-p319(A,C),p0(C,B).
+p2771(A,B):-p267(A,B).
+p2773(A,B):-p319(A,C),p8(C,B).
+p2774(A,B):-p187(A,C),p244(C,B).
+p2775(A,B):-p0(A,C),p267(C,B).
+p2777(A,B):-p319(A,C),p0(C,B).
+p2779(A,B):-p84(A,C),p244(C,B).
+p2780(A,B):-p319(A,C),p55(C,B).
+p2782(A,B):-p38(A,B).
+p2787(A,B):-p244(A,C),p1106(C,B).
+p2788(A,B):-p267(A,B).
+p2789(A,B):-p267(A,B).
+p2793(A,B):-p8(A,C),p55(C,B).
+p2794(A,B):-p38(A,B).
+p2797(A,B):-place1(A,C),p267(C,B).
+p2799(A,B):-place1(A,C),p652(C,B).
+p2801(A,B):-p8(A,C),p267(C,B).
+p2802(A,B):-p319(A,C),p0(C,B).
+p2803(A,B):-p267(A,C),p244(C,B).
+p2804(A,B):-p64(A,B).
+p2809(A,B):-p319(A,C),p267(C,B).
+p2811(A,B):-p358(A,C),p652(C,B).
+p2812(A,B):-p319(A,B).
+p2820(A,B):-p319(A,B).
+p2823(A,B):-p319(A,C),p8(C,B).
+p2824(A,B):-p319(A,C),p267(C,B).
+p2826(A,B):-p319(A,C),p921(C,B).
+p2827(A,B):-place1(A,C),p921(C,B).
+p2828(A,B):-p8(A,C),p267(C,B).
+p2831(A,B):-p33(A,C),p921(C,B).
+p2833(A,B):-place1(A,C),p652(C,B).
+p2835(A,B):-p15(A,C),p8(C,B).
+p2837(A,B):-p33(A,C),p187(C,B).
+p2845(A,B):-p267(A,C),p244(C,B).
+p2847(A,B):-p8(A,C),p8(C,B).
+p2848(A,B):-p187(A,B).
+p2852(A,B):-p33(A,C),p244(C,B).
+p2853(A,B):-p652(A,B).
+p2854(A,B):-p64_1(A,C),p2867(C,B).
+p2855(A,B):-p33(A,C),p921(C,B).
+p2859(A,B):-p187(A,B).
+p2860(A,B):-p33(A,C),p1106(C,B).
+p2861(A,B):-p1106(A,C),p8(C,B).
+p2862(A,B):-place1(A,C),p267(C,B).
+p2863(A,B):-p8(A,C),p267(C,B).
+p2866(A,B):-p15(A,C),p8(C,B).
+p2870(A,B):-p38(A,B).
+p2871(A,B):-place1(A,C),p187(C,B).
+p2872(A,B):-right(A,C),p38(C,B).
+p2873(A,B):-p8(A,C),p0(C,B).
+p2874(A,B):-p38(A,C),p187(C,B).
+p2881(A,B):-p319(A,C),p0(C,B).
+p2882(A,B):-p319(A,C),p8(C,B).
+p2883(A,B):-p38(A,C),p244(C,B).
+p2885(A,B):-p33(A,C),p64(C,B).
+p2890(A,B):-p8(A,C),p55(C,B).
+p2891(A,B):-p64_1(A,C),p38(C,B).
+p2894(A,B):-p0(A,C),p244(C,B).
+p2895(A,B):-p0(A,C),p244(C,B).
+p2897(A,B):-p244(A,B).
+p2901(A,B):-right(A,C),p38(C,B).
+p2902(A,B):-p15(A,C),p0(C,B).
+p2903(A,B):-p0(A,C),p244(C,B).
+p2905(A,B):-p319(A,C),p55(C,B).
+p2907(A,B):-right(A,C),p319(C,B).
+p2908(A,B):-p38(A,B).
+p2910(A,B):-right(A,C),p267(C,B).
+p2911(A,B):-p64(A,C),p319(C,B).
+p2913(A,B):-place1(A,C),p267(C,B).
+p2915(A,B):-p2306(A,C),p2867(C,B).
+p2916(A,B):-p8(A,C),p38(C,B).
+p2918(A,B):-place1(A,C),p921(C,B).
+p2921(A,B):-p15(A,C),p921(C,B).
+p2923(A,B):-p55(A,C),p652(C,B).
+p2925(A,B):-p187(A,B).
+p2928(A,B):-right(A,C),p319(C,B).
+p2929(A,B):-p64_1(A,C),p8(C,B).
+p2930(A,B):-p38(A,C),p64(C,B).
+p2933(A,B):-p319(A,C),p267(C,B).
+p2937(A,B):-p358(A,C),p244(C,B).
+p2941(A,B):-p267(A,B).
+p2945(A,B):-place1(A,C),p267(C,B).
+p2946(A,B):-p267(A,B).
+p2947(A,B):-p84(A,C),p244(C,B).
+p2948(A,B):-right(A,C),p38(C,B).
+p2950(A,B):-place1(A,C),p921(C,B).
+p2955(A,B):-p319(A,B).
+p2958(A,B):-p8(A,C),p0(C,B).
+p2959(A,B):-p8(A,C),p652(C,B).
+p2962(A,B):-place1(A,C),p1106(C,B).
+p2967(A,B):-place1(A,C),p187(C,B).
+p2968(A,B):-p38(A,C),p2867(C,B).
+p2969(A,B):-p319(A,C),p8(C,B).
+p2972(A,B):-p8(A,C),p8(C,B).
+p2974(A,B):-p319(A,C),p267(C,B).
+p2975(A,B):-p358(A,C),p64(C,B).
+p2977(A,B):-p33(A,C),p64(C,B).
+p2981(A,B):-p0(A,C),p244(C,B).
+p2984(A,B):-p8(A,C),p38(C,B).
+p2986(A,B):-p319(A,C),p0(C,B).
+p2991(A,B):-p55(A,C),p244(C,B).
+p2992(A,B):-p15(A,C),p0(C,B).
+p2994(A,B):-p0(A,C),p921(C,B).
+p2996(A,B):-p15(A,C),p0(C,B).
+p2997(A,B):-place1(A,C),p187(C,B).
+p2998(A,B):-p8(A,C),p38(C,B).
+p3001(A,B):-p15(A,C),p0(C,B).
+p3004(A,B):-p15(A,C),p244(C,B).
+p3005(A,B):-place1(A,C),p244(C,B).
+p3007(A,B):-place1(A,C),p652(C,B).
+p3009(A,B):-p8(A,C),p8(C,B).
+p3010(A,B):-p319(A,C),p319(C,B).
+p3011(A,B):-p38(A,B).
+p3012(A,B):-p84(A,C),p267(C,B).
+p3016(A,B):-p8(A,C),p244(C,B).
+p3017(A,B):-p267(A,B).
+p3023(A,B):-p33(A,C),p64(C,B).
+p3030(A,B):-p8(A,C),p0(C,B).
+p3031(A,B):-place1(A,C),p244(C,B).
+p3033(A,B):-p267(A,C),p244(C,B).
+p3037(A,B):-p319(A,B).
+p3043(A,B):-p319(A,C),p38(C,B).
+p3045(A,B):-p38(A,B).
+p3047(A,B):-p33(A,C),p652(C,B).
+p3048(A,B):-p267(A,B).
+p3049(A,B):-p244(A,C),p921(C,B).
+p3050(A,B):-p1106(A,C),p0(C,B).
+p3052(A,B):-p187(A,B).
+p3055(A,B):-p319(A,C),p64_1(C,B).
+p3056(A,B):-p64(A,B).
+p3057(A,B):-p38(A,C),p187(C,B).
+p3060(A,B):-p319(A,C),p0(C,B).
+p3062(A,B):-p319(A,C),p55(C,B).
+p3065(A,B):-p319(A,C),p267(C,B).
+p3066(A,B):-p319(A,C),p267(C,B).
+p3068(A,B):-right(A,C),p2867(C,B).
+p3069(A,B):-p358(A,C),p64(C,B).
+p3072(A,B):-p38(A,B).
+p3075(A,B):-p2306(A,C),p652(C,B).
+p3076(A,B):-p33(A,C),p1106(C,B).
+p3077(A,B):-p15(A,C),p2867(C,B).
+p3081(A,B):-p319(A,B).
+p3084(A,B):-p38(A,B).
+p3085(A,B):-p244(A,C),p652(C,B).
+p3086(A,B):-place1(A,C),p921(C,B).
+p3087(A,B):-p15(A,C),p244(C,B).
+p3089(A,B):-p8(A,C),p8(C,B).
+p3090(A,B):-p33(A,C),p187(C,B).
+p3096(A,B):-p8(A,C),p244(C,B).
+p3097(A,B):-p64_1(A,C),p2867(C,B).
+p3098(A,B):-p84(A,C),p187(C,B).
+p3100(A,B):-p15(A,C),p0(C,B).
+p3103(A,B):-p15(A,C),p38(C,B).
+p3105(A,B):-p319(A,C),p267(C,B).
+p3107(A,B):-p267(A,B).
+p3109(A,B):-p267(A,B).
+p3110(A,B):-p0(A,C),p244(C,B).
+p3113(A,B):-place1(A,C),p921(C,B).
+p3116(A,B):-p358(A,C),p652(C,B).
+p3118(A,B):-p64(A,B).
+p3121(A,B):-p267(A,C),p244(C,B).
+p3129(A,B):-p64(A,C),p0(C,B).
+p3132(A,B):-p64(A,C),p8(C,B).
+p3133(A,B):-p64_1(A,C),p2867(C,B).
+p3134(A,B):-p319(A,C),p0(C,B).
+p3136(A,B):-p319(A,C),p64_1(C,B).
+p3137(A,B):-place1(A,C),p1106(C,B).
+p3139(A,B):-p267(A,B).
+p3142(A,B):-p267(A,B).
+p3148(A,B):-p319(A,C),p8(C,B).
+p3150(A,B):-place1(A,C),p244(C,B).
+p3152(A,B):-right(A,C),p319(C,B).
+p3157(A,B):-p267(A,B).
+p3160(A,B):-p38(A,C),p921(C,B).
+p3166(A,B):-p84(A,C),p267(C,B).
+p3168(A,B):-p38(A,B).
+p3169(A,B):-p2867(A,C),p652(C,B).
+p3171(A,B):-p64(A,C),p2867(C,B).
+p3175(A,B):-place1(A,C),p244(C,B).
+p3176(A,B):-p267(A,B).
+p3178(A,B):-p2867(A,C),p2867(C,B).
+p3181(A,B):-p267(A,B).
+p3190(A,B):-p187(A,B).
+p3191(A,B):-p319(A,C),p8(C,B).
+p3192(A,B):-place1(A,C),p64(C,B).
+p3193(A,B):-p244(A,B).
+p3194(A,B):-p55(A,C),p64(C,B).
+p3198(A,B):-p33(A,C),p187(C,B).
+p3200(A,B):-p84(A,C),p244(C,B).
+p3201(A,B):-p8(A,C),p921(C,B).
+p3204(A,B):-p33(A,C),p187(C,B).
+p3206(A,B):-p267(A,B).
+p3208(A,B):-p319(A,C),p244(C,B).
+p3211(A,B):-p358(A,C),p652(C,B).
+p3212(A,B):-p267(A,B).
+p3213(A,B):-p319(A,C),p244(C,B).
+p3214(A,B):-p64(A,B).
+p3215(A,B):-p33(A,C),p652(C,B).
+p3216(A,B):-p267(A,B).
+p3217(A,B):-p319(A,C),p15(C,B).
+p3220(A,B):-right(A,C),p1106(C,B).
+p3223(A,B):-p267(A,B).
+p3224(A,B):-place1(A,C),p921(C,B).
+p3227(A,B):-p38(A,B).
+p3228(A,B):-p267(A,B).
+p3231(A,B):-p267(A,B).
+p3232(A,B):-p652(A,B).
+p3233(A,B):-p8(A,C),p921(C,B).
+p3234(A,B):-p267(A,B).
+p3237(A,B):-p319(A,C),p267(C,B).
+p3238(A,B):-p1106(A,B).
+p3239(A,B):-p244(A,B).
+p3240(A,B):-p8(A,C),p244(C,B).
+p3241(A,B):-p319(A,C),p921(C,B).
+p3242(A,B):-p8(A,C),p8(C,B).
+p3245(A,B):-p8(A,C),p267(C,B).
+p3247(A,B):-p319(A,C),p38(C,B).
+p3252(A,B):-p244(A,C),p244(C,B).
+p3255(A,B):-p319(A,C),p358(C,B).
+p3257(A,B):-p15(A,C),p267(C,B).
+p3260(A,B):-p33(A,C),p652(C,B).
+p3262(A,B):-p8(A,C),p267(C,B).
+p3263(A,B):-place1(A,C),p652(C,B).
+p3264(A,B):-p187(A,C),p358(C,B).
+p3267(A,B):-p38(A,B).
+p3268(A,B):-p38(A,C),p244(C,B).
+p3269(A,B):-p267(A,C),p244(C,B).
+p3275(A,B):-p0(A,C),p652(C,B).
+p3276(A,B):-p319(A,C),p38(C,B).
+p3278(A,B):-right(A,C),p267(C,B).
+p3280(A,B):-right(A,C),p319(C,B).
+p3283(A,B):-right(A,C),p244(C,B).
+p3284(A,B):-p15(A,C),p244(C,B).
+p3286(A,B):-p33(A,C),p187(C,B).
+p3287(A,B):-p15(A,C),p55(C,B).
+p3292(A,B):-p38(A,B).
+p3294(A,B):-p64(A,B).
+p3298(A,B):-p84(A,C),p921(C,B).
+p3299(A,B):-p319(A,C),p38(C,B).
+p3301(A,B):-p187(A,B).
+p3302(A,B):-place1(A,C),p64(C,B).
+p3304(A,B):-place1(A,C),p64(C,B).
+p3306(A,B):-p267(A,B).
+p3308(A,B):-p55(A,C),p2867(C,B).
+p3309(A,B):-p38(A,B).
+p3312(A,B):-p267(A,B).
+p3315(A,B):-place1(A,C),p187(C,B).
+p3319(A,B):-p244(A,C),p244(C,B).
+p3322(A,B):-p38(A,B).
+p3323(A,B):-p33(A,C),p64(C,B).
+p3324(A,B):-p33(A,C),p921(C,B).
+p3325(A,B):-p319(A,C),p267(C,B).
+p3326(A,B):-p8(A,C),p0(C,B).
+p3333(A,B):-p319(A,C),p38(C,B).
+p3336(A,B):-p0(A,C),p1106(C,B).
+p3344(A,B):-p38(A,B).
+p3345(A,B):-p8(A,C),p267(C,B).
+p3347(A,B):-p267(A,B).
+p3351(A,B):-p267(A,B).
+p3353(A,B):-p0(A,C),p244(C,B).
+p3355(A,B):-p38(A,C),p1106(C,B).
+p3357(A,B):-p33(A,C),p652(C,B).
+p3358(A,B):-p652(A,B).
+p3359(A,B):-p55(A,C),p187(C,B).
+p3360(A,B):-p38(A,B).
+p3362(A,B):-p15(A,C),p244(C,B).
+p3363(A,B):-p38(A,B).
+p3365(A,B):-p267(A,B).
+p3366(A,B):-p15(A,C),p0(C,B).
+p3367(A,B):-p319(A,C),p244(C,B).
+p3368(A,B):-p244(A,B).
+p3369(A,B):-p267(A,B).
+p3371(A,B):-p244(A,B).
+p3372(A,B):-p267(A,C),p244(C,B).
+p3376(A,B):-p8(A,C),p652(C,B).
+p3377(A,B):-p38(A,B).
+p3381(A,B):-p267(A,B).
+p3383(A,B):-p244(A,B).
+p3387(A,B):-p244(A,B).
+p3388(A,B):-right(A,C),p38(C,B).
+p3392(A,B):-p38(A,C),p64(C,B).
+p3393(A,B):-place1(A,C),p244(C,B).
+p3395(A,B):-p15(A,C),p55(C,B).
+p3396(A,B):-p8(A,C),p8(C,B).
+p3398(A,B):-p38(A,B).
+p3401(A,B):-right(A,C),p244(C,B).
+p3402(A,B):-p358(A,C),p652(C,B).
+p3405(A,B):-p8(A,C),p64_1(C,B).
+p3407(A,B):-place1(A,C),p64(C,B).
+p3408(A,B):-p319(A,C),p55(C,B).
+p3410(A,B):-p267(A,B).
+p3412(A,B):-place1(A,C),p652(C,B).
+p3414(A,B):-right(A,C),p319(C,B).
+p3416(A,B):-p267(A,C),p244(C,B).
+p3418(A,B):-p244(A,B).
+p3421(A,B):-p64_1(A,C),p267(C,B).
+p3422(A,B):-p319(A,B).
+p3424(A,B):-place1(A,C),p244(C,B).
+p3425(A,B):-p64(A,B).
+p3427(A,B):-p187(A,C),p15(C,B).
+p3435(A,B):-p8(A,C),p319(C,B).
+p3436(A,B):-p319(A,B).
+p3438(A,B):-p38(A,B).
+p3439(A,B):-place1(A,C),p1106(C,B).
+p3441(A,B):-p15(A,C),p8(C,B).
+p3445(A,B):-p319(A,C),p267(C,B).
+p3448(A,B):-p33(A,C),p64(C,B).
+p3450(A,B):-p319(A,C),p267(C,B).
+p3451(A,B):-p358(A,C),p652(C,B).
+p3453(A,B):-p15(A,C),p244(C,B).
+p3454(A,B):-p319(A,C),p244(C,B).
+p3456(A,B):-p8(A,C),p267(C,B).
+p3464(A,B):-right(A,C),p38(C,B).
+p3465(A,B):-p244(A,C),p921(C,B).
+p3468(A,B):-p319(A,C),p921(C,B).
+p3472(A,B):-right(A,C),p244(C,B).
+p3473(A,B):-p267(A,B).
+p3474(A,B):-place1(A,C),p1106(C,B).
+p3479(A,B):-p1106(A,B).
+p3480(A,B):-p0(A,C),p244(C,B).
+p3481(A,B):-place1(A,C),p921(C,B).
+p3482(A,B):-p267(A,B).
+p3484(A,B):-right(A,C),p319(C,B).
+p3485(A,B):-p38(A,B).
+p3491(A,B):-right(A,C),p38(C,B).
+p3492(A,B):-p358(A,C),p921(C,B).
+p3493(A,B):-p244(A,B).
+p3494(A,B):-p15(A,C),p38(C,B).
+p3495(A,B):-right(A,C),p267(C,B).
+p3496(A,B):-p38(A,B).
+p3499(A,B):-p358(A,C),p652(C,B).
+p3501(A,B):-p15(A,C),p38(C,B).
+p3502(A,B):-p15(A,C),p0(C,B).
+p3503(A,B):-p267(A,B).
+p3504(A,B):-p267(A,C),p244(C,B).
+p3505(A,B):-p38(A,B).
+p3510(A,B):-p358(A,C),p652(C,B).
+p3514(A,B):-p38(A,B).
+p3515(A,B):-p15(A,C),p267(C,B).
+p3516(A,B):-p33(A,C),p64(C,B).
+p3517(A,B):-p187(A,B).
+p3519(A,B):-p267(A,B).
+p3522(A,B):-p267(A,B).
+p3524(A,B):-p187(A,B).
+p3526(A,B):-p64(A,B).
+p3527(A,B):-p358(A,C),p921(C,B).
+p3530(A,B):-p15(A,C),p38(C,B).
+p3531(A,B):-p267(A,B).
+p3534(A,B):-place1(A,C),p921(C,B).
+p3537(A,B):-p8(A,C),p0(C,B).
+p3538(A,B):-p8(A,C),p8(C,B).
+p3539(A,B):-p358(A,C),p921(C,B).
+p3545(A,B):-p319(A,B).
+p3548(A,B):-p15(A,C),p0(C,B).
+p3549(A,B):-p267(A,B).
+p3550(A,B):-p267(A,B).
+p3552(A,B):-p358(A,C),p921(C,B).
+p3553(A,B):-p64_1(A,C),p8(C,B).
+p3554(A,B):-p319(A,C),p38(C,B).
+p3559(A,B):-p2306(A,C),p2867(C,B).
+p3561(A,B):-p38(A,B).
+p3563(A,B):-p38(A,B).
+p3567(A,B):-p38(A,C),p244(C,B).
+p3569(A,B):-p319(A,C),p38(C,B).
+p3579(A,B):-p15(A,C),p0(C,B).
+p3580(A,B):-p33(A,C),p267(C,B).
+p3583(A,B):-p33(A,C),p244(C,B).
+p3590(A,B):-p358(A,C),p921(C,B).
+p3597(A,B):-p319(A,C),p38(C,B).
+p3600(A,B):-p33(A,C),p1106(C,B).
+p3601(A,B):-p652(A,B).
+p3602(A,B):-p267(A,B).
+p3603(A,B):-p267(A,B).
+p3606(A,B):-p0(A,C),p244(C,B).
+p3608(A,B):-p187(A,C),p38(C,B).
+p3609(A,B):-p38(A,B).
+p3611(A,B):-p84(A,C),p64(C,B).
+p3613(A,B):-right(A,C),p2867(C,B).
+p3616(A,B):-p15(A,C),p244(C,B).
+p3617(A,B):-p55(A,C),p1106(C,B).
+p3620(A,B):-p244(A,B).
+p3624(A,B):-p319(A,C),p8(C,B).
+p3625(A,B):-place1(A,C),p244(C,B).
+p3629(A,B):-p15(A,C),p38(C,B).
+p3630(A,B):-p84(A,C),p267(C,B).
+p3631(A,B):-p33(A,C),p652(C,B).
+p3633(A,B):-place1(A,C),p652(C,B).
+p3638(A,B):-p15(A,C),p55(C,B).
+p3643(A,B):-p33(A,C),p921(C,B).
+p3644(A,B):-p319(A,C),p55(C,B).
+p3648(A,B):-p64(A,B).
+p3649(A,B):-place1(A,C),p652(C,B).
+p3651(A,B):-p8(A,C),p0(C,B).
+p3653(A,B):-p38(A,B).
+p3659(A,B):-p33(A,C),p652(C,B).
+p3660(A,B):-p358(A,C),p921(C,B).
+p3662(A,B):-p319(A,C),p64_1(C,B).
+p3663(A,B):-p15(A,C),p0(C,B).
+p3665(A,B):-p921(A,B).
+p3666(A,B):-p267(A,B).
+p3670(A,B):-p84(A,C),p187(C,B).
+p3671(A,B):-place1(A,C),p921(C,B).
+p3673(A,B):-p15(A,C),p38(C,B).
+p3675(A,B):-p244(A,B).
+p3676(A,B):-p64(A,B).
+p3677(A,B):-p84(A,C),p267(C,B).
+p3678(A,B):-p358(A,C),p244(C,B).
+p3682(A,B):-p1106(A,B).
+p3683(A,B):-p64_1(A,C),p55(C,B).
+p3684(A,B):-right(A,C),p267(C,B).
+p3685(A,B):-p8(A,C),p0(C,B).
+p3686(A,B):-p15(A,C),p0(C,B).
+p3691(A,B):-p55(A,C),p2867(C,B).
+p3693(A,B):-p8(A,C),p244(C,B).
+p3696(A,B):-p267(A,B).
+p3697(A,B):-p267(A,B).
+p3699(A,B):-p0(A,C),p244(C,B).
+p3702(A,B):-p0(A,C),p2867(C,B).
+p3705(A,B):-right(A,C),p319(C,B).
+p3707(A,B):-p267(A,C),p921(C,B).
+p3710(A,B):-p38(A,C),p244(C,B).
+p3711(A,B):-p15(A,C),p0(C,B).
+p3712(A,B):-p319(A,B).
+p3714(A,B):-p267(A,B).
+p3715(A,B):-right(A,C),p267(C,B).
+p3718(A,B):-p8(A,C),p38(C,B).
+p3719(A,B):-right(A,C),p244(C,B).
+p3728(A,B):-p15(A,C),p267(C,B).
+p3731(A,B):-p38(A,B).
+p3732(A,B):-p267(A,B).
+p3736(A,B):-p38(A,B).
+p3737(A,B):-p64(A,B).
+p3738(A,B):-p8(A,C),p38(C,B).
+p3739(A,B):-p319(A,C),p64(C,B).
+p3740(A,B):-p319(A,B).
+p3743(A,B):-p267(A,B).
+p3747(A,B):-p267(A,B).
+p3749(A,B):-p33(A,C),p64(C,B).
+p3751(A,B):-p267(A,B).
+p3752(A,B):-p319(A,C),p38(C,B).
+p3753(A,B):-p319(A,C),p15(C,B).
+p3754(A,B):-p38(A,C),p244(C,B).
+p3758(A,B):-p33(A,C),p64(C,B).
+p3762(A,B):-p8(A,C),p8(C,B).
+p3763(A,B):-p38(A,B).
+p3764(A,B):-p55(A,C),p921(C,B).
+p3768(A,B):-p61(A,C),p244(C,B).
+p3769(A,B):-p319(A,C),p244(C,B).
+p3772(A,B):-p38(A,B).
+p3773(A,B):-p8(A,C),p55(C,B).
+p3776(A,B):-p15(A,C),p38(C,B).
+p3777(A,B):-p84(A,C),p244(C,B).
+p3778(A,B):-p33(A,C),p244(C,B).
+p3780(A,B):-p267(A,B).
+p3783(A,B):-place1(A,C),p267(C,B).
+p3785(A,B):-right(A,C),p267(C,B).
+p3786(A,B):-p84(A,C),p267(C,B).
+p3787(A,B):-p358(A,C),p921(C,B).
+p3790(A,B):-p8(A,C),p38(C,B).
+p3792(A,B):-p55(A,C),p187(C,B).
+p3793(A,B):-p319(A,C),p0(C,B).
+p3795(A,B):-p38(A,C),p244(C,B).
+p3796(A,B):-p8(A,C),p55(C,B).
+p3797(A,B):-p267(A,B).
+p3798(A,B):-p319(A,C),p8(C,B).
+p3799(A,B):-p8(A,C),p0(C,B).
+p3801(A,B):-p33(A,C),p652(C,B).
+p3803(A,B):-place1(A,C),p1106(C,B).
+p3804(A,B):-p267(A,B).
+p3806(A,B):-p64(A,C),p0(C,B).
+p3807(A,B):-p38(A,C),p187(C,B).
+p3809(A,B):-p8(A,C),p244(C,B).
+p3810(A,B):-p187(A,C),p84(C,B).
+p3812(A,B):-p61(A,C),p319(C,B).
+p3813(A,B):-p319(A,C),p8(C,B).
+p3814(A,B):-p319(A,C),p244(C,B).
+p3817(A,B):-p8(A,C),p267(C,B).
+p3818(A,B):-p8(A,C),p244(C,B).
+p3819(A,B):-p267(A,B).
+p3821(A,B):-p267(A,B).
+p3822(A,B):-right(A,C),p319(C,B).
+p3823(A,B):-p358(A,C),p652(C,B).
+p3825(A,B):-right(A,C),p319(C,B).
+p3827(A,B):-p61(A,C),p2867(C,B).
+p3829(A,B):-p15(A,C),p244(C,B).
+p3832(A,B):-p8(A,C),p8(C,B).
+p3834(A,B):-right(A,C),p244(C,B).
+p3835(A,B):-p2306(A,C),p921(C,B).
+p3838(A,B):-p0(A,C),p244(C,B).
+p3841(A,B):-right(A,C),p244(C,B).
+p3844(A,B):-p319(A,C),p267(C,B).
+p3845(A,B):-p15(A,C),p244(C,B).
+p3847(A,B):-p8(A,C),p55(C,B).
+p3848(A,B):-p84(A,C),p1106(C,B).
+p3849(A,B):-p319(A,B).
+p3852(A,B):-p319(A,C),p244(C,B).
+p3856(A,B):-right(A,C),p267(C,B).
+p3857(A,B):-p319(A,C),p244(C,B).
+p3866(A,B):-right(A,C),p319(C,B).
+p3867(A,B):-right(A,C),p319(C,B).
+p3868(A,B):-p38(A,B).
+p3870(A,B):-p8(A,C),p0(C,B).
+p3871(A,B):-p187(A,B).
+p3872(A,B):-p33(A,C),p1106(C,B).
+p3873(A,B):-p8(A,C),p244(C,B).
+p3874(A,B):-p33(A,C),p64(C,B).
+p3881(A,B):-place1(A,C),p1106(C,B).
+p3886(A,B):-right(A,C),p244(C,B).
+p3887(A,B):-p15(A,C),p8(C,B).
+p3888(A,B):-p8(A,C),p8(C,B).
+p3889(A,B):-p15(A,C),p244(C,B).
+p3896(A,B):-p319(A,C),p15(C,B).
+p3897(A,B):-p38(A,B).
+p3898(A,B):-p652(A,B).
+p3901(A,B):-p8(A,C),p267(C,B).
+p3902(A,B):-p319(A,C),p244(C,B).
+p3903(A,B):-p358(A,C),p652(C,B).
+p3904(A,B):-place1(A,C),p267(C,B).
+p3906(A,B):-place1(A,C),p244(C,B).
+p3907(A,B):-p8(A,C),p0(C,B).
+p3909(A,B):-p319(A,C),p267(C,B).
+p3911(A,B):-p64_1(A,C),p2867(C,B).
+p3912(A,B):-p2867(A,C),p2867(C,B).
+p3913(A,B):-p921(A,C),p244(C,B).
+p3914(A,B):-p652(A,B).
+p3916(A,B):-p15(A,C),p38(C,B).
+p3920(A,B):-p8(A,C),p244(C,B).
+p3921(A,B):-p1106(A,B).
+p3925(A,B):-p8(A,C),p38(C,B).
+p3926(A,B):-p15(A,C),p0(C,B).
+p3927(A,B):-p64(A,B).
+p3930(A,B):-p38(A,C),p921(C,B).
+p3933(A,B):-p38(A,B).
+p3942(A,B):-p38(A,B).
+p3944(A,B):-p33(A,C),p921(C,B).
+p3947(A,B):-place1(A,C),p267(C,B).
+p3950(A,B):-p33(A,C),p652(C,B).
+p3951(A,B):-p267(A,C),p244(C,B).
+p3953(A,B):-p187(A,C),p319(C,B).
+p3954(A,B):-p38(A,C),p244(C,B).
+p3955(A,B):-place1(A,C),p652(C,B).
+p3956(A,B):-p33(A,C),p921(C,B).
+p3960(A,B):-p1106(A,C),p0(C,B).
+p3962(A,B):-p33(A,C),p1106(C,B).
+p3963(A,B):-p15(A,C),p38(C,B).
+p3964(A,B):-p15(A,C),p267(C,B).
+p3970(A,B):-p1106(A,C),p55(C,B).
+p3971(A,B):-p319(A,C),p267(C,B).
+p3972(A,B):-p38(A,B).
+p3973(A,B):-p267(A,C),p244(C,B).
+p3974(A,B):-p38(A,B).
+p3975(A,B):-place1(A,C),p267(C,B).
+p3976(A,B):-p244(A,C),p1106(C,B).
+p3977(A,B):-p64_1(A,C),p244(C,B).
+p3979(A,B):-p244(A,B).
+p3981(A,B):-p652(A,C),p244(C,B).
+p3986(A,B):-p8(A,C),p244(C,B).
+p3987(A,B):-p84(A,C),p267(C,B).
+p3988(A,B):-p267(A,B).
+p3989(A,B):-p8(A,C),p38(C,B).
+p3992(A,B):-p2306(A,C),p2867(C,B).
+p3994(A,B):-p358(A,C),p652(C,B).
+p3995(A,B):-p38(A,B).
+p3996(A,B):-p267(A,C),p244(C,B).
+p3998(A,B):-p33(A,C),p921(C,B).
+% asserting p2/2
+% asserting p3/2
+% asserting p4/2
+% asserting p5/2
+% asserting p6/2
+% asserting p7/2
+% asserting p13/2
+% asserting p14/2
+% asserting p20/2
+% asserting p21/2
+% asserting p23/2
+% asserting p25/2
+% asserting p26/2
+% asserting p30/2
+% asserting p39/2
+% asserting p40/2
+% asserting p44/2
+% asserting p57/2
+% asserting p58/2
+% asserting p59/2
+% asserting p60/2
+% asserting p62/2
+% asserting p65/2
+% asserting p67/2
+% asserting p68/2
+% asserting p69/2
+% asserting p71/2
+% asserting p72/2
+% asserting p74/2
+% asserting p75/2
+% asserting p81/2
+% asserting p82/2
+% asserting p88/2
+% asserting p89/2
+% asserting p90/2
+% asserting p91/2
+% asserting p94/2
+% asserting p95/2
+% asserting p96/2
+% asserting p99/2
+% asserting p102/2
+% asserting p103/2
+% asserting p104/2
+% asserting p107/2
+% asserting p108/2
+% asserting p111/2
+% asserting p112/2
+% asserting p119/2
+% asserting p125/2
+% asserting p127/2
+% asserting p128/2
+% asserting p132/2
+% asserting p133/2
+% asserting p135/2
+% asserting p136/2
+% asserting p142/2
+% asserting p145/2
+% asserting p148/2
+% asserting p149/2
+% asserting p153/2
+% asserting p155/2
+% asserting p156/2
+% asserting p159/2
+% asserting p160/2
+% asserting p162/2
+% asserting p163/2
+% asserting p164/2
+% asserting p166/2
+% asserting p169/2
+% asserting p170/2
+% asserting p175/2
+% asserting p178/2
+% asserting p180/2
+% asserting p182/2
+% asserting p186/2
+% asserting p188/2
+% asserting p189/2
+% asserting p191/2
+% asserting p193/2
+% asserting p199/2
+% asserting p201/2
+% asserting p202/2
+% asserting p204/2
+% asserting p205/2
+% asserting p209/2
+% asserting p212/2
+% asserting p213/2
+% asserting p215/2
+% asserting p222/2
+% asserting p225/2
+% asserting p231/2
+% asserting p232/2
+% asserting p234/2
+% asserting p236/2
+% asserting p237/2
+% asserting p238/2
+% asserting p239/2
+% asserting p240/2
+% asserting p241/2
+% asserting p242/2
+% asserting p243/2
+% asserting p245/2
+% asserting p254/2
+% asserting p256/2
+% asserting p257/2
+% asserting p259/2
+% asserting p260/2
+% asserting p261/2
+% asserting p262/2
+% asserting p268/2
+% asserting p269/2
+% asserting p272/2
+% asserting p274/2
+% asserting p275/2
+% asserting p276/2
+% asserting p277/2
+% asserting p281/2
+% asserting p282/2
+% asserting p286/2
+% asserting p288/2
+% asserting p292/2
+% asserting p293/2
+% asserting p297/2
+% asserting p301/2
+% asserting p302/2
+% asserting p304/2
+% asserting p306/2
+% asserting p313/2
+% asserting p315/2
+% asserting p317/2
+% asserting p323/2
+% asserting p324/2
+% asserting p333/2
+% asserting p334/2
+% asserting p337/2
+% asserting p344/2
+% asserting p345/2
+% asserting p351/2
+% asserting p353/2
+% asserting p354/2
+% asserting p356/2
+% asserting p363/2
+% asserting p367/2
+% asserting p368/2
+% asserting p369/2
+% asserting p371/2
+% asserting p372/2
+% asserting p374/2
+% asserting p375/2
+% asserting p380/2
+% asserting p381/2
+% asserting p383/2
+% asserting p387/2
+% asserting p388/2
+% asserting p389/2
+% asserting p391/2
+% asserting p394/2
+% asserting p396/2
+% asserting p399/2
+% asserting p401/2
+% asserting p402/2
+% asserting p403/2
+% asserting p404/2
+% asserting p405/2
+% asserting p407/2
+% asserting p408/2
+% asserting p413/2
+% asserting p423/2
+% asserting p425/2
+% asserting p430/2
+% asserting p435/2
+% asserting p438/2
+% asserting p439/2
+% asserting p440/2
+% asserting p442/2
+% asserting p443/2
+% asserting p445/2
+% asserting p448/2
+% asserting p451/2
+% asserting p454/2
+% asserting p455/2
+% asserting p464/2
+% asserting p465/2
+% asserting p466/2
+% asserting p470/2
+% asserting p471/2
+% asserting p473/2
+% asserting p475/2
+% asserting p476/2
+% asserting p478/2
+% asserting p481/2
+% asserting p485/2
+% asserting p489/2
+% asserting p493/2
+% asserting p496/2
+% asserting p497/2
+% asserting p498/2
+% asserting p499/2
+% asserting p500/2
+% asserting p501/2
+% asserting p507/2
+% asserting p508/2
+% asserting p514/2
+% asserting p515/2
+% asserting p520/2
+% asserting p526/2
+% asserting p527/2
+% asserting p529/2
+% asserting p531/2
+% asserting p532/2
+% asserting p534/2
+% asserting p535/2
+% asserting p541/2
+% asserting p542/2
+% asserting p545/2
+% asserting p546/2
+% asserting p547/2
+% asserting p549/2
+% asserting p557/2
+% asserting p558/2
+% asserting p562/2
+% asserting p564/2
+% asserting p568/2
+% asserting p574/2
+% asserting p577/2
+% asserting p579/2
+% asserting p581/2
+% asserting p582/2
+% asserting p583/2
+% asserting p585/2
+% asserting p587/2
+% asserting p588/2
+% asserting p589/2
+% asserting p590/2
+% asserting p591/2
+% asserting p595/2
+% asserting p596/2
+% asserting p597/2
+% asserting p598/2
+% asserting p610/2
+% asserting p611/2
+% asserting p613/2
+% asserting p620/2
+% asserting p622/2
+% asserting p626/2
+% asserting p630/2
+% asserting p631/2
+% asserting p632/2
+% asserting p633/2
+% asserting p635/2
+% asserting p636/2
+% asserting p637/2
+% asserting p640/2
+% asserting p642/2
+% asserting p644/2
+% asserting p646/2
+% asserting p649/2
+% asserting p651/2
+% asserting p653/2
+% asserting p655/2
+% asserting p657/2
+% asserting p659/2
+% asserting p660/2
+% asserting p661/2
+% asserting p662/2
+% asserting p663/2
+% asserting p664/2
+% asserting p666/2
+% asserting p667/2
+% asserting p669/2
+% asserting p670/2
+% asserting p671/2
+% asserting p672/2
+% asserting p673/2
+% asserting p674/2
+% asserting p679/2
+% asserting p680/2
+% asserting p684/2
+% asserting p689/2
+% asserting p690/2
+% asserting p700/2
+% asserting p702/2
+% asserting p703/2
+% asserting p704/2
+% asserting p705/2
+% asserting p709/2
+% asserting p710/2
+% asserting p711/2
+% asserting p713/2
+% asserting p719/2
+% asserting p722/2
+% asserting p724/2
+% asserting p727/2
+% asserting p728/2
+% asserting p729/2
+% asserting p730/2
+% asserting p731/2
+% asserting p733/2
+% asserting p734/2
+% asserting p741/2
+% asserting p743/2
+% asserting p744/2
+% asserting p745/2
+% asserting p746/2
+% asserting p750/2
+% asserting p754/2
+% asserting p758/2
+% asserting p759/2
+% asserting p760/2
+% asserting p762/2
+% asserting p769/2
+% asserting p772/2
+% asserting p777/2
+% asserting p780/2
+% asserting p782/2
+% asserting p784/2
+% asserting p785/2
+% asserting p787/2
+% asserting p788/2
+% asserting p790/2
+% asserting p796/2
+% asserting p798/2
+% asserting p799/2
+% asserting p800/2
+% asserting p802/2
+% asserting p803/2
+% asserting p807/2
+% asserting p812/2
+% asserting p814/2
+% asserting p815/2
+% asserting p825/2
+% asserting p832/2
+% asserting p833/2
+% asserting p834/2
+% asserting p836/2
+% asserting p837/2
+% asserting p838/2
+% asserting p842/2
+% asserting p843/2
+% asserting p844/2
+% asserting p849/2
+% asserting p851/2
+% asserting p856/2
+% asserting p861/2
+% asserting p863/2
+% asserting p870/2
+% asserting p872/2
+% asserting p873/2
+% asserting p874/2
+% asserting p875/2
+% asserting p880/2
+% asserting p881/2
+% asserting p883/2
+% asserting p887/2
+% asserting p888/2
+% asserting p890/2
+% asserting p895/2
+% asserting p899/2
+% asserting p901/2
+% asserting p904/2
+% asserting p905/2
+% asserting p906/2
+% asserting p908/2
+% asserting p909/2
+% asserting p910/2
+% asserting p911/2
+% asserting p912/2
+% asserting p913/2
+% asserting p916/2
+% asserting p917/2
+% asserting p918/2
+% asserting p919/2
+% asserting p920/2
+% asserting p922/2
+% asserting p923/2
+% asserting p926/2
+% asserting p929/2
+% asserting p933/2
+% asserting p937/2
+% asserting p938/2
+% asserting p939/2
+% asserting p942/2
+% asserting p943/2
+% asserting p944/2
+% asserting p948/2
+% asserting p949/2
+% asserting p950/2
+% asserting p951/2
+% asserting p953/2
+% asserting p957/2
+% asserting p961/2
+% asserting p966/2
+% asserting p967/2
+% asserting p969/2
+% asserting p971/2
+% asserting p973/2
+% asserting p974/2
+% asserting p975/2
+% asserting p979/2
+% asserting p980/2
+% asserting p984/2
+% asserting p985/2
+% asserting p988/2
+% asserting p989/2
+% asserting p992/2
+% asserting p993/2
+% asserting p994/2
+% asserting p1001/2
+% asserting p1003/2
+% asserting p1004/2
+% asserting p1005/2
+% asserting p1007/2
+% asserting p1011/2
+% asserting p1014/2
+% asserting p1016/2
+% asserting p1018/2
+% asserting p1021/2
+% asserting p1022/2
+% asserting p1023/2
+% asserting p1024/2
+% asserting p1027/2
+% asserting p1028/2
+% asserting p1031/2
+% asserting p1035/2
+% asserting p1039/2
+% asserting p1041/2
+% asserting p1042/2
+% asserting p1044/2
+% asserting p1045/2
+% asserting p1049/2
+% asserting p1051/2
+% asserting p1053/2
+% asserting p1055/2
+% asserting p1064/2
+% asserting p1065/2
+% asserting p1068/2
+% asserting p1070/2
+% asserting p1071/2
+% asserting p1072/2
+% asserting p1074/2
+% asserting p1076/2
+% asserting p1077/2
+% asserting p1080/2
+% asserting p1081/2
+% asserting p1089/2
+% asserting p1090/2
+% asserting p1092/2
+% asserting p1095/2
+% asserting p1096/2
+% asserting p1098/2
+% asserting p1099/2
+% asserting p1104/2
+% asserting p1105/2
+% asserting p1108/2
+% asserting p1111/2
+% asserting p1113/2
+% asserting p1114/2
+% asserting p1115/2
+% asserting p1117/2
+% asserting p1118/2
+% asserting p1120/2
+% asserting p1124/2
+% asserting p1125/2
+% asserting p1127/2
+% asserting p1129/2
+% asserting p1130/2
+% asserting p1133/2
+% asserting p1134/2
+% asserting p1138/2
+% asserting p1146/2
+% asserting p1147/2
+% asserting p1152/2
+% asserting p1153/2
+% asserting p1156/2
+% asserting p1159/2
+% asserting p1161/2
+% asserting p1162/2
+% asserting p1169/2
+% asserting p1170/2
+% asserting p1173/2
+% asserting p1176/2
+% asserting p1179/2
+% asserting p1182/2
+% asserting p1183/2
+% asserting p1186/2
+% asserting p1187/2
+% asserting p1191/2
+% asserting p1192/2
+% asserting p1194/2
+% asserting p1195/2
+% asserting p1196/2
+% asserting p1201/2
+% asserting p1202/2
+% asserting p1203/2
+% asserting p1205/2
+% asserting p1206/2
+% asserting p1207/2
+% asserting p1209/2
+% asserting p1210/2
+% asserting p1211/2
+% asserting p1216/2
+% asserting p1221/2
+% asserting p1224/2
+% asserting p1226/2
+% asserting p1227/2
+% asserting p1231/2
+% asserting p1235/2
+% asserting p1237/2
+% asserting p1241/2
+% asserting p1244/2
+% asserting p1245/2
+% asserting p1248/2
+% asserting p1251/2
+% asserting p1254/2
+% asserting p1256/2
+% asserting p1258/2
+% asserting p1259/2
+% asserting p1261/2
+% asserting p1262/2
+% asserting p1266/2
+% asserting p1267/2
+% asserting p1268/2
+% asserting p1272/2
+% asserting p1273/2
+% asserting p1274/2
+% asserting p1275/2
+% asserting p1277/2
+% asserting p1280/2
+% asserting p1281/2
+% asserting p1282/2
+% asserting p1284/2
+% asserting p1289/2
+% asserting p1294/2
+% asserting p1296/2
+% asserting p1298/2
+% asserting p1299/2
+% asserting p1301/2
+% asserting p1302/2
+% asserting p1303/2
+% asserting p1305/2
+% asserting p1307/2
+% asserting p1309/2
+% asserting p1310/2
+% asserting p1316/2
+% asserting p1317/2
+% asserting p1320/2
+% asserting p1321/2
+% asserting p1322/2
+% asserting p1324/2
+% asserting p1327/2
+% asserting p1332/2
+% asserting p1334/2
+% asserting p1335/2
+% asserting p1336/2
+% asserting p1340/2
+% asserting p1341/2
+% asserting p1342/2
+% asserting p1345/2
+% asserting p1347/2
+% asserting p1348/2
+% asserting p1349/2
+% asserting p1350/2
+% asserting p1351/2
+% asserting p1353/2
+% asserting p1362/2
+% asserting p1364/2
+% asserting p1366/2
+% asserting p1368/2
+% asserting p1370/2
+% asserting p1373/2
+% asserting p1375/2
+% asserting p1378/2
+% asserting p1380/2
+% asserting p1382/2
+% asserting p1385/2
+% asserting p1386/2
+% asserting p1388/2
+% asserting p1389/2
+% asserting p1390/2
+% asserting p1391/2
+% asserting p1392/2
+% asserting p1394/2
+% asserting p1395/2
+% asserting p1398/2
+% asserting p1401/2
+% asserting p1402/2
+% asserting p1406/2
+% asserting p1409/2
+% asserting p1410/2
+% asserting p1411/2
+% asserting p1412/2
+% asserting p1415/2
+% asserting p1417/2
+% asserting p1418/2
+% asserting p1422/2
+% asserting p1425/2
+% asserting p1426/2
+% asserting p1432/2
+% asserting p1433/2
+% asserting p1438/2
+% asserting p1442/2
+% asserting p1443/2
+% asserting p1444/2
+% asserting p1446/2
+% asserting p1448/2
+% asserting p1450/2
+% asserting p1453/2
+% asserting p1454/2
+% asserting p1455/2
+% asserting p1457/2
+% asserting p1458/2
+% asserting p1460/2
+% asserting p1462/2
+% asserting p1463/2
+% asserting p1464/2
+% asserting p1466/2
+% asserting p1467/2
+% asserting p1469/2
+% asserting p1473/2
+% asserting p1475/2
+% asserting p1476/2
+% asserting p1478/2
+% asserting p1479/2
+% asserting p1484/2
+% asserting p1487/2
+% asserting p1488/2
+% asserting p1490/2
+% asserting p1491/2
+% asserting p1493/2
+% asserting p1494/2
+% asserting p1495/2
+% asserting p1500/2
+% asserting p1505/2
+% asserting p1506/2
+% asserting p1512/2
+% asserting p1513/2
+% asserting p1525/2
+% asserting p1527/2
+% asserting p1531/2
+% asserting p1532/2
+% asserting p1533/2
+% asserting p1534/2
+% asserting p1536/2
+% asserting p1540/2
+% asserting p1541/2
+% asserting p1542/2
+% asserting p1543/2
+% asserting p1544/2
+% asserting p1545/2
+% asserting p1546/2
+% asserting p1554/2
+% asserting p1559/2
+% asserting p1560/2
+% asserting p1561/2
+% asserting p1563/2
+% asserting p1565/2
+% asserting p1567/2
+% asserting p1569/2
+% asserting p1571/2
+% asserting p1572/2
+% asserting p1578/2
+% asserting p1582/2
+% asserting p1586/2
+% asserting p1588/2
+% asserting p1589/2
+% asserting p1593/2
+% asserting p1596/2
+% asserting p1598/2
+% asserting p1599/2
+% asserting p1601/2
+% asserting p1603/2
+% asserting p1604/2
+% asserting p1612/2
+% asserting p1614/2
+% asserting p1615/2
+% asserting p1617/2
+% asserting p1619/2
+% asserting p1622/2
+% asserting p1626/2
+% asserting p1628/2
+% asserting p1629/2
+% asserting p1630/2
+% asserting p1632/2
+% asserting p1634/2
+% asserting p1635/2
+% asserting p1637/2
+% asserting p1638/2
+% asserting p1639/2
+% asserting p1641/2
+% asserting p1645/2
+% asserting p1648/2
+% asserting p1651/2
+% asserting p1653/2
+% asserting p1654/2
+% asserting p1655/2
+% asserting p1659/2
+% asserting p1660/2
+% asserting p1662/2
+% asserting p1668/2
+% asserting p1673/2
+% asserting p1674/2
+% asserting p1679/2
+% asserting p1682/2
+% asserting p1690/2
+% asserting p1696/2
+% asserting p1701/2
+% asserting p1702/2
+% asserting p1705/2
+% asserting p1706/2
+% asserting p1708/2
+% asserting p1710/2
+% asserting p1712/2
+% asserting p1713/2
+% asserting p1714/2
+% asserting p1719/2
+% asserting p1722/2
+% asserting p1725/2
+% asserting p1730/2
+% asserting p1733/2
+% asserting p1736/2
+% asserting p1741/2
+% asserting p1742/2
+% asserting p1745/2
+% asserting p1748/2
+% asserting p1749/2
+% asserting p1752/2
+% asserting p1757/2
+% asserting p1762/2
+% asserting p1764/2
+% asserting p1765/2
+% asserting p1766/2
+% asserting p1768/2
+% asserting p1772/2
+% asserting p1773/2
+% asserting p1774/2
+% asserting p1775/2
+% asserting p1776/2
+% asserting p1779/2
+% asserting p1781/2
+% asserting p1782/2
+% asserting p1787/2
+% asserting p1790/2
+% asserting p1794/2
+% asserting p1795/2
+% asserting p1798/2
+% asserting p1804/2
+% asserting p1808/2
+% asserting p1814/2
+% asserting p1815/2
+% asserting p1818/2
+% asserting p1819/2
+% asserting p1820/2
+% asserting p1821/2
+% asserting p1826/2
+% asserting p1830/2
+% asserting p1831/2
+% asserting p1833/2
+% asserting p1835/2
+% asserting p1836/2
+% asserting p1838/2
+% asserting p1840/2
+% asserting p1842/2
+% asserting p1849/2
+% asserting p1851/2
+% asserting p1852/2
+% asserting p1853/2
+% asserting p1854/2
+% asserting p1855/2
+% asserting p1857/2
+% asserting p1858/2
+% asserting p1860/2
+% asserting p1861/2
+% asserting p1863/2
+% asserting p1865/2
+% asserting p1867/2
+% asserting p1869/2
+% asserting p1870/2
+% asserting p1871/2
+% asserting p1873/2
+% asserting p1874/2
+% asserting p1876/2
+% asserting p1880/2
+% asserting p1883/2
+% asserting p1886/2
+% asserting p1887/2
+% asserting p1888/2
+% asserting p1889/2
+% asserting p1891/2
+% asserting p1894/2
+% asserting p1895/2
+% asserting p1896/2
+% asserting p1901/2
+% asserting p1903/2
+% asserting p1906/2
+% asserting p1907/2
+% asserting p1909/2
+% asserting p1910/2
+% asserting p1911/2
+% asserting p1916/2
+% asserting p1918/2
+% asserting p1920/2
+% asserting p1922/2
+% asserting p1923/2
+% asserting p1925/2
+% asserting p1930/2
+% asserting p1934/2
+% asserting p1935/2
+% asserting p1936/2
+% asserting p1937/2
+% asserting p1938/2
+% asserting p1939/2
+% asserting p1940/2
+% asserting p1941/2
+% asserting p1944/2
+% asserting p1946/2
+% asserting p1949/2
+% asserting p1950/2
+% asserting p1952/2
+% asserting p1953/2
+% asserting p1956/2
+% asserting p1960/2
+% asserting p1962/2
+% asserting p1964/2
+% asserting p1966/2
+% asserting p1970/2
+% asserting p1974/2
+% asserting p1975/2
+% asserting p1977/2
+% asserting p1978/2
+% asserting p1980/2
+% asserting p1982/2
+% asserting p1984/2
+% asserting p1985/2
+% asserting p1989/2
+% asserting p1991/2
+% asserting p1992/2
+% asserting p1994/2
+% asserting p1995/2
+% asserting p1996/2
+% asserting p1998/2
+% asserting p1999/2
+% asserting p2001/2
+% asserting p2002/2
+% asserting p2003/2
+% asserting p2004/2
+% asserting p2008/2
+% asserting p2009/2
+% asserting p2011/2
+% asserting p2012/2
+% asserting p2013/2
+% asserting p2015/2
+% asserting p2018/2
+% asserting p2021/2
+% asserting p2024/2
+% asserting p2025/2
+% asserting p2029/2
+% asserting p2031/2
+% asserting p2032/2
+% asserting p2036/2
+% asserting p2037/2
+% asserting p2039/2
+% asserting p2040/2
+% asserting p2042/2
+% asserting p2043/2
+% asserting p2045/2
+% asserting p2046/2
+% asserting p2047/2
+% asserting p2053/2
+% asserting p2054/2
+% asserting p2058/2
+% asserting p2060/2
+% asserting p2061/2
+% asserting p2066/2
+% asserting p2068/2
+% asserting p2071/2
+% asserting p2073/2
+% asserting p2076/2
+% asserting p2077/2
+% asserting p2078/2
+% asserting p2079/2
+% asserting p2084/2
+% asserting p2085/2
+% asserting p2086/2
+% asserting p2093/2
+% asserting p2094/2
+% asserting p2095/2
+% asserting p2096/2
+% asserting p2098/2
+% asserting p2099/2
+% asserting p2100/2
+% asserting p2101/2
+% asserting p2102/2
+% asserting p2105/2
+% asserting p2106/2
+% asserting p2107/2
+% asserting p2110/2
+% asserting p2112/2
+% asserting p2113/2
+% asserting p2115/2
+% asserting p2116/2
+% asserting p2117/2
+% asserting p2118/2
+% asserting p2120/2
+% asserting p2122/2
+% asserting p2126/2
+% asserting p2127/2
+% asserting p2128/2
+% asserting p2133/2
+% asserting p2137/2
+% asserting p2138/2
+% asserting p2139/2
+% asserting p2141/2
+% asserting p2144/2
+% asserting p2145/2
+% asserting p2146/2
+% asserting p2147/2
+% asserting p2148/2
+% asserting p2149/2
+% asserting p2150/2
+% asserting p2151/2
+% asserting p2152/2
+% asserting p2153/2
+% asserting p2157/2
+% asserting p2159/2
+% asserting p2163/2
+% asserting p2167/2
+% asserting p2172/2
+% asserting p2173/2
+% asserting p2175/2
+% asserting p2176/2
+% asserting p2182/2
+% asserting p2183/2
+% asserting p2185/2
+% asserting p2186/2
+% asserting p2188/2
+% asserting p2192/2
+% asserting p2193/2
+% asserting p2194/2
+% asserting p2199/2
+% asserting p2201/2
+% asserting p2204/2
+% asserting p2207/2
+% asserting p2208/2
+% asserting p2209/2
+% asserting p2211/2
+% asserting p2212/2
+% asserting p2213/2
+% asserting p2217/2
+% asserting p2218/2
+% asserting p2220/2
+% asserting p2221/2
+% asserting p2222/2
+% asserting p2224/2
+% asserting p2226/2
+% asserting p2227/2
+% asserting p2231/2
+% asserting p2234/2
+% asserting p2235/2
+% asserting p2240/2
+% asserting p2241/2
+% asserting p2244/2
+% asserting p2247/2
+% asserting p2248/2
+% asserting p2249/2
+% asserting p2250/2
+% asserting p2256/2
+% asserting p2257/2
+% asserting p2258/2
+% asserting p2260/2
+% asserting p2264/2
+% asserting p2268/2
+% asserting p2270/2
+% asserting p2277/2
+% asserting p2278/2
+% asserting p2281/2
+% asserting p2287/2
+% asserting p2290/2
+% asserting p2291/2
+% asserting p2295/2
+% asserting p2297/2
+% asserting p2299/2
+% asserting p2301/2
+% asserting p2302/2
+% asserting p2304/2
+% asserting p2307/2
+% asserting p2309/2
+% asserting p2312/2
+% asserting p2317/2
+% asserting p2318/2
+% asserting p2322/2
+% asserting p2327/2
+% asserting p2328/2
+% asserting p2330/2
+% asserting p2332/2
+% asserting p2333/2
+% asserting p2335/2
+% asserting p2337/2
+% asserting p2343/2
+% asserting p2344/2
+% asserting p2346/2
+% asserting p2347/2
+% asserting p2348/2
+% asserting p2350/2
+% asserting p2351/2
+% asserting p2353/2
+% asserting p2354/2
+% asserting p2356/2
+% asserting p2361/2
+% asserting p2362/2
+% asserting p2365/2
+% asserting p2366/2
+% asserting p2369/2
+% asserting p2371/2
+% asserting p2374/2
+% asserting p2379/2
+% asserting p2381/2
+% asserting p2382/2
+% asserting p2386/2
+% asserting p2387/2
+% asserting p2389/2
+% asserting p2390/2
+% asserting p2391/2
+% asserting p2393/2
+% asserting p2396/2
+% asserting p2399/2
+% asserting p2400/2
+% asserting p2402/2
+% asserting p2403/2
+% asserting p2404/2
+% asserting p2405/2
+% asserting p2408/2
+% asserting p2409/2
+% asserting p2410/2
+% asserting p2412/2
+% asserting p2418/2
+% asserting p2419/2
+% asserting p2422/2
+% asserting p2424/2
+% asserting p2428/2
+% asserting p2430/2
+% asserting p2435/2
+% asserting p2436/2
+% asserting p2439/2
+% asserting p2441/2
+% asserting p2443/2
+% asserting p2445/2
+% asserting p2446/2
+% asserting p2448/2
+% asserting p2449/2
+% asserting p2450/2
+% asserting p2451/2
+% asserting p2453/2
+% asserting p2455/2
+% asserting p2456/2
+% asserting p2457/2
+% asserting p2461/2
+% asserting p2462/2
+% asserting p2464/2
+% asserting p2465/2
+% asserting p2469/2
+% asserting p2470/2
+% asserting p2471/2
+% asserting p2482/2
+% asserting p2484/2
+% asserting p2488/2
+% asserting p2491/2
+% asserting p2492/2
+% asserting p2494/2
+% asserting p2495/2
+% asserting p2496/2
+% asserting p2497/2
+% asserting p2498/2
+% asserting p2499/2
+% asserting p2501/2
+% asserting p2502/2
+% asserting p2505/2
+% asserting p2510/2
+% asserting p2513/2
+% asserting p2516/2
+% asserting p2517/2
+% asserting p2518/2
+% asserting p2519/2
+% asserting p2522/2
+% asserting p2528/2
+% asserting p2529/2
+% asserting p2535/2
+% asserting p2539/2
+% asserting p2543/2
+% asserting p2547/2
+% asserting p2548/2
+% asserting p2549/2
+% asserting p2555/2
+% asserting p2556/2
+% asserting p2559/2
+% asserting p2560/2
+% asserting p2564/2
+% asserting p2565/2
+% asserting p2566/2
+% asserting p2568/2
+% asserting p2569/2
+% asserting p2572/2
+% asserting p2573/2
+% asserting p2576/2
+% asserting p2577/2
+% asserting p2579/2
+% asserting p2581/2
+% asserting p2582/2
+% asserting p2584/2
+% asserting p2586/2
+% asserting p2588/2
+% asserting p2589/2
+% asserting p2594/2
+% asserting p2596/2
+% asserting p2597/2
+% asserting p2600/2
+% asserting p2604/2
+% asserting p2605/2
+% asserting p2606/2
+% asserting p2609/2
+% asserting p2610/2
+% asserting p2614/2
+% asserting p2618/2
+% asserting p2625/2
+% asserting p2627/2
+% asserting p2628/2
+% asserting p2630/2
+% asserting p2634/2
+% asserting p2638/2
+% asserting p2640/2
+% asserting p2646/2
+% asserting p2647/2
+% asserting p2649/2
+% asserting p2650/2
+% asserting p2655/2
+% asserting p2656/2
+% asserting p2659/2
+% asserting p2662/2
+% asserting p2668/2
+% asserting p2669/2
+% asserting p2670/2
+% asserting p2671/2
+% asserting p2672/2
+% asserting p2674/2
+% asserting p2675/2
+% asserting p2677/2
+% asserting p2680/2
+% asserting p2684/2
+% asserting p2686/2
+% asserting p2688/2
+% asserting p2690/2
+% asserting p2692/2
+% asserting p2693/2
+% asserting p2696/2
+% asserting p2697/2
+% asserting p2698/2
+% asserting p2703/2
+% asserting p2704/2
+% asserting p2711/2
+% asserting p2712/2
+% asserting p2714/2
+% asserting p2715/2
+% asserting p2717/2
+% asserting p2718/2
+% asserting p2719/2
+% asserting p2721/2
+% asserting p2723/2
+% asserting p2724/2
+% asserting p2726/2
+% asserting p2727/2
+% asserting p2728/2
+% asserting p2729/2
+% asserting p2736/2
+% asserting p2737/2
+% asserting p2738/2
+% asserting p2741/2
+% asserting p2748/2
+% asserting p2749/2
+% asserting p2751/2
+% asserting p2752/2
+% asserting p2753/2
+% asserting p2757/2
+% asserting p2759/2
+% asserting p2760/2
+% asserting p2764/2
+% asserting p2768/2
+% asserting p2770/2
+% asserting p2771/2
+% asserting p2773/2
+% asserting p2774/2
+% asserting p2775/2
+% asserting p2777/2
+% asserting p2779/2
+% asserting p2780/2
+% asserting p2782/2
+% asserting p2787/2
+% asserting p2788/2
+% asserting p2789/2
+% asserting p2793/2
+% asserting p2794/2
+% asserting p2797/2
+% asserting p2799/2
+% asserting p2801/2
+% asserting p2802/2
+% asserting p2803/2
+% asserting p2804/2
+% asserting p2809/2
+% asserting p2811/2
+% asserting p2812/2
+% asserting p2820/2
+% asserting p2823/2
+% asserting p2824/2
+% asserting p2826/2
+% asserting p2827/2
+% asserting p2828/2
+% asserting p2831/2
+% asserting p2833/2
+% asserting p2835/2
+% asserting p2837/2
+% asserting p2845/2
+% asserting p2847/2
+% asserting p2848/2
+% asserting p2852/2
+% asserting p2853/2
+% asserting p2854/2
+% asserting p2855/2
+% asserting p2859/2
+% asserting p2860/2
+% asserting p2861/2
+% asserting p2862/2
+% asserting p2863/2
+% asserting p2866/2
+% asserting p2870/2
+% asserting p2871/2
+% asserting p2872/2
+% asserting p2873/2
+% asserting p2874/2
+% asserting p2881/2
+% asserting p2882/2
+% asserting p2883/2
+% asserting p2885/2
+% asserting p2890/2
+% asserting p2891/2
+% asserting p2894/2
+% asserting p2895/2
+% asserting p2897/2
+% asserting p2901/2
+% asserting p2902/2
+% asserting p2903/2
+% asserting p2905/2
+% asserting p2907/2
+% asserting p2908/2
+% asserting p2910/2
+% asserting p2911/2
+% asserting p2913/2
+% asserting p2915/2
+% asserting p2916/2
+% asserting p2918/2
+% asserting p2921/2
+% asserting p2923/2
+% asserting p2925/2
+% asserting p2928/2
+% asserting p2929/2
+% asserting p2930/2
+% asserting p2933/2
+% asserting p2937/2
+% asserting p2941/2
+% asserting p2945/2
+% asserting p2946/2
+% asserting p2947/2
+% asserting p2948/2
+% asserting p2950/2
+% asserting p2955/2
+% asserting p2958/2
+% asserting p2959/2
+% asserting p2962/2
+% asserting p2967/2
+% asserting p2968/2
+% asserting p2969/2
+% asserting p2972/2
+% asserting p2974/2
+% asserting p2975/2
+% asserting p2977/2
+% asserting p2981/2
+% asserting p2984/2
+% asserting p2986/2
+% asserting p2991/2
+% asserting p2992/2
+% asserting p2994/2
+% asserting p2996/2
+% asserting p2997/2
+% asserting p2998/2
+% asserting p3001/2
+% asserting p3004/2
+% asserting p3005/2
+% asserting p3007/2
+% asserting p3009/2
+% asserting p3010/2
+% asserting p3011/2
+% asserting p3012/2
+% asserting p3016/2
+% asserting p3017/2
+% asserting p3023/2
+% asserting p3030/2
+% asserting p3031/2
+% asserting p3033/2
+% asserting p3037/2
+% asserting p3043/2
+% asserting p3045/2
+% asserting p3047/2
+% asserting p3048/2
+% asserting p3049/2
+% asserting p3050/2
+% asserting p3052/2
+% asserting p3055/2
+% asserting p3056/2
+% asserting p3057/2
+% asserting p3060/2
+% asserting p3062/2
+% asserting p3065/2
+% asserting p3066/2
+% asserting p3068/2
+% asserting p3069/2
+% asserting p3072/2
+% asserting p3075/2
+% asserting p3076/2
+% asserting p3077/2
+% asserting p3081/2
+% asserting p3084/2
+% asserting p3085/2
+% asserting p3086/2
+% asserting p3087/2
+% asserting p3089/2
+% asserting p3090/2
+% asserting p3096/2
+% asserting p3097/2
+% asserting p3098/2
+% asserting p3100/2
+% asserting p3103/2
+% asserting p3105/2
+% asserting p3107/2
+% asserting p3109/2
+% asserting p3110/2
+% asserting p3113/2
+% asserting p3116/2
+% asserting p3118/2
+% asserting p3121/2
+% asserting p3129/2
+% asserting p3132/2
+% asserting p3133/2
+% asserting p3134/2
+% asserting p3136/2
+% asserting p3137/2
+% asserting p3139/2
+% asserting p3142/2
+% asserting p3148/2
+% asserting p3150/2
+% asserting p3152/2
+% asserting p3157/2
+% asserting p3160/2
+% asserting p3166/2
+% asserting p3168/2
+% asserting p3169/2
+% asserting p3171/2
+% asserting p3175/2
+% asserting p3176/2
+% asserting p3178/2
+% asserting p3181/2
+% asserting p3190/2
+% asserting p3191/2
+% asserting p3192/2
+% asserting p3193/2
+% asserting p3194/2
+% asserting p3198/2
+% asserting p3200/2
+% asserting p3201/2
+% asserting p3204/2
+% asserting p3206/2
+% asserting p3208/2
+% asserting p3211/2
+% asserting p3212/2
+% asserting p3213/2
+% asserting p3214/2
+% asserting p3215/2
+% asserting p3216/2
+% asserting p3217/2
+% asserting p3220/2
+% asserting p3223/2
+% asserting p3224/2
+% asserting p3227/2
+% asserting p3228/2
+% asserting p3231/2
+% asserting p3232/2
+% asserting p3233/2
+% asserting p3234/2
+% asserting p3237/2
+% asserting p3238/2
+% asserting p3239/2
+% asserting p3240/2
+% asserting p3241/2
+% asserting p3242/2
+% asserting p3245/2
+% asserting p3247/2
+% asserting p3252/2
+% asserting p3255/2
+% asserting p3257/2
+% asserting p3260/2
+% asserting p3262/2
+% asserting p3263/2
+% asserting p3264/2
+% asserting p3267/2
+% asserting p3268/2
+% asserting p3269/2
+% asserting p3275/2
+% asserting p3276/2
+% asserting p3278/2
+% asserting p3280/2
+% asserting p3283/2
+% asserting p3284/2
+% asserting p3286/2
+% asserting p3287/2
+% asserting p3292/2
+% asserting p3294/2
+% asserting p3298/2
+% asserting p3299/2
+% asserting p3301/2
+% asserting p3302/2
+% asserting p3304/2
+% asserting p3306/2
+% asserting p3308/2
+% asserting p3309/2
+% asserting p3312/2
+% asserting p3315/2
+% asserting p3319/2
+% asserting p3322/2
+% asserting p3323/2
+% asserting p3324/2
+% asserting p3325/2
+% asserting p3326/2
+% asserting p3333/2
+% asserting p3336/2
+% asserting p3344/2
+% asserting p3345/2
+% asserting p3347/2
+% asserting p3351/2
+% asserting p3353/2
+% asserting p3355/2
+% asserting p3357/2
+% asserting p3358/2
+% asserting p3359/2
+% asserting p3360/2
+% asserting p3362/2
+% asserting p3363/2
+% asserting p3365/2
+% asserting p3366/2
+% asserting p3367/2
+% asserting p3368/2
+% asserting p3369/2
+% asserting p3371/2
+% asserting p3372/2
+% asserting p3376/2
+% asserting p3377/2
+% asserting p3381/2
+% asserting p3383/2
+% asserting p3387/2
+% asserting p3388/2
+% asserting p3392/2
+% asserting p3393/2
+% asserting p3395/2
+% asserting p3396/2
+% asserting p3398/2
+% asserting p3401/2
+% asserting p3402/2
+% asserting p3405/2
+% asserting p3407/2
+% asserting p3408/2
+% asserting p3410/2
+% asserting p3412/2
+% asserting p3414/2
+% asserting p3416/2
+% asserting p3418/2
+% asserting p3421/2
+% asserting p3422/2
+% asserting p3424/2
+% asserting p3425/2
+% asserting p3427/2
+% asserting p3435/2
+% asserting p3436/2
+% asserting p3438/2
+% asserting p3439/2
+% asserting p3441/2
+% asserting p3445/2
+% asserting p3448/2
+% asserting p3450/2
+% asserting p3451/2
+% asserting p3453/2
+% asserting p3454/2
+% asserting p3456/2
+% asserting p3464/2
+% asserting p3465/2
+% asserting p3468/2
+% asserting p3472/2
+% asserting p3473/2
+% asserting p3474/2
+% asserting p3479/2
+% asserting p3480/2
+% asserting p3481/2
+% asserting p3482/2
+% asserting p3484/2
+% asserting p3485/2
+% asserting p3491/2
+% asserting p3492/2
+% asserting p3493/2
+% asserting p3494/2
+% asserting p3495/2
+% asserting p3496/2
+% asserting p3499/2
+% asserting p3501/2
+% asserting p3502/2
+% asserting p3503/2
+% asserting p3504/2
+% asserting p3505/2
+% asserting p3510/2
+% asserting p3514/2
+% asserting p3515/2
+% asserting p3516/2
+% asserting p3517/2
+% asserting p3519/2
+% asserting p3522/2
+% asserting p3524/2
+% asserting p3526/2
+% asserting p3527/2
+% asserting p3530/2
+% asserting p3531/2
+% asserting p3534/2
+% asserting p3537/2
+% asserting p3538/2
+% asserting p3539/2
+% asserting p3545/2
+% asserting p3548/2
+% asserting p3549/2
+% asserting p3550/2
+% asserting p3552/2
+% asserting p3553/2
+% asserting p3554/2
+% asserting p3559/2
+% asserting p3561/2
+% asserting p3563/2
+% asserting p3567/2
+% asserting p3569/2
+% asserting p3579/2
+% asserting p3580/2
+% asserting p3583/2
+% asserting p3590/2
+% asserting p3597/2
+% asserting p3600/2
+% asserting p3601/2
+% asserting p3602/2
+% asserting p3603/2
+% asserting p3606/2
+% asserting p3608/2
+% asserting p3609/2
+% asserting p3611/2
+% asserting p3613/2
+% asserting p3616/2
+% asserting p3617/2
+% asserting p3620/2
+% asserting p3624/2
+% asserting p3625/2
+% asserting p3629/2
+% asserting p3630/2
+% asserting p3631/2
+% asserting p3633/2
+% asserting p3638/2
+% asserting p3643/2
+% asserting p3644/2
+% asserting p3648/2
+% asserting p3649/2
+% asserting p3651/2
+% asserting p3653/2
+% asserting p3659/2
+% asserting p3660/2
+% asserting p3662/2
+% asserting p3663/2
+% asserting p3665/2
+% asserting p3666/2
+% asserting p3670/2
+% asserting p3671/2
+% asserting p3673/2
+% asserting p3675/2
+% asserting p3676/2
+% asserting p3677/2
+% asserting p3678/2
+% asserting p3682/2
+% asserting p3683/2
+% asserting p3684/2
+% asserting p3685/2
+% asserting p3686/2
+% asserting p3691/2
+% asserting p3693/2
+% asserting p3696/2
+% asserting p3697/2
+% asserting p3699/2
+% asserting p3702/2
+% asserting p3705/2
+% asserting p3707/2
+% asserting p3710/2
+% asserting p3711/2
+% asserting p3712/2
+% asserting p3714/2
+% asserting p3715/2
+% asserting p3718/2
+% asserting p3719/2
+% asserting p3728/2
+% asserting p3731/2
+% asserting p3732/2
+% asserting p3736/2
+% asserting p3737/2
+% asserting p3738/2
+% asserting p3739/2
+% asserting p3740/2
+% asserting p3743/2
+% asserting p3747/2
+% asserting p3749/2
+% asserting p3751/2
+% asserting p3752/2
+% asserting p3753/2
+% asserting p3754/2
+% asserting p3758/2
+% asserting p3762/2
+% asserting p3763/2
+% asserting p3764/2
+% asserting p3768/2
+% asserting p3769/2
+% asserting p3772/2
+% asserting p3773/2
+% asserting p3776/2
+% asserting p3777/2
+% asserting p3778/2
+% asserting p3780/2
+% asserting p3783/2
+% asserting p3785/2
+% asserting p3786/2
+% asserting p3787/2
+% asserting p3790/2
+% asserting p3792/2
+% asserting p3793/2
+% asserting p3795/2
+% asserting p3796/2
+% asserting p3797/2
+% asserting p3798/2
+% asserting p3799/2
+% asserting p3801/2
+% asserting p3803/2
+% asserting p3804/2
+% asserting p3806/2
+% asserting p3807/2
+% asserting p3809/2
+% asserting p3810/2
+% asserting p3812/2
+% asserting p3813/2
+% asserting p3814/2
+% asserting p3817/2
+% asserting p3818/2
+% asserting p3819/2
+% asserting p3821/2
+% asserting p3822/2
+% asserting p3823/2
+% asserting p3825/2
+% asserting p3827/2
+% asserting p3829/2
+% asserting p3832/2
+% asserting p3834/2
+% asserting p3835/2
+% asserting p3838/2
+% asserting p3841/2
+% asserting p3844/2
+% asserting p3845/2
+% asserting p3847/2
+% asserting p3848/2
+% asserting p3849/2
+% asserting p3852/2
+% asserting p3856/2
+% asserting p3857/2
+% asserting p3866/2
+% asserting p3867/2
+% asserting p3868/2
+% asserting p3870/2
+% asserting p3871/2
+% asserting p3872/2
+% asserting p3873/2
+% asserting p3874/2
+% asserting p3881/2
+% asserting p3886/2
+% asserting p3887/2
+% asserting p3888/2
+% asserting p3889/2
+% asserting p3896/2
+% asserting p3897/2
+% asserting p3898/2
+% asserting p3901/2
+% asserting p3902/2
+% asserting p3903/2
+% asserting p3904/2
+% asserting p3906/2
+% asserting p3907/2
+% asserting p3909/2
+% asserting p3911/2
+% asserting p3912/2
+% asserting p3913/2
+% asserting p3914/2
+% asserting p3916/2
+% asserting p3920/2
+% asserting p3921/2
+% asserting p3925/2
+% asserting p3926/2
+% asserting p3927/2
+% asserting p3930/2
+% asserting p3933/2
+% asserting p3942/2
+% asserting p3944/2
+% asserting p3947/2
+% asserting p3950/2
+% asserting p3951/2
+% asserting p3953/2
+% asserting p3954/2
+% asserting p3955/2
+% asserting p3956/2
+% asserting p3960/2
+% asserting p3962/2
+% asserting p3963/2
+% asserting p3964/2
+% asserting p3970/2
+% asserting p3971/2
+% asserting p3972/2
+% asserting p3973/2
+% asserting p3974/2
+% asserting p3975/2
+% asserting p3976/2
+% asserting p3977/2
+% asserting p3979/2
+% asserting p3981/2
+% asserting p3986/2
+% asserting p3987/2
+% asserting p3988/2
+% asserting p3989/2
+% asserting p3992/2
+% asserting p3994/2
+% asserting p3995/2
+% asserting p3996/2
+% asserting p3998/2
+% started solving build tasks at 20 3 2020 13:5:23.532890319
+% started solving build tasks at 20 3 2020 13:5:23.532864093
+% started solving build tasks at 20 3 2020 13:5:23.532878875
+% started solving build tasks at 20 3 2020 13:5:23.532861948
+%timeout
+%timeout
+%timeout
+%timeout
+% started solving build tasks at 20 3 2020 13:6:23.533234357
+% started solving build tasks at 20 3 2020 13:6:23.533244609
+% started solving build tasks at 20 3 2020 13:6:23.533280134
+% started solving build tasks at 20 3 2020 13:6:23.533278942
+%timeout
+%timeout
+%timeout
+% started solving build tasks at 20 3 2020 13:7:23.533481836
+% started solving build tasks at 20 3 2020 13:7:23.533508539
+% started solving build tasks at 20 3 2020 13:7:23.533491373
+%timeout
+% started solving build tasks at 20 3 2020 13:7:23.533599853
+%timeout
+%timeout
+%timeout
+%timeout
+% started solving build tasks at 20 3 2020 13:8:23.533782958
+% started solving build tasks at 20 3 2020 13:8:23.53379631
+% started solving build tasks at 20 3 2020 13:8:23.533807754
+% started solving build tasks at 20 3 2020 13:8:23.533807754
+%timeout
+%timeout
+%timeout
+%timeout
+% started solving build tasks at 20 3 2020 13:9:23.534017562
+% started solving build tasks at 20 3 2020 13:9:23.534030675
+% started solving build tasks at 20 3 2020 13:9:23.534053325
+% started solving build tasks at 20 3 2020 13:9:23.534052848
+%timeout
+%timeout
+%timeout
+%timeout
+% started solving build tasks at 20 3 2020 13:10:23.534297704
+% started solving build tasks at 20 3 2020 13:10:23.534285783
+% started solving build tasks at 20 3 2020 13:10:23.534285783
+% started solving build tasks at 20 3 2020 13:10:23.534317016
+%timeout
+%timeout
+%timeout
+%timeout
+% started solving build tasks at 20 3 2020 13:11:23.534674406
+% started solving build tasks at 20 3 2020 13:11:23.534674406
+% started solving build tasks at 20 3 2020 13:11:23.534674406
+% started solving build tasks at 20 3 2020 13:11:23.534682512
+%timeout
+%timeout
+%timeout
+%timeout
+% started solving build tasks at 20 3 2020 13:12:23.534951686
+% started solving build tasks at 20 3 2020 13:12:23.534973859
+% started solving build tasks at 20 3 2020 13:12:23.534935712
+% started solving build tasks at 20 3 2020 13:12:23.534942388
+%timeout
+%timeout
+%timeout
+%timeout
+% started solving build tasks at 20 3 2020 13:13:23.535191059
+% started solving build tasks at 20 3 2020 13:13:23.535182476
+% started solving build tasks at 20 3 2020 13:13:23.53517723
+% started solving build tasks at 20 3 2020 13:13:23.535211086
+%timeout
+%timeout
+%timeout
+% started solving build tasks at 20 3 2020 13:14:23.535427331
+% started solving build tasks at 20 3 2020 13:14:23.535434246
+%timeout
+% started solving build tasks at 20 3 2020 13:14:23.535450696
+% started solving build tasks at 20 3 2020 13:14:23.535536527
+%timeout
+%timeout
+% started solving build tasks at 20 3 2020 13:15:23.535674095
+%timeout
+% started solving build tasks at 20 3 2020 13:15:23.535673141
+%timeout
+% started solving build tasks at 20 3 2020 13:15:23.535738468
+% started solving build tasks at 20 3 2020 13:15:23.535797119
+%timeout
+%timeout
+%timeout
+%timeout
+% started solving build tasks at 20 3 2020 13:16:23.536034822
+% started solving build tasks at 20 3 2020 13:16:23.536037206
+% started solving build tasks at 20 3 2020 13:16:23.53603506
+% started solving build tasks at 20 3 2020 13:16:23.536035299
+%timeout
+%timeout
+%timeout
+%timeout
+% started solving build tasks at 20 3 2020 13:17:23.536278247
+% started solving build tasks at 20 3 2020 13:17:23.53627038
+% started solving build tasks at 20 3 2020 13:17:23.536285877
+% started solving build tasks at 20 3 2020 13:17:23.536301136
+% finished solving build tasks at 20 3 2020 13:18:15.992115497
+b50(A,B):-p337(A,C),p38(C,B).
+% started solving build tasks at 20 3 2020 13:18:15.992286682
+%timeout
+%timeout
+%timeout
+% started solving build tasks at 20 3 2020 13:18:23.536512374
+% started solving build tasks at 20 3 2020 13:18:23.536525964
+% started solving build tasks at 20 3 2020 13:18:23.536535978
+%timeout
+% started solving build tasks at 20 3 2020 13:19:15.992526292
+%timeout
+%timeout
+%timeout
+% started solving build tasks at 20 3 2020 13:19:23.536754608
+% started solving build tasks at 20 3 2020 13:19:23.536767721
+% started solving build tasks at 20 3 2020 13:19:23.536778211
+%timeout
+% started solving build tasks at 20 3 2020 13:20:15.992770433
+% finished solving build tasks at 20 3 2020 13:20:16.017242431
+b60(A,B):-p2594(A,B).
+% started solving build tasks at 20 3 2020 13:20:16.017349243
+%timeout
+%timeout
+%timeout
+% started solving build tasks at 20 3 2020 13:20:23.53702569
+% started solving build tasks at 20 3 2020 13:20:23.537035226
+% started solving build tasks at 20 3 2020 13:20:23.537050485
+%timeout
+% started solving build tasks at 20 3 2020 13:21:16.017686367
+%timeout
+%timeout
+%timeout
+% started solving build tasks at 20 3 2020 13:21:23.537231206
+% started solving build tasks at 20 3 2020 13:21:23.537248134
+% started solving build tasks at 20 3 2020 13:21:23.537264108
+%timeout
+% started solving build tasks at 20 3 2020 13:22:16.017934083
+%timeout
+%timeout
+%timeout
+% started solving build tasks at 20 3 2020 13:22:23.537451982
+% started solving build tasks at 20 3 2020 13:22:23.537486314
+% started solving build tasks at 20 3 2020 13:22:23.537470102
+%timeout
+% started solving build tasks at 20 3 2020 13:23:16.018176555
+%timeout
+%timeout
+%timeout
+% started solving build tasks at 20 3 2020 13:23:23.537662029
+% started solving build tasks at 20 3 2020 13:23:23.537688255
+% started solving build tasks at 20 3 2020 13:23:23.537670612
+% finished solving build tasks at 20 3 2020 13:24:4.030097723
+b73(A,B):-p20(A,C),p1741(C,B).
+% started solving build tasks at 20 3 2020 13:24:4.030275106
+%timeout
+%timeout
+%timeout
+% started solving build tasks at 20 3 2020 13:24:23.537865638
+% started solving build tasks at 20 3 2020 13:24:23.537899732
+% started solving build tasks at 20 3 2020 13:24:23.537877559000002
+%timeout
+% started solving build tasks at 20 3 2020 13:25:4.030519008
+%timeout
+%timeout
+%timeout
+% started solving build tasks at 20 3 2020 13:25:23.538187742
+% started solving build tasks at 20 3 2020 13:25:23.538189888
+% started solving build tasks at 20 3 2020 13:25:23.538188219
+%timeout
+% started solving build tasks at 20 3 2020 13:26:4.030777215
+% finished solving build tasks at 20 3 2020 13:26:15.114998579
+b83(A,B):-p261(A,C),p72(C,B).
+% started solving build tasks at 20 3 2020 13:26:15.115169525
+%timeout
+%timeout
+% started solving build tasks at 20 3 2020 13:26:23.538407087
+% started solving build tasks at 20 3 2020 13:26:23.538417339
+%timeout
+% started solving build tasks at 20 3 2020 13:27:4.031028509
+%timeout
+% started solving build tasks at 20 3 2020 13:27:15.11538124
+%timeout
+%timeout
+% started solving build tasks at 20 3 2020 13:27:23.538622617
+% started solving build tasks at 20 3 2020 13:27:23.538633584
+%timeout
+% started solving build tasks at 20 3 2020 13:28:4.031270503
+%timeout
+% started solving build tasks at 20 3 2020 13:28:15.115597486
+%timeout
+%timeout
+% started solving build tasks at 20 3 2020 13:28:23.538827419
+% started solving build tasks at 20 3 2020 13:28:23.538837909
+% finished solving build tasks at 20 3 2020 13:28:28.211749315
+b93(A,B):-p64(A,C),p2497(C,B).
+% started solving build tasks at 20 3 2020 13:28:28.211885213
+%timeout
+% started solving build tasks at 20 3 2020 13:29:15.115824222
+%timeout
+%timeout
+% started solving build tasks at 20 3 2020 13:29:23.53902769
+% started solving build tasks at 20 3 2020 13:29:23.539031028
+%timeout
+% started solving build tasks at 20 3 2020 13:29:28.212216377
+%timeout
+% started solving build tasks at 20 3 2020 13:30:15.116182804
+%timeout
+%timeout
+% started solving build tasks at 20 3 2020 13:30:23.539234876
+% started solving build tasks at 20 3 2020 13:30:23.539251565
+%timeout
+% started solving build tasks at 20 3 2020 13:30:28.212448835
+%timeout
+% started solving build tasks at 20 3 2020 13:31:15.116443395
+%timeout
+%timeout
+% started solving build tasks at 20 3 2020 13:31:23.539445399999998
+% started solving build tasks at 20 3 2020 13:31:23.539484739
+%timeout
+% started solving build tasks at 20 3 2020 13:31:28.212682962
+%timeout
+% started solving build tasks at 20 3 2020 13:32:15.116677761
+%timeout
+%timeout
+% started solving build tasks at 20 3 2020 13:32:23.539639711
+% started solving build tasks at 20 3 2020 13:32:23.539656162
+%timeout
+% started solving build tasks at 20 3 2020 13:32:28.212900638
+% finished solving build tasks at 20 3 2020 13:32:47.631170988
+b112(A,B):-p64_1(A,C),p354(C,B).
+% started solving build tasks at 20 3 2020 13:32:47.631364583
+%timeout
+% started solving build tasks at 20 3 2020 13:33:15.11690545
+%timeout
+% started solving build tasks at 20 3 2020 13:33:23.539844751
+% finished solving build tasks at 20 3 2020 13:33:26.65070033
+b115(A,B):-p15(A,C),p2669(C,B).
+% started solving build tasks at 20 3 2020 13:33:26.650829076
+%timeout
+% started solving build tasks at 20 3 2020 13:33:28.213138103
+%timeout
+% started solving build tasks at 20 3 2020 13:33:47.631592273
+%timeout
+% started solving build tasks at 20 3 2020 13:34:23.540143966
+%timeout
+% started solving build tasks at 20 3 2020 13:34:26.651060104
+%timeout
+% started solving build tasks at 20 3 2020 13:34:28.21339178
+%timeout
+% started solving build tasks at 20 3 2020 13:34:47.631847143
+%timeout
+% started solving build tasks at 20 3 2020 13:35:23.540385007
+%timeout
+% started solving build tasks at 20 3 2020 13:35:26.651306152
+%timeout
+% started solving build tasks at 20 3 2020 13:35:28.213643074
+%timeout
+% started solving build tasks at 20 3 2020 13:35:47.632098674
+%timeout
+% started solving build tasks at 20 3 2020 13:36:23.540617942
+%timeout
+% started solving build tasks at 20 3 2020 13:36:26.651544809
+%timeout
+% started solving build tasks at 20 3 2020 13:36:28.21390891
+%timeout
+% started solving build tasks at 20 3 2020 13:36:47.632362365
+% finished solving build tasks at 20 3 2020 13:36:51.575082778
+b129(A,B):-p205(A,C),p2306(C,B).
+% started solving build tasks at 20 3 2020 13:36:51.57522273
+% finished solving build tasks at 20 3 2020 13:37:18.286204576
+b130(A,B):-p193(A,C),p2684(C,B).
+% started solving build tasks at 20 3 2020 13:37:18.286349534
+%timeout
+% started solving build tasks at 20 3 2020 13:37:23.54083991
+%timeout
+% started solving build tasks at 20 3 2020 13:37:47.632614612
+%timeout
+% started solving build tasks at 20 3 2020 13:37:51.575427293
+%timeout
+% started solving build tasks at 20 3 2020 13:38:18.286585092
+%timeout
+% started solving build tasks at 20 3 2020 13:38:23.541053771
+%timeout
+% started solving build tasks at 20 3 2020 13:38:47.632977247
+%timeout
+% started solving build tasks at 20 3 2020 13:38:51.575633525
+%timeout
+% started solving build tasks at 20 3 2020 13:39:18.286840438
+%timeout
+% started solving build tasks at 20 3 2020 13:39:23.541261196
+%timeout
+% started solving build tasks at 20 3 2020 13:39:47.633244514
+%timeout
+% started solving build tasks at 20 3 2020 13:39:51.575851917
+%timeout
+% started solving build tasks at 20 3 2020 13:40:18.287084341
+%timeout
+% started solving build tasks at 20 3 2020 13:40:23.541481256
+%timeout
+% started solving build tasks at 20 3 2020 13:40:47.633494377
+%timeout
+% started solving build tasks at 20 3 2020 13:40:51.576060771
+%timeout
+% started solving build tasks at 20 3 2020 13:41:18.287339687
+%timeout
+% started solving build tasks at 20 3 2020 13:41:23.541727066
+%timeout
+% started solving build tasks at 20 3 2020 13:41:47.633739709
+%timeout
+% started solving build tasks at 20 3 2020 13:41:51.576324462
+%timeout
+% started solving build tasks at 20 3 2020 13:42:18.28761506
+%timeout
+% started solving build tasks at 20 3 2020 13:42:23.54197359
+%timeout
+% started solving build tasks at 20 3 2020 13:42:47.633987426
+%timeout
+% started solving build tasks at 20 3 2020 13:42:51.576579332
+%timeout
+% started solving build tasks at 20 3 2020 13:43:18.287960529
+%timeout
+% started solving build tasks at 20 3 2020 13:43:23.542205333
+%timeout
+% started solving build tasks at 20 3 2020 13:43:47.634217262
+%timeout
+% started solving build tasks at 20 3 2020 13:43:51.576827287
+%timeout
+% started solving build tasks at 20 3 2020 13:44:18.288242101
+%timeout
+% started solving build tasks at 20 3 2020 13:44:23.542450666
+%timeout
+% started solving build tasks at 20 3 2020 13:44:47.634495258
+%timeout
+% started solving build tasks at 20 3 2020 13:44:51.577087163
+%timeout
+% started solving build tasks at 20 3 2020 13:45:18.28851509
+%timeout
+% started solving build tasks at 20 3 2020 13:45:23.542702674
+%timeout
+% started solving build tasks at 20 3 2020 13:45:47.634778022
+%timeout
+% started solving build tasks at 20 3 2020 13:45:51.577353477
+% finished solving build tasks at 20 3 2020 13:46:15.013030052
+b168(A,B):-p15(A,C),p838(C,B).
+% started solving build tasks at 20 3 2020 13:46:15.013234853
+%timeout
+% started solving build tasks at 20 3 2020 13:46:18.288749933
+%timeout
+% started solving build tasks at 20 3 2020 13:46:23.542956352
+%timeout
+% started solving build tasks at 20 3 2020 13:46:47.635043621
+% finished solving build tasks at 20 3 2020 13:47:3.262603759
+b169(A,B):-p26(A,C),p2(C,B).
+% started solving build tasks at 20 3 2020 13:47:3.26274228
+%timeout
+% started solving build tasks at 20 3 2020 13:47:18.288986444
+%timeout
+% started solving build tasks at 20 3 2020 13:47:23.543173789
+%timeout
+% started solving build tasks at 20 3 2020 13:47:47.635300397
+%timeout
+% started solving build tasks at 20 3 2020 13:48:3.263256072
+%timeout
+% started solving build tasks at 20 3 2020 13:48:18.289215564
+%timeout
+% started solving build tasks at 20 3 2020 13:48:23.543401002
+%timeout
+% started solving build tasks at 20 3 2020 13:48:47.635557651
+%timeout
+% started solving build tasks at 20 3 2020 13:49:3.263586044
+%timeout
+% started solving build tasks at 20 3 2020 13:49:18.289499759
+%timeout
+% started solving build tasks at 20 3 2020 13:49:23.543634653
+%timeout
+% started solving build tasks at 20 3 2020 13:49:47.635823249
+%timeout
+% started solving build tasks at 20 3 2020 13:50:3.263864517
+%timeout
+% started solving build tasks at 20 3 2020 13:50:18.289738893
+%timeout
+% started solving build tasks at 20 3 2020 13:50:23.543851137
+%timeout
+% started solving build tasks at 20 3 2020 13:50:47.636072635
+% finished solving build tasks at 20 3 2020 13:50:51.777189016
+b187(A,B):-p711(A,C),p89(C,B).
+% started solving build tasks at 20 3 2020 13:50:51.777327537
+%timeout
+% started solving build tasks at 20 3 2020 13:51:3.264140605
+%timeout
+% started solving build tasks at 20 3 2020 13:51:18.289988517
+%timeout
+% started solving build tasks at 20 3 2020 13:51:47.636313915
+%timeout
+% started solving build tasks at 20 3 2020 13:51:51.777541875
+%timeout
+% started solving build tasks at 20 3 2020 13:52:3.264404058
+%timeout
+% started solving build tasks at 20 3 2020 13:52:18.290361642
+%timeout
+% started solving build tasks at 20 3 2020 13:52:47.636567592
+%timeout
+% started solving build tasks at 20 3 2020 13:52:51.777776479
+%timeout
+% started solving build tasks at 20 3 2020 13:53:3.264667987
+%timeout
+% started solving build tasks at 20 3 2020 13:53:18.29060316
+%timeout
+% started solving build tasks at 20 3 2020 13:53:47.636815786
+%timeout
+% started solving build tasks at 20 3 2020 13:53:51.778004169
+%timeout
+% started solving build tasks at 20 3 2020 13:54:3.264944791
+%timeout
+% started solving build tasks at 20 3 2020 13:54:18.290843248
+%timeout
+% started solving build tasks at 20 3 2020 13:54:47.637061834
+%timeout
+% started solving build tasks at 20 3 2020 13:54:51.778237342
+%timeout
+% started solving build tasks at 20 3 2020 13:55:3.265215396
+%timeout
+% started solving build tasks at 20 3 2020 13:55:18.291090488
+%timeout
+% started solving build tasks at 20 3 2020 13:55:47.637310504
+%timeout
+% started solving build tasks at 20 3 2020 13:55:51.77844882
+% finished solving build tasks at 20 3 2020 13:55:54.260932683
+b206(A,B):-p245(A,C),p26(C,B).
+% started solving build tasks at 20 3 2020 13:55:54.261109352
+% finished solving build tasks at 20 3 2020 13:56:8.03641963
+b207(A,B):-p169(A,C),p2929(C,B).
+% started solving build tasks at 20 3 2020 13:56:8.03656888
+%timeout
+% started solving build tasks at 20 3 2020 13:56:47.637676954
+%timeout
+% started solving build tasks at 20 3 2020 13:56:51.778674602
+%timeout
+% started solving build tasks at 20 3 2020 13:56:54.261349678
+%timeout
+% started solving build tasks at 20 3 2020 13:57:8.036811828
+% finished solving build tasks at 20 3 2020 13:57:19.02153635
+b214(A,B):-p187(A,C),p2698(C,B).
+% started solving build tasks at 20 3 2020 13:57:19.021706104
+%timeout
+% started solving build tasks at 20 3 2020 13:57:47.63792777
+%timeout
+% started solving build tasks at 20 3 2020 13:57:51.778918981
+%timeout
+% started solving build tasks at 20 3 2020 13:58:8.037056207
+%timeout
+% started solving build tasks at 20 3 2020 13:58:19.021948099
+%timeout
+% started solving build tasks at 20 3 2020 13:58:47.638170957
+%timeout
+% started solving build tasks at 20 3 2020 13:58:51.779139757
+%timeout
+% started solving build tasks at 20 3 2020 13:59:8.03733468
+%timeout
+% started solving build tasks at 20 3 2020 13:59:19.022187471
+%timeout
+% started solving build tasks at 20 3 2020 13:59:47.638402462
+%timeout
+% started solving build tasks at 20 3 2020 13:59:51.779408931
+%timeout
+% started solving build tasks at 20 3 2020 14:0:8.037595987
+%timeout
+% started solving build tasks at 20 3 2020 14:0:19.022470951
+%timeout
+% started solving build tasks at 20 3 2020 14:0:47.638647079
+%timeout
+% started solving build tasks at 20 3 2020 14:0:51.779622793
+%timeout
+% started solving build tasks at 20 3 2020 14:1:8.03796339
+%timeout
+% started solving build tasks at 20 3 2020 14:1:19.022726774
+%timeout
+% started solving build tasks at 20 3 2020 14:1:47.638900518
+%timeout
+% started solving build tasks at 20 3 2020 14:1:51.779830455
+%timeout
+% started solving build tasks at 20 3 2020 14:2:8.038215398
+%timeout
+% started solving build tasks at 20 3 2020 14:2:19.022983312
+%timeout
+% started solving build tasks at 20 3 2020 14:2:47.639145374
+%timeout
+% started solving build tasks at 20 3 2020 14:2:51.780070304
+%timeout
+% started solving build tasks at 20 3 2020 14:3:8.038452625
+%timeout
+% started solving build tasks at 20 3 2020 14:3:19.023224115
+%timeout
+% started solving build tasks at 20 3 2020 14:3:47.639378786
+%timeout
+% started solving build tasks at 20 3 2020 14:3:51.780304193
+%timeout
+% started solving build tasks at 20 3 2020 14:4:8.038695335
+%timeout
+% started solving build tasks at 20 3 2020 14:4:19.023464202
+%timeout
+% started solving build tasks at 20 3 2020 14:4:47.639615297
+%timeout
+% started solving build tasks at 20 3 2020 14:4:51.780638217
+%timeout
+% started solving build tasks at 20 3 2020 14:5:8.038961648
+%timeout
+% started solving build tasks at 20 3 2020 14:5:19.023721933
+%timeout
+% started solving build tasks at 20 3 2020 14:5:47.639859437
+%timeout
+% started solving build tasks at 20 3 2020 14:5:51.780887126
+%timeout
+% started solving build tasks at 20 3 2020 14:6:8.039212226
+%timeout
+% started solving build tasks at 20 3 2020 14:6:19.023974895
+%timeout
+% started solving build tasks at 20 3 2020 14:6:47.640106678
+%timeout
+% started solving build tasks at 20 3 2020 14:6:51.781121492
+%timeout
+% started solving build tasks at 20 3 2020 14:7:8.039445638
+%timeout
+% started solving build tasks at 20 3 2020 14:7:19.024215698
+%timeout
+% started solving build tasks at 20 3 2020 14:7:47.640340328
+%timeout
+% started solving build tasks at 20 3 2020 14:7:51.781354904
+%timeout
+% started solving build tasks at 20 3 2020 14:8:8.039699792
+%timeout
+% started solving build tasks at 20 3 2020 14:8:19.024590253
+%timeout
+% started solving build tasks at 20 3 2020 14:8:47.640584468
+%timeout
+% started solving build tasks at 20 3 2020 14:8:51.781591892
+%timeout
+% started solving build tasks at 20 3 2020 14:9:8.039949417
+% finished solving build tasks at 20 3 2020 14:9:11.780168056
+b260(A,B):-p387(A,C),p112(C,B).
+% started solving build tasks at 20 3 2020 14:9:11.780338764
+%timeout
+% started solving build tasks at 20 3 2020 14:9:47.640829086
+%timeout
+% started solving build tasks at 20 3 2020 14:9:51.781829595
+%timeout
+% started solving build tasks at 20 3 2020 14:10:8.040192604
+%timeout
+% started solving build tasks at 20 3 2020 14:10:11.7805624
+%timeout
+% started solving build tasks at 20 3 2020 14:10:47.641078233
+%timeout
+% started solving build tasks at 20 3 2020 14:10:51.782062292
+% finished solving build tasks at 20 3 2020 14:11:7.498768091
+b267(A,B):-p904(A,C),p2220(C,B).
+% started solving build tasks at 20 3 2020 14:11:7.499010324
+%timeout
+% started solving build tasks at 20 3 2020 14:11:11.780836582
+%timeout
+% started solving build tasks at 20 3 2020 14:11:47.641326904
+%timeout
+% started solving build tasks at 20 3 2020 14:11:51.782306909
+%timeout
+% started solving build tasks at 20 3 2020 14:12:7.499251127
+%timeout
+% started solving build tasks at 20 3 2020 14:12:11.781088113
+%timeout
+% started solving build tasks at 20 3 2020 14:12:47.641571283
+%timeout
+% started solving build tasks at 20 3 2020 14:12:51.782546758
+%timeout
+% started solving build tasks at 20 3 2020 14:13:7.499481439
+%timeout
+% started solving build tasks at 20 3 2020 14:13:11.781328916
+%timeout
+% started solving build tasks at 20 3 2020 14:13:47.641810655
+%timeout
+% started solving build tasks at 20 3 2020 14:13:51.782774925
+%timeout
+% started solving build tasks at 20 3 2020 14:14:7.499752998
+% finished solving build tasks at 20 3 2020 14:14:9.260107278
+b280(A,B):-p727(A,C),p2991(C,B).
+% started solving build tasks at 20 3 2020 14:14:9.260250329
+%timeout
+% started solving build tasks at 20 3 2020 14:14:47.642163276
+%timeout
+% started solving build tasks at 20 3 2020 14:14:51.783013343
+% finished solving build tasks at 20 3 2020 14:14:57.102241754
+b284(A,B):-p13(A,C),p4(C,B).
+% started solving build tasks at 20 3 2020 14:14:57.102411508
+%timeout
+% started solving build tasks at 20 3 2020 14:15:7.500012636
+% finished solving build tasks at 20 3 2020 14:15:38.772241115
+b286(A,B):-p3264(A,C),p994(C,B).
+% started solving build tasks at 20 3 2020 14:15:38.772378444
+%timeout
+% started solving build tasks at 20 3 2020 14:15:47.642413616
+%timeout
+% started solving build tasks at 20 3 2020 14:15:57.102793455
+%timeout
+% started solving build tasks at 20 3 2020 14:16:7.500283718
+%timeout
+% started solving build tasks at 20 3 2020 14:16:38.772676229
+%timeout
+% started solving build tasks at 20 3 2020 14:16:47.642654418
+%timeout
+% started solving build tasks at 20 3 2020 14:16:57.1030519
+%timeout
+% started solving build tasks at 20 3 2020 14:17:7.500530242
+%timeout
+% started solving build tasks at 20 3 2020 14:17:38.772897005
+%timeout
+% started solving build tasks at 20 3 2020 14:17:47.642903327
+%timeout
+% started solving build tasks at 20 3 2020 14:17:57.103304386
+%timeout
+% started solving build tasks at 20 3 2020 14:18:7.501058578
+%timeout
+% started solving build tasks at 20 3 2020 14:18:38.773118734
+%timeout
+% started solving build tasks at 20 3 2020 14:18:47.643156766
+%timeout
+% started solving build tasks at 20 3 2020 14:18:57.103562116
+%timeout
+% started solving build tasks at 20 3 2020 14:19:7.501337528
+%timeout
+% started solving build tasks at 20 3 2020 14:19:38.77335453
+%timeout
+% started solving build tasks at 20 3 2020 14:19:47.643403768
+%timeout
+% started solving build tasks at 20 3 2020 14:19:57.103809595
+%timeout
+% started solving build tasks at 20 3 2020 14:20:7.501575708
+%timeout
+% started solving build tasks at 20 3 2020 14:20:38.773585081
+%timeout
+% started solving build tasks at 20 3 2020 14:20:47.6436522
+%timeout
+% started solving build tasks at 20 3 2020 14:20:57.104050636
+% finished solving build tasks at 20 3 2020 14:21:0.006323337
+b308(A,B):-p383(A,C),p163(C,B).
+% started solving build tasks at 20 3 2020 14:21:0.006501674
+% finished solving build tasks at 20 3 2020 14:21:7.80082035
+b309(A,B):-p838(A,C),p1152(C,B).
+% started solving build tasks at 20 3 2020 14:21:7.80094695
+%timeout
+% started solving build tasks at 20 3 2020 14:21:47.644032955
+%timeout
+% started solving build tasks at 20 3 2020 14:21:57.104313373
+%timeout
+% started solving build tasks at 20 3 2020 14:22:0.006765842
+%timeout
+% started solving build tasks at 20 3 2020 14:22:7.801196813
+% finished solving build tasks at 20 3 2020 14:22:19.299720764
+b317(A,B):-p0(A,C),p838(C,B).
+% started solving build tasks at 20 3 2020 14:22:19.299858093
+%timeout
+% started solving build tasks at 20 3 2020 14:22:47.644292116
+%timeout
+% started solving build tasks at 20 3 2020 14:22:57.104557752
+%timeout
+% started solving build tasks at 20 3 2020 14:23:0.007036209
+%timeout
+% started solving build tasks at 20 3 2020 14:23:19.300083637
+%timeout
+% started solving build tasks at 20 3 2020 14:23:47.644546985
+%timeout
+% started solving build tasks at 20 3 2020 14:23:57.104817152
+%timeout
+% started solving build tasks at 20 3 2020 14:24:0.007279634
+%timeout
+% started solving build tasks at 20 3 2020 14:24:19.30030179
+%timeout
+% started solving build tasks at 20 3 2020 14:24:47.644791364
+%timeout
+% started solving build tasks at 20 3 2020 14:24:57.105120897
+%timeout
+% started solving build tasks at 20 3 2020 14:25:0.007528543
+%timeout
+% started solving build tasks at 20 3 2020 14:25:19.300538778
+%timeout
+% started solving build tasks at 20 3 2020 14:25:47.645044326
+%timeout
+% started solving build tasks at 20 3 2020 14:25:57.105506658
+%timeout
+% started solving build tasks at 20 3 2020 14:26:0.007773637
+%timeout
+% started solving build tasks at 20 3 2020 14:26:19.300786972
+%timeout
+% started solving build tasks at 20 3 2020 14:26:47.645302057
+% finished solving build tasks at 20 3 2020 14:26:47.822284698
+b335(A,B):-place1(A,C),p156(C,B).
+% started solving build tasks at 20 3 2020 14:26:47.822443008
+%timeout
+% started solving build tasks at 20 3 2020 14:26:57.105764865
+%timeout
+% started solving build tasks at 20 3 2020 14:27:0.00801444
+%timeout
+% started solving build tasks at 20 3 2020 14:27:19.301046370999998
+%timeout
+% started solving build tasks at 20 3 2020 14:27:47.822787284
+%timeout
+% started solving build tasks at 20 3 2020 14:27:57.106003761
+%timeout
+% started solving build tasks at 20 3 2020 14:28:0.008266448
+%timeout
+% started solving build tasks at 20 3 2020 14:28:19.301271677
+%timeout
+% started solving build tasks at 20 3 2020 14:28:47.823018789
+%timeout
+% started solving build tasks at 20 3 2020 14:28:57.106259822
+%timeout
+% started solving build tasks at 20 3 2020 14:29:0.008509874
+%timeout
+% started solving build tasks at 20 3 2020 14:29:19.301518917
+% finished solving build tasks at 20 3 2020 14:29:35.539791107
+b344(A,B):-p21(A,C),p23(C,B).
+% started solving build tasks at 20 3 2020 14:29:35.539920091
+%timeout
+% started solving build tasks at 20 3 2020 14:29:57.106516599
+%timeout
+% started solving build tasks at 20 3 2020 14:30:0.008755445
+%timeout
+% started solving build tasks at 20 3 2020 14:30:19.301754951
+%timeout
+% started solving build tasks at 20 3 2020 14:30:35.540251493
+% finished solving build tasks at 20 3 2020 14:30:43.77566719
+b351(A,B):-p149(A,C),p2600(C,B).
+% started solving build tasks at 20 3 2020 14:30:43.775809526
+%timeout
+% started solving build tasks at 20 3 2020 14:30:57.106834888
+%timeout
+% started solving build tasks at 20 3 2020 14:31:0.009015798
+%timeout
+% started solving build tasks at 20 3 2020 14:31:35.540480852
+%timeout
+% started solving build tasks at 20 3 2020 14:31:43.77602148
+% finished solving build tasks at 20 3 2020 14:31:53.207152128
+b355(A,B):-p430(A,C),p3264(C,B).
+% started solving build tasks at 20 3 2020 14:31:53.207301139
+%timeout
+% started solving build tasks at 20 3 2020 14:31:57.107112407
+% finished solving build tasks at 20 3 2020 14:32:0.661064386
+b356(A,B):-p238(A,C),p1244(C,B).
+% started solving build tasks at 20 3 2020 14:32:0.661171674
+% finished solving build tasks at 20 3 2020 14:32:7.662040948
+b357(A,B):-p81(A,C),p269(C,B).
+% started solving build tasks at 20 3 2020 14:32:7.662171602
+%timeout
+% started solving build tasks at 20 3 2020 14:32:53.207541465
+%timeout
+% started solving build tasks at 20 3 2020 14:32:57.107343912
+%timeout
+% started solving build tasks at 20 3 2020 14:33:0.661395549
+%timeout
+% started solving build tasks at 20 3 2020 14:33:7.6623818870000004
+%timeout
+% started solving build tasks at 20 3 2020 14:33:53.207796096
+%timeout
+% started solving build tasks at 20 3 2020 14:33:57.107593059
+%timeout
+% started solving build tasks at 20 3 2020 14:34:0.661601543
+%timeout
+% started solving build tasks at 20 3 2020 14:34:7.662609815
+% finished solving build tasks at 20 3 2020 14:34:36.732334613
+b369(A,B):-p838(A,C),p89(C,B).
+% started solving build tasks at 20 3 2020 14:34:36.732457399
+%timeout
+% started solving build tasks at 20 3 2020 14:34:53.208045005
+%timeout
+% started solving build tasks at 20 3 2020 14:34:57.107838392
+%timeout
+% started solving build tasks at 20 3 2020 14:35:0.661811113
+%timeout
+% started solving build tasks at 20 3 2020 14:35:36.73277688
+%timeout
+% started solving build tasks at 20 3 2020 14:35:53.208410501
+%timeout
+% started solving build tasks at 20 3 2020 14:35:57.108094215
+%timeout
+% started solving build tasks at 20 3 2020 14:36:0.662012815
+%timeout
+% started solving build tasks at 20 3 2020 14:36:36.733022928
+%timeout
+% started solving build tasks at 20 3 2020 14:36:53.208678245
+%timeout
+% started solving build tasks at 20 3 2020 14:36:57.108349084
+%timeout
+% started solving build tasks at 20 3 2020 14:37:0.662214756
+%timeout
+% started solving build tasks at 20 3 2020 14:37:36.733252525
+%timeout
+% started solving build tasks at 20 3 2020 14:37:53.208928108
+%timeout
+% started solving build tasks at 20 3 2020 14:37:57.108599662
+%timeout
+% started solving build tasks at 20 3 2020 14:38:0.662409305
+%timeout
+% started solving build tasks at 20 3 2020 14:38:36.733480215
+%timeout
+% started solving build tasks at 20 3 2020 14:38:53.209197998
+%timeout
+% started solving build tasks at 20 3 2020 14:38:57.108857631
+%timeout
+% started solving build tasks at 20 3 2020 14:39:0.662606
+%timeout
+% started solving build tasks at 20 3 2020 14:39:36.733718633
+%timeout
+% started solving build tasks at 20 3 2020 14:39:53.209585428
+%timeout
+% started solving build tasks at 20 3 2020 14:39:57.109115362
+%timeout
+% started solving build tasks at 20 3 2020 14:40:0.662813663
+%timeout
+% started solving build tasks at 20 3 2020 14:40:36.733999252
+%timeout
+% started solving build tasks at 20 3 2020 14:40:53.209848642
+%timeout
+% started solving build tasks at 20 3 2020 14:40:57.10936141
+%timeout
+% started solving build tasks at 20 3 2020 14:41:0.66302514
+% finished solving build tasks at 20 3 2020 14:41:32.967902183
+b397(A,B):-p1275(A,C),p186(C,B).
+% started solving build tasks at 20 3 2020 14:41:32.968036651
+%timeout
+% started solving build tasks at 20 3 2020 14:41:36.734223842
+%timeout
+% started solving build tasks at 20 3 2020 14:41:53.210124492
+%timeout
+% started solving build tasks at 20 3 2020 14:41:57.109618425
+%timeout
+% started solving build tasks at 20 3 2020 14:42:32.968295335
+%timeout
+% started solving build tasks at 20 3 2020 14:42:36.734462022
+%timeout
+% started solving build tasks at 20 3 2020 14:42:53.210406303
+%timeout
+% started solving build tasks at 20 3 2020 14:42:57.109960317
+%timeout
+% started solving build tasks at 20 3 2020 14:43:32.968599081
+% finished solving build tasks at 20 3 2020 14:43:34.706453323
+b404(A,B):-p3(A,C),p26(C,B).
+% started solving build tasks at 20 3 2020 14:43:34.70660448
+%timeout
+% started solving build tasks at 20 3 2020 14:43:36.734719753
+%timeout
+% started solving build tasks at 20 3 2020 14:43:57.110239267
+%timeout
+% started solving build tasks at 20 3 2020 14:44:32.968963384
+%timeout
+% started solving build tasks at 20 3 2020 14:44:34.706839561
+%timeout
+% started solving build tasks at 20 3 2020 14:44:36.734950065
+%timeout
+% started solving build tasks at 20 3 2020 14:44:57.110516309
+%timeout
+% started solving build tasks at 20 3 2020 14:45:32.969231843
+%timeout
+% started solving build tasks at 20 3 2020 14:45:34.707089424
+%timeout
+% started solving build tasks at 20 3 2020 14:45:36.735186338
+%timeout
+% started solving build tasks at 20 3 2020 14:45:57.110777854
+%timeout
+% started solving build tasks at 20 3 2020 14:46:32.969470262
+%timeout
+% started solving build tasks at 20 3 2020 14:46:34.707340717
+%timeout
+% started solving build tasks at 20 3 2020 14:46:36.735409259
+%timeout
+% started solving build tasks at 20 3 2020 14:46:57.111034393
+% finished solving build tasks at 20 3 2020 14:47:18.264949083
+b420(A,B):-p3(A,C),p870(C,B).
+% started solving build tasks at 20 3 2020 14:47:18.265125989
+%timeout
+% started solving build tasks at 20 3 2020 14:47:32.969713687
+%timeout
+% started solving build tasks at 20 3 2020 14:47:34.707578182
+%timeout
+% started solving build tasks at 20 3 2020 14:47:57.111416339
+%timeout
+% started solving build tasks at 20 3 2020 14:48:18.265378236
+% finished solving build tasks at 20 3 2020 14:48:23.543310403
+b424(A,B):-p637(A,C),p102(C,B).
+% started solving build tasks at 20 3 2020 14:48:23.543483018
+%timeout
+% started solving build tasks at 20 3 2020 14:48:32.969969272
+%timeout
+% started solving build tasks at 20 3 2020 14:48:57.111687183
+%timeout
+% started solving build tasks at 20 3 2020 14:49:18.265624761
+%timeout
+% started solving build tasks at 20 3 2020 14:49:23.543836355
+%timeout
+% started solving build tasks at 20 3 2020 14:49:32.970219373
+%timeout
+% started solving build tasks at 20 3 2020 14:49:57.111948251
+%timeout
+% started solving build tasks at 20 3 2020 14:50:18.265869855
+%timeout
+% started solving build tasks at 20 3 2020 14:50:23.544084548
+%timeout
+% started solving build tasks at 20 3 2020 14:50:32.970452547
+%timeout
+% started solving build tasks at 20 3 2020 14:50:57.112204551
+%timeout
+% started solving build tasks at 20 3 2020 14:51:18.266112327
+%timeout
+% started solving build tasks at 20 3 2020 14:51:23.544319391
+%timeout
+% started solving build tasks at 20 3 2020 14:51:32.970705032
+%timeout
+% started solving build tasks at 20 3 2020 14:51:57.112445354
+%timeout
+% started solving build tasks at 20 3 2020 14:52:18.266374111
+%timeout
+% started solving build tasks at 20 3 2020 14:52:23.544561386
+%timeout
+% started solving build tasks at 20 3 2020 14:52:32.971097469
+%timeout
+% started solving build tasks at 20 3 2020 14:52:57.112729549
+%timeout
+% started solving build tasks at 20 3 2020 14:53:18.266641855
+%timeout
+% started solving build tasks at 20 3 2020 14:53:23.544806241
+%timeout
+% started solving build tasks at 20 3 2020 14:53:32.971373081
+%timeout
+% started solving build tasks at 20 3 2020 14:53:57.113004446
+%timeout
+% started solving build tasks at 20 3 2020 14:54:18.266891956
+%timeout
+% started solving build tasks at 20 3 2020 14:54:23.545063495
+%timeout
+% started solving build tasks at 20 3 2020 14:54:32.971628904
+%timeout
+% started solving build tasks at 20 3 2020 14:54:57.11326313
+%timeout
+% started solving build tasks at 20 3 2020 14:55:18.267149209
+%timeout
+% started solving build tasks at 20 3 2020 14:55:23.545305013
+%timeout
+% started solving build tasks at 20 3 2020 14:55:32.971877098
+%timeout
+% started solving build tasks at 20 3 2020 14:55:57.113511085
+%timeout
+% started solving build tasks at 20 3 2020 14:56:18.26740694
+%timeout
+% started solving build tasks at 20 3 2020 14:56:23.545553922
+%timeout
+% started solving build tasks at 20 3 2020 14:56:32.97213006
+%timeout
+% started solving build tasks at 20 3 2020 14:56:57.11378479
+%timeout
+% started solving build tasks at 20 3 2020 14:57:18.267643451
+%timeout
+% started solving build tasks at 20 3 2020 14:57:23.545786619
+%timeout
+% started solving build tasks at 20 3 2020 14:57:32.972388029
+%timeout
+% started solving build tasks at 20 3 2020 14:57:57.114043474
+% finished solving build tasks at 20 3 2020 14:58:7.643296003
+b463(A,B):-p231(A,C),p88(C,B).
+% started solving build tasks at 20 3 2020 14:58:7.643530845
+%timeout
+% started solving build tasks at 20 3 2020 14:58:18.267922639
+%timeout
+% started solving build tasks at 20 3 2020 14:58:32.97264409
+%timeout
+% started solving build tasks at 20 3 2020 14:58:57.114306688
+%timeout
+% started solving build tasks at 20 3 2020 14:59:7.643759965
+%timeout
+% started solving build tasks at 20 3 2020 14:59:18.268172025
+%timeout
+% started solving build tasks at 20 3 2020 14:59:32.972911834
+%timeout
+% started solving build tasks at 20 3 2020 14:59:57.11467123
+% finished solving build tasks at 20 3 2020 14:59:57.25471282
+b473(A,B):-right(A,C),p2594(C,B).
+% started solving build tasks at 20 3 2020 14:59:57.25483632
+%timeout
+% started solving build tasks at 20 3 2020 15:0:7.643980264
+%timeout
+% started solving build tasks at 20 3 2020 15:0:18.268409729
+%timeout
+% started solving build tasks at 20 3 2020 15:0:32.973164081
+%timeout
+% started solving build tasks at 20 3 2020 15:0:57.255129098
+%timeout
+% started solving build tasks at 20 3 2020 15:1:7.644211053
+%timeout
+% started solving build tasks at 20 3 2020 15:1:18.268691301
+%timeout
+% started solving build tasks at 20 3 2020 15:1:32.973416566
+%timeout
+% started solving build tasks at 20 3 2020 15:1:57.255405426
+%timeout
+% started solving build tasks at 20 3 2020 15:2:7.644426822
+%timeout
+% started solving build tasks at 20 3 2020 15:2:18.268931865
+%timeout
+% started solving build tasks at 20 3 2020 15:2:32.973666191
+%timeout
+% started solving build tasks at 20 3 2020 15:2:57.255649328
+%timeout
+% started solving build tasks at 20 3 2020 15:3:7.644716024
+%timeout
+% started solving build tasks at 20 3 2020 15:3:18.269199609
+%timeout
+% started solving build tasks at 20 3 2020 15:3:32.973912239
+% finished solving build tasks at 20 3 2020 15:3:39.502913713
+b486(A,B):-p81(A,C),p1752(C,B).
+% started solving build tasks at 20 3 2020 15:3:39.50309062
+%timeout
+% started solving build tasks at 20 3 2020 15:4:7.644953489
+%timeout
+% started solving build tasks at 20 3 2020 15:4:18.26945734
+%timeout
+% started solving build tasks at 20 3 2020 15:4:32.97415471
+%timeout
+% started solving build tasks at 20 3 2020 15:4:39.503328084
+%timeout
+% started solving build tasks at 20 3 2020 15:5:7.645178079
+%timeout
+% started solving build tasks at 20 3 2020 15:5:18.269701957
+%timeout
+% started solving build tasks at 20 3 2020 15:5:32.974397897
+% finished solving build tasks at 20 3 2020 15:5:33.562926769
+b495(A,B):-p337(A,C),p430(C,B).
+% started solving build tasks at 20 3 2020 15:5:33.563044071
+%timeout
+% started solving build tasks at 20 3 2020 15:5:39.503587245
+%timeout
+% started solving build tasks at 20 3 2020 15:6:18.269938945
+%timeout
+% started solving build tasks at 20 3 2020 15:6:32.974638938
+%timeout
+% started solving build tasks at 20 3 2020 15:6:33.563261985
+%timeout
+% started solving build tasks at 20 3 2020 15:6:39.503835916
+%timeout
+% started solving build tasks at 20 3 2020 15:7:18.270309925
+%timeout
+% started solving build tasks at 20 3 2020 15:7:32.974879503
+%timeout
+% started solving build tasks at 20 3 2020 15:7:33.563510179
+% finished solving build tasks at 20 3 2020 15:7:39.254624128
+b504(A,B):-p64_1(A,C),p2566(C,B).
+% started solving build tasks at 20 3 2020 15:7:39.254796981
+%timeout
+% started solving build tasks at 20 3 2020 15:7:39.504086494
+%timeout
+% started solving build tasks at 20 3 2020 15:8:32.975133419
+%timeout
+% started solving build tasks at 20 3 2020 15:8:33.563755512
+%timeout
+% started solving build tasks at 20 3 2020 15:8:39.255037069
+%timeout
+% started solving build tasks at 20 3 2020 15:8:39.504305601
+%timeout
+% started solving build tasks at 20 3 2020 15:9:32.97536993
+%timeout
+% started solving build tasks at 20 3 2020 15:9:33.563981294
+%timeout
+% started solving build tasks at 20 3 2020 15:9:39.255311489
+%timeout
+% started solving build tasks at 20 3 2020 15:9:39.504540681
+%timeout
+% started solving build tasks at 20 3 2020 15:10:32.975614309
+%timeout
+% started solving build tasks at 20 3 2020 15:10:33.564221858
+%timeout
+% started solving build tasks at 20 3 2020 15:10:39.255573272
+%timeout
+% started solving build tasks at 20 3 2020 15:10:39.504755735
+%timeout
+% started solving build tasks at 20 3 2020 15:11:32.97586584
+%timeout
+% started solving build tasks at 20 3 2020 15:11:33.564487457
+%timeout
+% started solving build tasks at 20 3 2020 15:11:39.25581789
+%timeout
+% started solving build tasks at 20 3 2020 15:11:39.504997014
+%timeout
+% started solving build tasks at 20 3 2020 15:12:32.976209402
+%timeout
+% started solving build tasks at 20 3 2020 15:12:33.564731121
+%timeout
+% started solving build tasks at 20 3 2020 15:12:39.256088256
+%timeout
+% started solving build tasks at 20 3 2020 15:12:39.505248069
+%timeout
+% started solving build tasks at 20 3 2020 15:13:32.976466417
+%timeout
+% started solving build tasks at 20 3 2020 15:13:33.564984798
+%timeout
+% started solving build tasks at 20 3 2020 15:13:39.256341457
+%timeout
+% started solving build tasks at 20 3 2020 15:13:39.505471706
+% finished solving build tasks at 20 3 2020 15:14:22.699651956
+b530(A,B):-p95(A,C),p2220(C,B).
+% started solving build tasks at 20 3 2020 15:14:22.699827432
+%timeout
+% started solving build tasks at 20 3 2020 15:14:32.976716041
+%timeout
+% started solving build tasks at 20 3 2020 15:14:39.256594657
+%timeout
+% started solving build tasks at 20 3 2020 15:14:39.505690813
+%timeout
+% started solving build tasks at 20 3 2020 15:15:22.70008254
+%timeout
+% started solving build tasks at 20 3 2020 15:15:32.976950645
+% finished solving build tasks at 20 3 2020 15:15:38.695676326
+b536(A,B):-p1458(A,C),p3178(C,B).
+% started solving build tasks at 20 3 2020 15:15:38.695839405
+%timeout
+% started solving build tasks at 20 3 2020 15:15:39.256840467
+%timeout
+% started solving build tasks at 20 3 2020 15:16:22.700339555
+%timeout
+% started solving build tasks at 20 3 2020 15:16:32.977183341
+%timeout
+% started solving build tasks at 20 3 2020 15:16:38.696216583
+%timeout
+% started solving build tasks at 20 3 2020 15:16:39.257062435
+% finished solving build tasks at 20 3 2020 15:17:0.222010612
+b544(A,B):-p64_1(A,C),p1281(C,B).
+% started solving build tasks at 20 3 2020 15:17:0.222152948
+% finished solving build tasks at 20 3 2020 15:17:22.63949418
+b543(A,B):-p225(A,C),p95(C,B).
+% started solving build tasks at 20 3 2020 15:17:22.639633178
+%timeout
+% started solving build tasks at 20 3 2020 15:17:22.700571775
+%timeout
+% started solving build tasks at 20 3 2020 15:17:32.977403879
+% finished solving build tasks at 20 3 2020 15:17:43.694845914
+b545(A,B):-p169(A,C),p442(C,B).
+% started solving build tasks at 20 3 2020 15:17:43.695004463
+%timeout
+% started solving build tasks at 20 3 2020 15:18:22.640011072
+%timeout
+% started solving build tasks at 20 3 2020 15:18:22.700794219
+%timeout
+% started solving build tasks at 20 3 2020 15:18:32.977628946
+%timeout
+% started solving build tasks at 20 3 2020 15:18:43.695376157
+%timeout
+% started solving build tasks at 20 3 2020 15:19:22.64029622
+%timeout
+% started solving build tasks at 20 3 2020 15:19:22.701025485
+%timeout
+% started solving build tasks at 20 3 2020 15:19:32.97785139
+%timeout
+% started solving build tasks at 20 3 2020 15:19:43.695625543
+% finished solving build tasks at 20 3 2020 15:19:56.958833932
+b556(A,B):-p81(A,C),p169(C,B).
+% started solving build tasks at 20 3 2020 15:19:56.958963155
+%timeout
+% started solving build tasks at 20 3 2020 15:20:22.640553712
+%timeout
+% started solving build tasks at 20 3 2020 15:20:22.701247692
+%timeout
+% started solving build tasks at 20 3 2020 15:20:43.695881128
+%timeout
+% started solving build tasks at 20 3 2020 15:20:56.959272384
+%timeout
+% started solving build tasks at 20 3 2020 15:21:22.640800476
+%timeout
+% started solving build tasks at 20 3 2020 15:21:22.701458215
+%timeout
+% started solving build tasks at 20 3 2020 15:21:43.696130752
+%timeout
+% started solving build tasks at 20 3 2020 15:21:56.959494113
+%timeout
+% started solving build tasks at 20 3 2020 15:22:22.64118123
+%timeout
+% started solving build tasks at 20 3 2020 15:22:22.701675653
+%timeout
+% started solving build tasks at 20 3 2020 15:22:43.696395397
+%timeout
+% started solving build tasks at 20 3 2020 15:22:56.959695339
+%timeout
+% started solving build tasks at 20 3 2020 15:23:22.641456842
+%timeout
+% started solving build tasks at 20 3 2020 15:23:22.701880931
+%timeout
+% started solving build tasks at 20 3 2020 15:23:43.696667194
+%timeout
+% started solving build tasks at 20 3 2020 15:23:56.959925174
+%timeout
+% started solving build tasks at 20 3 2020 15:24:22.641714811
+%timeout
+% started solving build tasks at 20 3 2020 15:24:22.702091932
+%timeout
+% started solving build tasks at 20 3 2020 15:24:43.696920156
+%timeout
+% started solving build tasks at 20 3 2020 15:24:56.960137605
+%timeout
+% started solving build tasks at 20 3 2020 15:25:22.641971111
+%timeout
+% started solving build tasks at 20 3 2020 15:25:22.702308177
+% finished solving build tasks at 20 3 2020 15:25:29.55684185
+b577(A,B):-p375(A,C),p1173(C,B).
+% started solving build tasks at 20 3 2020 15:25:29.557018995
+%timeout
+% started solving build tasks at 20 3 2020 15:25:56.960375547
+%timeout
+% started solving build tasks at 20 3 2020 15:26:22.642227172
+%timeout
+% started solving build tasks at 20 3 2020 15:26:22.702509641
+%timeout
+% started solving build tasks at 20 3 2020 15:26:29.557378053
+%timeout
+% started solving build tasks at 20 3 2020 15:26:56.96064186
+%timeout
+% started solving build tasks at 20 3 2020 15:27:22.642534017
+%timeout
+% started solving build tasks at 20 3 2020 15:27:22.70276618
+%timeout
+% started solving build tasks at 20 3 2020 15:27:29.557744741
+%timeout
+% started solving build tasks at 20 3 2020 15:27:56.960945367
+% finished solving build tasks at 20 3 2020 15:28:11.979199886
+b589(A,B):-p89(A,C),p2361(C,B).
+% started solving build tasks at 20 3 2020 15:28:11.979389667
+%timeout
+% started solving build tasks at 20 3 2020 15:28:22.642853736
+%timeout
+% started solving build tasks at 20 3 2020 15:28:22.703030347
+%timeout
+% started solving build tasks at 20 3 2020 15:28:56.961248874
+% finished solving build tasks at 20 3 2020 15:29:1.78981471
+b591(A,B):-p711(A,C),p74(C,B).
+% started solving build tasks at 20 3 2020 15:29:1.789965867
+%timeout
+% started solving build tasks at 20 3 2020 15:29:22.643127202
+%timeout
+% started solving build tasks at 20 3 2020 15:29:22.703249454
+% finished solving build tasks at 20 3 2020 15:29:48.956013917
+b595(A,B):-p489(A,C),p904(C,B).
+% started solving build tasks at 20 3 2020 15:29:48.956160545
+%timeout
+% started solving build tasks at 20 3 2020 15:29:56.961644887
+%timeout
+% started solving build tasks at 20 3 2020 15:30:22.643401384
+%timeout
+% started solving build tasks at 20 3 2020 15:30:22.703473091
+% finished solving build tasks at 20 3 2020 15:30:31.280426025
+b598(A,B):-p88(A,C),p2564(C,B).
+% started solving build tasks at 20 3 2020 15:30:31.280602693
+%timeout
+% started solving build tasks at 20 3 2020 15:30:56.961930036
+%timeout
+% started solving build tasks at 20 3 2020 15:31:22.643662214
+%timeout
+% started solving build tasks at 20 3 2020 15:31:22.703697919
+%timeout
+% started solving build tasks at 20 3 2020 15:31:31.280982494
+%timeout
+% started solving build tasks at 20 3 2020 15:31:56.962189197
+%timeout
+% started solving build tasks at 20 3 2020 15:32:22.644027233
+%timeout
+% started solving build tasks at 20 3 2020 15:32:22.703908205
+%timeout
+% started solving build tasks at 20 3 2020 15:32:31.281271696
+%timeout
+% started solving build tasks at 20 3 2020 15:32:56.962465286
+% finished solving build tasks at 20 3 2020 15:32:56.980848312
+b611(A,B):-p2106(A,B).
+% started solving build tasks at 20 3 2020 15:32:56.980953216
+%timeout
+% started solving build tasks at 20 3 2020 15:33:22.644315719
+%timeout
+% started solving build tasks at 20 3 2020 15:33:22.704119443
+%timeout
+% started solving build tasks at 20 3 2020 15:33:31.28152275
+%timeout
+% started solving build tasks at 20 3 2020 15:33:56.981190204
+% finished solving build tasks at 20 3 2020 15:34:8.250980138
+b614(A,B):-p368(A,C),p2220(C,B).
+% started solving build tasks at 20 3 2020 15:34:8.251125335
+%timeout
+% started solving build tasks at 20 3 2020 15:34:22.64458847
+%timeout
+% started solving build tasks at 20 3 2020 15:34:31.281806468
+% finished solving build tasks at 20 3 2020 15:34:52.595453262
+b617(A,B):-p241(A,C),p72(C,B).
+% started solving build tasks at 20 3 2020 15:34:52.595596313
+%timeout
+% started solving build tasks at 20 3 2020 15:34:56.981492519
+%timeout
+% started solving build tasks at 20 3 2020 15:35:22.644979238
+%timeout
+% started solving build tasks at 20 3 2020 15:35:31.282070636
+% finished solving build tasks at 20 3 2020 15:35:46.756561517
+b621(A,B):-p711(A,C),p489(C,B).
+% started solving build tasks at 20 3 2020 15:35:46.756739377
+%timeout
+% started solving build tasks at 20 3 2020 15:35:52.595984458
+%timeout
+% started solving build tasks at 20 3 2020 15:36:22.645248413
+%timeout
+% started solving build tasks at 20 3 2020 15:36:31.28233838
+%timeout
+% started solving build tasks at 20 3 2020 15:36:46.757003307
+%timeout
+% started solving build tasks at 20 3 2020 15:36:52.596238613
+%timeout
+% started solving build tasks at 20 3 2020 15:37:22.645489931
+%timeout
+% started solving build tasks at 20 3 2020 15:37:31.282590389
+%timeout
+% started solving build tasks at 20 3 2020 15:37:46.757272243
+%timeout
+% started solving build tasks at 20 3 2020 15:37:52.596475362
+%timeout
+% started solving build tasks at 20 3 2020 15:38:22.645731925
+%timeout
+% started solving build tasks at 20 3 2020 15:38:31.282864332
+%timeout
+% started solving build tasks at 20 3 2020 15:38:46.757534742
+%timeout
+% started solving build tasks at 20 3 2020 15:38:52.59673047
+%timeout
+% started solving build tasks at 20 3 2020 15:39:22.645987272
+%timeout
+% started solving build tasks at 20 3 2020 15:39:31.2831254
+%timeout
+% started solving build tasks at 20 3 2020 15:39:46.757801771
+%timeout
+% started solving build tasks at 20 3 2020 15:39:52.596993923
+%timeout
+% started solving build tasks at 20 3 2020 15:40:22.646368503
+%timeout
+% started solving build tasks at 20 3 2020 15:40:31.283393859
+%timeout
+% started solving build tasks at 20 3 2020 15:40:46.758089303
+%timeout
+% started solving build tasks at 20 3 2020 15:40:52.597248554
+%timeout
+% started solving build tasks at 20 3 2020 15:41:22.646701097
+% finished solving build tasks at 20 3 2020 15:41:29.330765962
+b644(A,B):-p99(A,C),p2306(C,B).
+% started solving build tasks at 20 3 2020 15:41:29.330935001
+%timeout
+% started solving build tasks at 20 3 2020 15:41:31.283653259
+%timeout
+% started solving build tasks at 20 3 2020 15:41:52.597541332
+%timeout
+% started solving build tasks at 20 3 2020 15:42:22.646956443
+%timeout
+% started solving build tasks at 20 3 2020 15:42:29.331171989
+%timeout
+% started solving build tasks at 20 3 2020 15:42:31.283925533
+% finished solving build tasks at 20 3 2020 15:42:41.196306228
+b649(A,B):-p430(A,C),p994(C,B).
+% started solving build tasks at 20 3 2020 15:42:41.196465492
+%timeout
+% started solving build tasks at 20 3 2020 15:43:22.647220611
+%timeout
+% started solving build tasks at 20 3 2020 15:43:29.331391572
+%timeout
+% started solving build tasks at 20 3 2020 15:43:31.28417015
+%timeout
+% started solving build tasks at 20 3 2020 15:43:41.196700572
+% finished solving build tasks at 20 3 2020 15:44:14.648497581
+b655(A,B):-p3010(A,C),p798(C,B).
+% started solving build tasks at 20 3 2020 15:44:14.648635149
+%timeout
+% started solving build tasks at 20 3 2020 15:44:22.647472143
+%timeout
+% started solving build tasks at 20 3 2020 15:44:31.284405708
+%timeout
+% started solving build tasks at 20 3 2020 15:44:41.196953296
+%timeout
+% started solving build tasks at 20 3 2020 15:45:14.648997545
+%timeout
+% started solving build tasks at 20 3 2020 15:45:22.647709608
+%timeout
+% started solving build tasks at 20 3 2020 15:45:31.284662723
+%timeout
+% started solving build tasks at 20 3 2020 15:45:41.197214365
+%timeout
+% started solving build tasks at 20 3 2020 15:46:14.649293661
+%timeout
+% started solving build tasks at 20 3 2020 15:46:22.647944211
+%timeout
+% started solving build tasks at 20 3 2020 15:46:31.284908771
+%timeout
+% started solving build tasks at 20 3 2020 15:46:41.197464227
+% finished solving build tasks at 20 3 2020 15:47:8.116473197
+b667(A,B):-p354(A,C),p711(C,B).
+% started solving build tasks at 20 3 2020 15:47:8.116641283
+%timeout
+% started solving build tasks at 20 3 2020 15:47:14.649580478
+%timeout
+% started solving build tasks at 20 3 2020 15:47:31.285142898
+% finished solving build tasks at 20 3 2020 15:47:31.303474903
+b672(A,B):-p2106(A,B).
+% started solving build tasks at 20 3 2020 15:47:31.303586483
+%timeout
+% started solving build tasks at 20 3 2020 15:47:41.197703599
+%timeout
+% started solving build tasks at 20 3 2020 15:48:8.116884231
+%timeout
+% started solving build tasks at 20 3 2020 15:48:14.649824619
+%timeout
+% started solving build tasks at 20 3 2020 15:48:31.303817272
+%timeout
+% started solving build tasks at 20 3 2020 15:48:41.197935581
+%timeout
+% started solving build tasks at 20 3 2020 15:49:8.117127895
+%timeout
+% started solving build tasks at 20 3 2020 15:49:14.650058746
+%timeout
+% started solving build tasks at 20 3 2020 15:49:31.304059267
+%timeout
+% started solving build tasks at 20 3 2020 15:49:41.198165177999996
+%timeout
+% started solving build tasks at 20 3 2020 15:50:8.117395639
+%timeout
+% started solving build tasks at 20 3 2020 15:50:14.650302648
+%timeout
+% started solving build tasks at 20 3 2020 15:50:31.30430603
+%timeout
+% started solving build tasks at 20 3 2020 15:50:41.198421478
+% finished solving build tasks at 20 3 2020 15:50:52.060204744
+b683(A,B):-p225(A,C),p2152(C,B).
+% started solving build tasks at 20 3 2020 15:50:52.060349225
+% finished solving build tasks at 20 3 2020 15:51:3.316846847
+b684(A,B):-p90(A,C),p2220(C,B).
+% started solving build tasks at 20 3 2020 15:51:3.317008018
+%timeout
+% started solving build tasks at 20 3 2020 15:51:31.304699659
+%timeout
+% started solving build tasks at 20 3 2020 15:51:41.198673963
+%timeout
+% started solving build tasks at 20 3 2020 15:51:52.060584306
+%timeout
+% started solving build tasks at 20 3 2020 15:52:3.317382335
+%timeout
+% started solving build tasks at 20 3 2020 15:52:31.304963111
+%timeout
+% started solving build tasks at 20 3 2020 15:52:41.198939085
+%timeout
+% started solving build tasks at 20 3 2020 15:52:52.060821056
+%timeout
+% started solving build tasks at 20 3 2020 15:53:3.3176114549999998
+%timeout
+% started solving build tasks at 20 3 2020 15:53:31.305213689
+%timeout
+% started solving build tasks at 20 3 2020 15:53:41.199181556
+%timeout
+% started solving build tasks at 20 3 2020 15:53:52.061060428
+%timeout
+% started solving build tasks at 20 3 2020 15:54:3.317849159
+%timeout
+% started solving build tasks at 20 3 2020 15:54:31.305459737
+%timeout
+% started solving build tasks at 20 3 2020 15:54:41.199434518
+%timeout
+% started solving build tasks at 20 3 2020 15:54:52.06129074
+%timeout
+% started solving build tasks at 20 3 2020 15:55:3.318086862
+%timeout
+% started solving build tasks at 20 3 2020 15:55:31.305708408
+%timeout
+% started solving build tasks at 20 3 2020 15:55:41.199672937
+%timeout
+% started solving build tasks at 20 3 2020 15:55:52.061552286
+%timeout
+% started solving build tasks at 20 3 2020 15:56:3.318305015
+%timeout
+% started solving build tasks at 20 3 2020 15:56:31.30608344
+%timeout
+% started solving build tasks at 20 3 2020 15:56:41.199926614
+%timeout
+% started solving build tasks at 20 3 2020 15:56:52.061803579
+%timeout
+% started solving build tasks at 20 3 2020 15:57:3.318518877
+%timeout
+% started solving build tasks at 20 3 2020 15:57:31.306358098
+%timeout
+% started solving build tasks at 20 3 2020 15:57:41.200172901
+%timeout
+% started solving build tasks at 20 3 2020 15:57:52.062047958
+%timeout
+% started solving build tasks at 20 3 2020 15:58:3.318725347
+%timeout
+% started solving build tasks at 20 3 2020 15:58:31.306606292
+%timeout
+% started solving build tasks at 20 3 2020 15:58:41.20040965
+%timeout
+% started solving build tasks at 20 3 2020 15:58:52.06227684
+%timeout
+% started solving build tasks at 20 3 2020 15:59:3.318965196
+%timeout
+% started solving build tasks at 20 3 2020 15:59:31.306851625
+%timeout
+% started solving build tasks at 20 3 2020 15:59:41.200654029
+%timeout
+% started solving build tasks at 20 3 2020 15:59:52.062505483
+%timeout
+% started solving build tasks at 20 3 2020 16:0:3.31921029
+%timeout
+% started solving build tasks at 20 3 2020 16:0:31.307095289
+% finished solving build tasks at 20 3 2020 16:0:33.658562421
+b723(A,B):-p14(A,C),p3913(C,B).
+% started solving build tasks at 20 3 2020 16:0:33.658726692
+%timeout
+% started solving build tasks at 20 3 2020 16:0:41.200918436
+%timeout
+% started solving build tasks at 20 3 2020 16:1:3.319443702
+%timeout
+% started solving build tasks at 20 3 2020 16:1:31.307346343
+% finished solving build tasks at 20 3 2020 16:1:32.118737459
+b727(A,B):-p237(A,C),p598(C,B).
+% started solving build tasks at 20 3 2020 16:1:32.118881225
+%timeout
+% started solving build tasks at 20 3 2020 16:1:33.659076452
+%timeout
+% started solving build tasks at 20 3 2020 16:2:3.319809675
+% finished solving build tasks at 20 3 2020 16:2:26.605179309
+b732(A,B):-p15(A,C),p193(C,B).
+% started solving build tasks at 20 3 2020 16:2:26.605343818
+%timeout
+% started solving build tasks at 20 3 2020 16:2:31.307596206
+%timeout
+% started solving build tasks at 20 3 2020 16:2:32.119108438
+%timeout
+% started solving build tasks at 20 3 2020 16:2:33.659318447
+%timeout
+% started solving build tasks at 20 3 2020 16:3:26.605589866
+%timeout
+% started solving build tasks at 20 3 2020 16:3:31.307886838
+%timeout
+% started solving build tasks at 20 3 2020 16:3:32.119360685
+%timeout
+% started solving build tasks at 20 3 2020 16:3:33.659549474
+% finished solving build tasks at 20 3 2020 16:4:23.023361682
+b739(A,B):-p231(A,C),p2040(C,B).
+% started solving build tasks at 20 3 2020 16:4:23.02351427
+%timeout
+% started solving build tasks at 20 3 2020 16:4:26.605827808
+%timeout
+% started solving build tasks at 20 3 2020 16:4:31.308125257
+%timeout
+% started solving build tasks at 20 3 2020 16:4:33.659787178
+%timeout
+% started solving build tasks at 20 3 2020 16:5:23.023785829
+%timeout
+% started solving build tasks at 20 3 2020 16:5:26.606076002000002
+%timeout
+% started solving build tasks at 20 3 2020 16:5:31.308362722
+%timeout
+% started solving build tasks at 20 3 2020 16:5:33.660021781
+%timeout
+% started solving build tasks at 20 3 2020 16:6:23.024201154
+%timeout
+% started solving build tasks at 20 3 2020 16:6:26.606347799
+%timeout
+% started solving build tasks at 20 3 2020 16:6:31.308637619
+%timeout
+% started solving build tasks at 20 3 2020 16:6:33.660270452
+%timeout
+% started solving build tasks at 20 3 2020 16:7:23.024511814
+%timeout
+% started solving build tasks at 20 3 2020 16:7:26.606599092
+%timeout
+% started solving build tasks at 20 3 2020 16:7:31.308888435
+%timeout
+% started solving build tasks at 20 3 2020 16:7:33.660505533
+% finished solving build tasks at 20 3 2020 16:8:20.392860889
+b755(A,B):-p661(A,C),p156(C,B).
+% started solving build tasks at 20 3 2020 16:8:20.393047809
+%timeout
+% started solving build tasks at 20 3 2020 16:8:23.02476263
+%timeout
+% started solving build tasks at 20 3 2020 16:8:26.606848239
+%timeout
+% started solving build tasks at 20 3 2020 16:8:33.660755395
+% finished solving build tasks at 20 3 2020 16:9:16.144327402
+b760(A,B):-p95(A,C),p637(C,B).
+% started solving build tasks at 20 3 2020 16:9:16.144467115
+%timeout
+% started solving build tasks at 20 3 2020 16:9:20.393284559
+%timeout
+% started solving build tasks at 20 3 2020 16:9:23.025008201
+%timeout
+% started solving build tasks at 20 3 2020 16:9:26.607082128000002
+%timeout
+% started solving build tasks at 20 3 2020 16:10:16.144706964
+%timeout
+% started solving build tasks at 20 3 2020 16:10:20.393528223
+%timeout
+% started solving build tasks at 20 3 2020 16:10:23.025254011
+%timeout
+% started solving build tasks at 20 3 2020 16:10:26.6073215
+%timeout
+% started solving build tasks at 20 3 2020 16:11:16.144955635
+%timeout
+% started solving build tasks at 20 3 2020 16:11:20.393775224
+%timeout
+% started solving build tasks at 20 3 2020 16:11:23.025483369
+%timeout
+% started solving build tasks at 20 3 2020 16:11:26.607562065
+%timeout
+% started solving build tasks at 20 3 2020 16:12:16.145209312
+%timeout
+% started solving build tasks at 20 3 2020 16:12:20.39400959
+%timeout
+% started solving build tasks at 20 3 2020 16:12:23.025701522
+%timeout
+% started solving build tasks at 20 3 2020 16:12:26.607803583
+%timeout
+% started solving build tasks at 20 3 2020 16:13:16.145554065
+%timeout
+% started solving build tasks at 20 3 2020 16:13:20.394264936
+%timeout
+% started solving build tasks at 20 3 2020 16:13:23.025910854
+%timeout
+% started solving build tasks at 20 3 2020 16:13:26.608056545
+%timeout
+% started solving build tasks at 20 3 2020 16:14:16.145822286
+%timeout
+% started solving build tasks at 20 3 2020 16:14:20.39450097
+%timeout
+% started solving build tasks at 20 3 2020 16:14:23.026136398
+%timeout
+% started solving build tasks at 20 3 2020 16:14:26.608313322
+%timeout
+% started solving build tasks at 20 3 2020 16:15:16.146095514
+%timeout
+% started solving build tasks at 20 3 2020 16:15:20.394727945
+%timeout
+% started solving build tasks at 20 3 2020 16:15:23.026356458
+%timeout
+% started solving build tasks at 20 3 2020 16:15:26.608555316
+%timeout
+% started solving build tasks at 20 3 2020 16:16:16.14635539
+%timeout
+% started solving build tasks at 20 3 2020 16:16:20.39496231
+%timeout
+% started solving build tasks at 20 3 2020 16:16:23.026574611
+%timeout
+% started solving build tasks at 20 3 2020 16:16:26.608788251
+%timeout
+% started solving build tasks at 20 3 2020 16:17:16.146603107
+%timeout
+% started solving build tasks at 20 3 2020 16:17:20.395193576
+%timeout
+% started solving build tasks at 20 3 2020 16:17:23.026779651
+%timeout
+% started solving build tasks at 20 3 2020 16:17:26.609045267
+%timeout
+% started solving build tasks at 20 3 2020 16:18:16.146850585
+%timeout
+% started solving build tasks at 20 3 2020 16:18:20.395430326
+%timeout
+% started solving build tasks at 20 3 2020 16:18:23.026980638
+%timeout
+% started solving build tasks at 20 3 2020 16:18:26.609284877
+% finished solving build tasks at 20 3 2020 16:18:34.561971664
+b799(A,B):-p15(A,C),p2185(C,B).
+% started solving build tasks at 20 3 2020 16:18:34.562099456
+%timeout
+% started solving build tasks at 20 3 2020 16:19:16.147244215
+%timeout
+% started solving build tasks at 20 3 2020 16:19:20.395676374
+%timeout
+% started solving build tasks at 20 3 2020 16:19:26.609550714
+%timeout
+% started solving build tasks at 20 3 2020 16:19:34.562424182
+%timeout
+% started solving build tasks at 20 3 2020 16:20:16.147521018
+%timeout
+% started solving build tasks at 20 3 2020 16:20:20.39590311
+%timeout
+% started solving build tasks at 20 3 2020 16:20:26.609805822
+%timeout
+% started solving build tasks at 20 3 2020 16:20:34.562658548
+%timeout
+% started solving build tasks at 20 3 2020 16:21:16.147789478
+%timeout
+% started solving build tasks at 20 3 2020 16:21:20.396128654
+%timeout
+% started solving build tasks at 20 3 2020 16:21:26.61007905
+%timeout
+% started solving build tasks at 20 3 2020 16:21:34.562885999
+%timeout
+% started solving build tasks at 20 3 2020 16:22:16.148041248
+%timeout
+% started solving build tasks at 20 3 2020 16:22:20.396360158
+%timeout
+% started solving build tasks at 20 3 2020 16:22:26.610340833
+%timeout
+% started solving build tasks at 20 3 2020 16:22:34.563099384
+%timeout
+% started solving build tasks at 20 3 2020 16:23:16.148283958
+%timeout
+% started solving build tasks at 20 3 2020 16:23:20.396595239
+%timeout
+% started solving build tasks at 20 3 2020 16:23:26.610600709
+%timeout
+% started solving build tasks at 20 3 2020 16:23:34.563329696
+%timeout
+% started solving build tasks at 20 3 2020 16:24:16.14867258
+%timeout
+% started solving build tasks at 20 3 2020 16:24:20.396854162
+%timeout
+% started solving build tasks at 20 3 2020 16:24:26.610870361
+%timeout
+% started solving build tasks at 20 3 2020 16:24:34.563597202
+%timeout
+% started solving build tasks at 20 3 2020 16:25:16.148980617
+%timeout
+% started solving build tasks at 20 3 2020 16:25:20.397092103
+%timeout
+% started solving build tasks at 20 3 2020 16:25:26.611134767
+%timeout
+% started solving build tasks at 20 3 2020 16:25:34.563872814
+%timeout
+% started solving build tasks at 20 3 2020 16:26:16.149246692
+%timeout
+% started solving build tasks at 20 3 2020 16:26:20.397308826
+%timeout
+% started solving build tasks at 20 3 2020 16:26:26.611384868000002
+%timeout
+% started solving build tasks at 20 3 2020 16:26:34.564133167
+%timeout
+% started solving build tasks at 20 3 2020 16:27:16.14950633
+%timeout
+% started solving build tasks at 20 3 2020 16:27:20.397537231
+%timeout
+% started solving build tasks at 20 3 2020 16:27:26.611626148
+%timeout
+% started solving build tasks at 20 3 2020 16:27:34.56437397
+%timeout
+% started solving build tasks at 20 3 2020 16:28:16.149752378
+%timeout
+% started solving build tasks at 20 3 2020 16:28:20.397759199
+%timeout
+% started solving build tasks at 20 3 2020 16:28:26.611864328
+%timeout
+% started solving build tasks at 20 3 2020 16:28:34.564626693
+%timeout
+% started solving build tasks at 20 3 2020 16:29:16.150008201
+%timeout
+% started solving build tasks at 20 3 2020 16:29:20.398108482
+%timeout
+% started solving build tasks at 20 3 2020 16:29:26.612117528
+%timeout
+% started solving build tasks at 20 3 2020 16:29:34.564903497
+%timeout
+% started solving build tasks at 20 3 2020 16:30:16.150271415
+%timeout
+% started solving build tasks at 20 3 2020 16:30:20.398362398
+%timeout
+% started solving build tasks at 20 3 2020 16:30:26.612371921
+%timeout
+% started solving build tasks at 20 3 2020 16:30:34.565167665
+% finished solving build tasks at 20 3 2020 16:30:57.65082097
+b846(A,B):-p13(A,C),p2306(C,B).
+% started solving build tasks at 20 3 2020 16:30:57.650996446
+%timeout
+% started solving build tasks at 20 3 2020 16:31:20.398595571
+%timeout
+% started solving build tasks at 20 3 2020 16:31:26.61261034
+%timeout
+% started solving build tasks at 20 3 2020 16:31:34.565419435
+%timeout
+% started solving build tasks at 20 3 2020 16:31:57.651228427
+%timeout
+% started solving build tasks at 20 3 2020 16:32:20.39883542
+% finished solving build tasks at 20 3 2020 16:32:22.966865062
+b853(A,B):-p74(A,C),p2891(C,B).
+% started solving build tasks at 20 3 2020 16:32:22.967004537
+%timeout
+% started solving build tasks at 20 3 2020 16:32:26.612846136
+%timeout
+% started solving build tasks at 20 3 2020 16:32:57.651471614
+%timeout
+% started solving build tasks at 20 3 2020 16:33:20.399083137
+%timeout
+% started solving build tasks at 20 3 2020 16:33:22.967231512
+%timeout
+% started solving build tasks at 20 3 2020 16:33:26.613239288
+% finished solving build tasks at 20 3 2020 16:33:40.624861001
+b859(A,B):-p8(A,C),p2991(C,B).
+% started solving build tasks at 20 3 2020 16:33:40.625040769
+%timeout
+% started solving build tasks at 20 3 2020 16:33:57.651729106
+%timeout
+% started solving build tasks at 20 3 2020 16:34:22.967502355
+%timeout
+% started solving build tasks at 20 3 2020 16:34:26.613517522
+%timeout
+% started solving build tasks at 20 3 2020 16:34:40.625311851
+%timeout
+% started solving build tasks at 20 3 2020 16:34:57.651986122
+%timeout
+% started solving build tasks at 20 3 2020 16:35:22.967757463
+%timeout
+% started solving build tasks at 20 3 2020 16:35:26.613751411
+%timeout
+% started solving build tasks at 20 3 2020 16:35:40.625555038
+%timeout
+% started solving build tasks at 20 3 2020 16:35:57.652219295
+%timeout
+% started solving build tasks at 20 3 2020 16:36:22.967998027
+% finished solving build tasks at 20 3 2020 16:36:23.04104495
+b870(A,B):-p99(A,C),p75(C,B).
+% started solving build tasks at 20 3 2020 16:36:23.041167736
+%timeout
+% started solving build tasks at 20 3 2020 16:36:26.614014863
+%timeout
+% started solving build tasks at 20 3 2020 16:36:57.652457475
+% finished solving build tasks at 20 3 2020 16:37:10.531363248
+b872(A,B):-p14(A,C),p2163(C,B).
+% started solving build tasks at 20 3 2020 16:37:10.531499862
+%timeout
+% started solving build tasks at 20 3 2020 16:37:23.041518211
+%timeout
+% started solving build tasks at 20 3 2020 16:37:26.614247083
+%timeout
+% started solving build tasks at 20 3 2020 16:37:57.652694463
+%timeout
+% started solving build tasks at 20 3 2020 16:38:10.531754255
+%timeout
+% started solving build tasks at 20 3 2020 16:38:23.041752576
+%timeout
+% started solving build tasks at 20 3 2020 16:38:26.614476919
+%timeout
+% started solving build tasks at 20 3 2020 16:38:57.653070926
+%timeout
+% started solving build tasks at 20 3 2020 16:39:10.532016754
+% finished solving build tasks at 20 3 2020 16:39:16.01272273
+b882(A,B):-p163(A,C),p262(C,B).
+% started solving build tasks at 20 3 2020 16:39:16.012900352
+%timeout
+% started solving build tasks at 20 3 2020 16:39:23.04201436
+%timeout
+% started solving build tasks at 20 3 2020 16:39:57.653327226
+%timeout
+% started solving build tasks at 20 3 2020 16:40:10.532263994000001
+%timeout
+% started solving build tasks at 20 3 2020 16:40:16.013134002
+%timeout
+% started solving build tasks at 20 3 2020 16:40:23.042253732
+%timeout
+% started solving build tasks at 20 3 2020 16:40:57.6535573
+%timeout
+% started solving build tasks at 20 3 2020 16:41:10.532511711
+%timeout
+% started solving build tasks at 20 3 2020 16:41:16.013373851
+%timeout
+% started solving build tasks at 20 3 2020 16:41:23.042485237
+%timeout
+% started solving build tasks at 20 3 2020 16:41:57.653814792
+%timeout
+% started solving build tasks at 20 3 2020 16:42:10.532758235
+%timeout
+% started solving build tasks at 20 3 2020 16:42:16.013627529
+%timeout
+% started solving build tasks at 20 3 2020 16:42:23.042732477
+% finished solving build tasks at 20 3 2020 16:42:41.843998432
+b895(A,B):-p238(A,C),p1113(C,B).
+% started solving build tasks at 20 3 2020 16:42:41.844165325
+%timeout
+% started solving build tasks at 20 3 2020 16:43:10.533082008000001
+%timeout
+% started solving build tasks at 20 3 2020 16:43:16.013883829
+%timeout
+% started solving build tasks at 20 3 2020 16:43:23.042974233
+%timeout
+% started solving build tasks at 20 3 2020 16:43:41.844403266
+%timeout
+% started solving build tasks at 20 3 2020 16:44:10.53332138
+%timeout
+% started solving build tasks at 20 3 2020 16:44:16.014135599
+%timeout
+% started solving build tasks at 20 3 2020 16:44:23.0432024
+%timeout
+% started solving build tasks at 20 3 2020 16:44:41.844654321
+%timeout
+% started solving build tasks at 20 3 2020 16:45:10.533536195
+%timeout
+% started solving build tasks at 20 3 2020 16:45:16.014378547
+%timeout
+% started solving build tasks at 20 3 2020 16:45:23.043429374
+%timeout
+% started solving build tasks at 20 3 2020 16:45:41.8449018
+%timeout
+% started solving build tasks at 20 3 2020 16:46:10.533756494
+%timeout
+% started solving build tasks at 20 3 2020 16:46:16.014626264
+%timeout
+% started solving build tasks at 20 3 2020 16:46:23.043683528
+%timeout
+% started solving build tasks at 20 3 2020 16:46:41.845150232
+%timeout
+% started solving build tasks at 20 3 2020 16:47:10.533979415
+%timeout
+% started solving build tasks at 20 3 2020 16:47:16.014875173
+%timeout
+% started solving build tasks at 20 3 2020 16:47:23.043944597
+%timeout
+% started solving build tasks at 20 3 2020 16:47:41.845408916
+%timeout
+% started solving build tasks at 20 3 2020 16:48:10.534195899
+%timeout
+% started solving build tasks at 20 3 2020 16:48:16.015125513
+%timeout
+% started solving build tasks at 20 3 2020 16:48:23.044185876
+%timeout
+% started solving build tasks at 20 3 2020 16:48:41.845785856
+%timeout
+% started solving build tasks at 20 3 2020 16:49:10.534414768
+%timeout
+% started solving build tasks at 20 3 2020 16:49:16.015359878
+%timeout
+% started solving build tasks at 20 3 2020 16:49:23.044412374
+%timeout
+% started solving build tasks at 20 3 2020 16:49:41.846024751
+% finished solving build tasks at 20 3 2020 16:50:0.433467388
+b925(A,B):-p863(A,C),p58(C,B).
+% started solving build tasks at 20 3 2020 16:50:0.433607816
+% finished solving build tasks at 20 3 2020 16:50:6.990540027
+b926(A,B):-p225(A,C),p337(C,B).
+% started solving build tasks at 20 3 2020 16:50:6.990665674
+%timeout
+% started solving build tasks at 20 3 2020 16:50:10.53462696
+%timeout
+% started solving build tasks at 20 3 2020 16:50:41.846274852
+%timeout
+% started solving build tasks at 20 3 2020 16:51:0.433908939
+%timeout
+% started solving build tasks at 20 3 2020 16:51:6.990859508
+%timeout
+% started solving build tasks at 20 3 2020 16:51:10.534823894
+%timeout
+% started solving build tasks at 20 3 2020 16:51:41.846500873
+%timeout
+% started solving build tasks at 20 3 2020 16:52:0.434108495
+%timeout
+% started solving build tasks at 20 3 2020 16:52:6.991055727
+%timeout
+% started solving build tasks at 20 3 2020 16:52:10.535019397
+%timeout
+% started solving build tasks at 20 3 2020 16:52:41.846713542
+%timeout
+% started solving build tasks at 20 3 2020 16:53:0.434311866
+%timeout
+% started solving build tasks at 20 3 2020 16:53:6.9912488459999995
+%timeout
+% started solving build tasks at 20 3 2020 16:53:10.535194158
+%timeout
+% started solving build tasks at 20 3 2020 16:53:41.847041606
+%timeout
+% started solving build tasks at 20 3 2020 16:54:0.434533834
+%timeout
+% started solving build tasks at 20 3 2020 16:54:6.991463661
+%timeout
+% started solving build tasks at 20 3 2020 16:54:10.53537631
+%timeout
+% started solving build tasks at 20 3 2020 16:54:41.84728837
+%timeout
+% started solving build tasks at 20 3 2020 16:55:0.434762239
+%timeout
+% started solving build tasks at 20 3 2020 16:55:6.991674661
+%timeout
+% started solving build tasks at 20 3 2020 16:55:10.535580873
+%timeout
+% started solving build tasks at 20 3 2020 16:55:41.847506523
+%timeout
+% started solving build tasks at 20 3 2020 16:56:0.4349761
+%timeout
+% started solving build tasks at 20 3 2020 16:56:6.991904497
+%timeout
+% started solving build tasks at 20 3 2020 16:56:10.535770177
+%timeout
+% started solving build tasks at 20 3 2020 16:56:41.847727775
+%timeout
+% started solving build tasks at 20 3 2020 16:57:0.435198307
+%timeout
+% started solving build tasks at 20 3 2020 16:57:6.992112398
+%timeout
+% started solving build tasks at 20 3 2020 16:57:10.535962581
+%timeout
+% started solving build tasks at 20 3 2020 16:57:41.847940206
+%timeout
+% started solving build tasks at 20 3 2020 16:58:0.435521841
+%timeout
+% started solving build tasks at 20 3 2020 16:58:6.992313623
+%timeout
+% started solving build tasks at 20 3 2020 16:58:10.536157131
+% finished solving build tasks at 20 3 2020 16:58:27.235824584
+b961(A,B):-p8(A,C),p798(C,B).
+% started solving build tasks at 20 3 2020 16:58:27.235980987
+%timeout
+% started solving build tasks at 20 3 2020 16:58:41.848160028
+%timeout
+% started solving build tasks at 20 3 2020 16:59:0.435763835
+%timeout
+% started solving build tasks at 20 3 2020 16:59:10.536360979
+% finished solving build tasks at 20 3 2020 16:59:25.626921892
+b965(A,B):-p319(A,C),p74(C,B).
+% started solving build tasks at 20 3 2020 16:59:25.627046108000002
+%timeout
+% started solving build tasks at 20 3 2020 16:59:27.236164093
+%timeout
+% started solving build tasks at 20 3 2020 16:59:41.848503351
+%timeout
+% started solving build tasks at 20 3 2020 17:0:10.536578655
+%timeout
+% started solving build tasks at 20 3 2020 17:0:25.627257347
+%timeout
+% started solving build tasks at 20 3 2020 17:0:27.236356973
+%timeout
+% started solving build tasks at 20 3 2020 17:0:41.848740577
+%timeout
+% started solving build tasks at 20 3 2020 17:1:10.536795139
+%timeout
+% started solving build tasks at 20 3 2020 17:1:25.627492904
+%timeout
+% started solving build tasks at 20 3 2020 17:1:27.236564159
+%timeout
+% started solving build tasks at 20 3 2020 17:1:41.848979473
+%timeout
+% started solving build tasks at 20 3 2020 17:2:10.537000656
+%timeout
+% started solving build tasks at 20 3 2020 17:2:25.62783575
+%timeout
+% started solving build tasks at 20 3 2020 17:2:27.236771583
+%timeout
+% started solving build tasks at 20 3 2020 17:2:41.849206447
+%timeout
+% started solving build tasks at 20 3 2020 17:3:10.537210702
+%timeout
+% started solving build tasks at 20 3 2020 17:3:25.628073453
+%timeout
+% started solving build tasks at 20 3 2020 17:3:27.236990928
+%timeout
+% started solving build tasks at 20 3 2020 17:3:41.849421501
+%timeout
+% started solving build tasks at 20 3 2020 17:4:10.537431955
+%timeout
+% started solving build tasks at 20 3 2020 17:4:25.628312826
+%timeout
+% started solving build tasks at 20 3 2020 17:4:27.237188816
+%timeout
+% started solving build tasks at 20 3 2020 17:4:41.849635362
+%timeout
+% started solving build tasks at 20 3 2020 17:5:10.537636518
+% finished solving build tasks at 20 3 2020 17:5:13.907230138
+b987(A,B):-p368(A,C),p3359(C,B).
+% started solving build tasks at 20 3 2020 17:5:13.90734291
+%timeout
+% started solving build tasks at 20 3 2020 17:5:27.237400054
+%timeout
+% started solving build tasks at 20 3 2020 17:5:41.849844932
+%timeout
+% started solving build tasks at 20 3 2020 17:6:10.537988185
+%timeout
+% started solving build tasks at 20 3 2020 17:6:13.90757656
+% finished solving build tasks at 20 3 2020 17:6:22.860373258
+b994(A,B):-p64_1(A,C),p2185(C,B).
+% started solving build tasks at 20 3 2020 17:6:22.860506057
+%timeout
+% started solving build tasks at 20 3 2020 17:6:27.23761034
+%timeout
+% started solving build tasks at 20 3 2020 17:6:41.850055456
+%timeout
+% started solving build tasks at 20 3 2020 17:7:13.907784223
+%timeout
+%timeout
+%timeout
+%timeout
+% num solved 81
